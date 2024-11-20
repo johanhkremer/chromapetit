@@ -14,15 +14,14 @@ datasource db {
 }
 
 model Paint {
-  id           Int      @id @default(autoincrement())
+  id           Int       @id @default(autoincrement())
   name         String
   brand        String
-  color        String
   hexCode      String
   type         String
-  discontinued Boolean  @default(false)
+  discontinued Boolean   @default(false)
   finish       String?
   description  String?
-  createdAt    DateTime @default(now())
-  updatedAt    DateTime @updatedAt
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime? @updatedAt
 }
