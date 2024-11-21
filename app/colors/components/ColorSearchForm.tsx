@@ -1,17 +1,16 @@
 'use client'
 
 import React, { useState, FormEvent } from 'react'
+import ColorSearchResponse from './ColorSearchResponse'
 
-interface ColorSearchFormProp {
-  onSearch: (query: string) => void
-}
-
-const ColorSearchForm: React.FC<ColorSearchFormProp> = ({ onSearch }: ColorSearchFormProp) => {
+const ColorSearchForm = () => {
   const [query, setQuery] = useState<string>('')
+  const [searchQuery, setSearchQuery] = useState<string>('')
+
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    onSearch(query)
+    setSearchQuery(query)
   }
 
   return (
@@ -26,6 +25,7 @@ const ColorSearchForm: React.FC<ColorSearchFormProp> = ({ onSearch }: ColorSearc
         />
         <button type='submit'>Search</button>
       </form>
+      <ColorSearchResponse query={searchQuery} />
     </div>
   )
 }
