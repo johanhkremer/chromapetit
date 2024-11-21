@@ -3,10 +3,12 @@ import ColorSearchForm from "./components/ColorSearchForm"
 const ColorExplorerPage = () => {
 
     return (
-        <>
+        <div>
             <div>ColorExplorerPage</div>
-            <ColorSearchForm />
-        </>
+            <div>
+                <ColorSearchForm />
+            </div>
+        </div>
     )
 }
 

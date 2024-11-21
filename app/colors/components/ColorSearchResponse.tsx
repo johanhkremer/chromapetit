@@ -1,6 +1,6 @@
 'use client'
 
-import ColorCircle from "@/app/components/ColorCircle"
+import ColorCircle from "@/components/ColorCircle"
 import { Paint } from "@/app/types/colors.types"
 import { useEffect, useState } from "react"
 

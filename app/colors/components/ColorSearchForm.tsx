@@ -2,6 +2,7 @@
 
 import React, { useState, FormEvent } from 'react'
 import ColorSearchResponse from './ColorSearchResponse'
+import { Button } from '@/components/ui/button'
 
 const ColorSearchForm = () => {
   const [query, setQuery] = useState<string>('')
@@ -15,15 +16,15 @@ const ColorSearchForm = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className='flex flex-col'>
         <input
           type='text'
           value={query}
           onChange={(e) => { setQuery(e.target.value) }}
-          placeholder='Search for matching colors'
-          className=''
+          placeholder='Paint name'
+          className='w-auto'
         />
-        <button type='submit'>Search</button>
+        <Button type='submit' className='mt-3'>Search</Button>
       </form>
       <ColorSearchResponse query={searchQuery} />
     </div>

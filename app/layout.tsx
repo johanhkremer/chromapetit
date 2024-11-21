@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { AppSidebar } from "@/components/sidebar/app-sidebar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,9 +15,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-      >
-        {children}
+      <body>
+        {/* Lägg till SidebarProvider och AppSidebar */}
+        <SidebarProvider>
+          <AppSidebar />
+          <SidebarTrigger />
+          <main className="px-10 py-10">
+            {children}
+          </main>
+        </SidebarProvider>
       </body>
     </html>
   );
