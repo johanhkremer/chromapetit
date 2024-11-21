@@ -4,13 +4,20 @@ import ColorCircle from "@/app/components/ColorCircle"
 import { Paint } from "@/app/types/colors.types"
 import { useEffect, useState } from "react"
 
-interface ColorResponseProp {
+interface ColorSearchResponse {
+    searchedPaint: Paint | null;
+    similarPaints: Paint[];
+}
+
+interface ColorSearchResponseProps {
     query: string
 }
 
-
-const ColorSearchResponse = ({ query }: ColorResponseProp) => {
-    const [paints, setPaints] = useState<Paint[]>([])
+const ColorSearchResponse = ({ query }: ColorSearchResponseProps) => {
+    const [searchResult, setSearchResult] = useState<ColorSearchResponse>({
+        searchedPaint: null,
+        similarPaints: []
+    })
     const [isLoading, setIsLoading] = useState<boolean>(false)
 
     useEffect(() => {
@@ -19,26 +26,19 @@ const ColorSearchResponse = ({ query }: ColorResponseProp) => {
         setIsLoading(true)
 
         const fetchPaints = async () => {
-
             try {
                 const response = await fetch(`http://localhost:3000/api/paints/search/${query}`)
 
-                console.log(response)
-
                 if (!response.ok) {
-                    throw new Error('Failes to get paints')
+                    throw new Error('Failed to get paints')
                 }
-                // Lägg till denna console.log för att se raw data
-                const rawData = await response.json()
-                console.log('Raw data:', rawData)
 
-                // Om din API returnerar data i formatet { similarPaints: Paint[] }
-                const data = Array.isArray(rawData) ? rawData : rawData.similarPaints
+                const data: ColorSearchResponse = await response.json()
 
-                setPaints(data)
+                setSearchResult(data)
             } catch (error) {
                 console.error(error)
-                setPaints([])
+                setSearchResult({ searchedPaint: null, similarPaints: [] })
             } finally {
                 setIsLoading(false)
             }
@@ -48,20 +48,39 @@ const ColorSearchResponse = ({ query }: ColorResponseProp) => {
 
     return (
         <div>
-            {isLoading ? (<p>Loading...</p>) :
-                paints.length > 0 ? (
-                    <ul>
-                        {paints.map((paint) => (
-                            <li key={paint.id}>
-                                <p>{paint.name}</p>
-                                <h3>{paint.brand}</h3>
-                                <p>Type: {paint.type}</p>
-                                <ColorCircle size='sm' hexCode={paint.hexCode} />
-                            </li>
-                        ))}
-                    </ul>
+            {isLoading ? (<p>Loading...</p>) : (
+                <>
+                    {searchResult.searchedPaint && (
+                        <div>
+                            <h2>Searched Paint</h2>
+                            <p>{searchResult.searchedPaint.name}</p>
+                            <h3>{searchResult.searchedPaint.brand}</h3>
+                            <p>Type: {searchResult.searchedPaint.type}</p>
+                            <ColorCircle size='sm' hexCode={searchResult.searchedPaint.hexCode} />
+                        </div>
+                    )}
 
-                ) : (query && <p>No matching paints found</p>)}
+                    {searchResult.similarPaints.length > 0 && (
+                        <div>
+                            <h2>Similar Paints</h2>
+                            <ul>
+                                {searchResult.similarPaints.map((paint) => (
+                                    <li key={paint.id}>
+                                        <p>{paint.name}</p>
+                                        <h3>{paint.brand}</h3>
+                                        <p>Type: {paint.type}</p>
+                                        <ColorCircle size='sm' hexCode={paint.hexCode} />
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+
+                    {!searchResult.searchedPaint && query && (
+                        <p>No matching paints found</p>
+                    )}
+                </>
+            )}
         </div>
     )
 }
