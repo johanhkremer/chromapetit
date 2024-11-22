@@ -36,6 +36,7 @@ export function NavProjects({
 }) {
     const { isMobile } = useSidebar()
 
+    //Ska endast visas om användaren är inloggad, visar sparade färger samt projekt
     return (
         <SidebarGroup className="group-data-[collapsible=icon]:hidden">
             <SidebarGroupLabel>Projects</SidebarGroupLabel>

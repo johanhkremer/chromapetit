@@ -12,12 +12,19 @@ import {
     PieChart,
     Settings2,
     SquareTerminal,
+    Palette,
+    Wrench,
+    Brush,
+    Shield,
+    Home,
+    Users,
+    Paintbrush2
 } from "lucide-react"
 
 import { NavMain } from "@/components/sidebar/nav-main"
 import { NavProjects } from "@/components/sidebar/nav-projects"
 import { NavUser } from "@/components/sidebar/nav-user"
-import { TeamSwitcher } from "@/components/sidebar/team-switcher"
+import { Logo } from "@/components/sidebar/logo"
 import {
     Sidebar,
     SidebarContent,
@@ -29,32 +36,22 @@ import {
 // This is sample data.
 const data = {
     user: {
-        name: "shadcn",
-        email: "m@example.com",
+        name: "Johan Kremer",
+        email: "johan.h.kremer@gmail.com",
         avatar: "/dragon-icon.jpg",
     },
     teams: [
         {
-            name: "Acme Inc",
-            logo: GalleryVerticalEnd,
-            plan: "Enterprise",
-        },
-        {
-            name: "Acme Corp.",
-            logo: AudioWaveform,
-            plan: "Startup",
-        },
-        {
-            name: "Evil Corp.",
-            logo: Command,
-            plan: "Free",
+            name: "ChromaPetit",
+            logo: Brush,
+            plan: "Miniature painting",
         },
     ],
     navMain: [
         {
             title: "Paints",
             url: "#",
-            icon: SquareTerminal,
+            icon: Palette,
             isActive: true,
             items: [
                 {
@@ -62,96 +59,93 @@ const data = {
                     url: "colors",
                 },
                 {
-                    title: "Starred",
-                    url: "#",
-                },
-                {
-                    title: "Settings",
+                    title: "All paints",
                     url: "#",
                 },
             ],
         },
         {
-            title: "Models",
+            title: "Tools and techniques",
             url: "#",
-            icon: Bot,
+            icon: Wrench,
             items: [
                 {
-                    title: "Genesis",
+                    title: "Tools",
                     url: "#",
                 },
                 {
-                    title: "Explorer",
-                    url: "#",
-                },
-                {
-                    title: "Quantum",
+                    title: "Techniques",
                     url: "#",
                 },
             ],
         },
-        {
-            title: "Documentation",
-            url: "#",
-            icon: BookOpen,
-            items: [
-                {
-                    title: "Introduction",
-                    url: "#",
-                },
-                {
-                    title: "Get Started",
-                    url: "#",
-                },
-                {
-                    title: "Tutorials",
-                    url: "#",
-                },
-                {
-                    title: "Changelog",
-                    url: "#",
-                },
-            ],
-        },
-        {
-            title: "Settings",
-            url: "#",
-            icon: Settings2,
-            items: [
-                {
-                    title: "General",
-                    url: "#",
-                },
-                {
-                    title: "Team",
-                    url: "#",
-                },
-                {
-                    title: "Billing",
-                    url: "#",
-                },
-                {
-                    title: "Limits",
-                    url: "#",
-                },
-            ],
-        },
+        // {
+        //     title: "Documentation",
+        //     url: "#",
+        //     icon: BookOpen,
+        //     items: [
+        //         {
+        //             title: "Introduction",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "Get Started",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "Tutorials",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "Changelog",
+        //             url: "#",
+        //         },
+        //     ],
+        // },
+        // {
+        //     title: "Settings",
+        //     url: "#",
+        //     icon: Settings2,
+        //     items: [
+        //         {
+        //             title: "General",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "Team",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "Billing",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "Limits",
+        //             url: "#",
+        //         },
+        //     ],
+        // },
     ],
     projects: [
         {
-            name: "Design Engineering",
+            name: "Warhammer 40K: Space Marine Chapter",
             url: "#",
-            icon: Frame,
+            icon: Shield, // Ikon som representerar Space Marines, du kan ändra till något mer specifikt
         },
         {
-            name: "Sales & Marketing",
+            name: "Fantasy Terrain Painting",
             url: "#",
-            icon: PieChart,
+            icon: Home, // En ikon som representerar terräng, t.ex. ett hus
         },
         {
-            name: "Travel",
+            name: "D&D Miniature Collection",
             url: "#",
-            icon: Map,
+            icon: Users, // Ikon som symboliserar karaktärer/grupper
+        },
+        {
+            name: "Custom Paint Schemes",
+            url: "#",
+            icon: Paintbrush2, // Ikon för målarverktyg
         },
     ],
 }
@@ -160,7 +154,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     return (
         <Sidebar collapsible="icon" {...props}>
             <SidebarHeader>
-                <TeamSwitcher teams={data.teams} />
+                <Logo teams={data.teams} />
             </SidebarHeader>
             <SidebarContent>
                 <NavMain items={data.navMain} />
