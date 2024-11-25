@@ -16,11 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* Lägg till SidebarProvider och AppSidebar */}
         <SidebarProvider>
           <AppSidebar />
           <SidebarTrigger />
-          <main className="px-10 py-10">
+          <main className="pt-3 mx-auto">
             {children}
           </main>
         </SidebarProvider>

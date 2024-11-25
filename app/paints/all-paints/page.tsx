@@ -1,5 +1,6 @@
 import { Paint } from '@/app/types/colors.types';
 import ColorCircle from '@/components/ColorCircle';
+import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import React from 'react'
 
@@ -21,31 +22,41 @@ const AllPaintsPage = async () => {
 
     const allPaints: Paint[] = await res.json();
 
-    console.log(allPaints)
 
     return (
-        <div className="p-4">
-            <h1 className="text-xl font-bold mb-4">All Paints</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {allPaints.map((paint) => (
-                    <Card key={paint.id} className="p-3 bg-gray-50 rounded-lg shadow-md">
-                        <CardTitle>{paint.name}</CardTitle>
-                        <CardHeader>{paint.brand}</CardHeader>
-                        <CardDescription>{paint.finish}</CardDescription>
-                        <CardContent>
-                            <ColorCircle hexCode={paint.hexCode} finish={paint.finish} />
-                        </CardContent>
-                        <CardFooter>
-                            Latest updated: {paint.updatedAt ? (
-                                new Date(paint.updatedAt).toLocaleDateString()
-                            ) : (
-                                new Date(paint.createdAt).toLocaleDateString()
-                            )}
-                        </CardFooter>
-                    </Card>
-                ))}
+        <main className='flex items-center'>
+            <div className="p-4">
+                <h1 className="text-xl font-bold mb-4">All Paints</h1>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    {allPaints.map((paint) => (
+                        <Card key={paint.id} className="flex flex-col items-center p-1 bg-gray-50 rounded-lg shadow-md">
+                            <CardHeader>
+                                <CardDescription className='flex flex-col items-center'>
+                                    {paint.brand}
+                                </CardDescription>
+                                <CardTitle>{paint.name}</CardTitle>
+                            </CardHeader>
+                            <CardContent className='flex flex-col items-center'>
+                                <ColorCircle hexCode={paint.hexCode} finish={paint.finish} />
+                                <p className='pt-2 text-gray-400'>{paint.finish}</p>
+                            </CardContent>
+
+                            <CardFooter className='flex flex-col'>
+                                <div className='flex text-xs pb-1'>
+                                    <p>Updated:</p>
+                                    <p>{paint.updatedAt ? (
+                                        new Date(paint.updatedAt).toLocaleDateString()
+                                    ) : (
+                                        new Date(paint.createdAt).toLocaleDateString()
+                                    )}</p>
+                                </div>
+                                <Button>Find Similar paints</Button>
+                            </CardFooter>
+                        </Card>
+                    ))}
+                </div>
             </div>
-        </div>
+        </main>
     )
 }
 
