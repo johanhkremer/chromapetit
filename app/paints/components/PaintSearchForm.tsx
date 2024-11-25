@@ -1,10 +1,10 @@
 'use client'
 
 import React, { useState, FormEvent } from 'react'
-import ColorSearchResponse from './ColorSearchResponse'
+import ColorSearchResponse from './PaintSearchResponse'
 import { Button } from '@/components/ui/button'
 
-const ColorSearchForm = () => {
+const PaintSearchForm = () => {
   const [query, setQuery] = useState<string>('')
   const [searchQuery, setSearchQuery] = useState<string>('')
 
@@ -31,4 +31,4 @@ const ColorSearchForm = () => {
   )
 }
 
-export default ColorSearchForm
+export default PaintSearchForm

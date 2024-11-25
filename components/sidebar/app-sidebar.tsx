@@ -56,11 +56,11 @@ const data = {
             items: [
                 {
                     title: "Find similar paints",
-                    url: "colors",
+                    url: "/paints",
                 },
                 {
                     title: "All paints",
-                    url: "#",
+                    url: "/paints/all-paints",
                 },
             ],
         },

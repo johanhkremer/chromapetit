@@ -13,7 +13,7 @@ interface ColorSearchResponseProps {
     query: string
 }
 
-const ColorSearchResponse = ({ query }: ColorSearchResponseProps) => {
+const PaintSearchResponse = ({ query }: ColorSearchResponseProps) => {
     const [searchResult, setSearchResult] = useState<ColorSearchResponse>({
         searchedPaint: null,
         similarPaints: []
@@ -85,4 +85,4 @@ const ColorSearchResponse = ({ query }: ColorSearchResponseProps) => {
     )
 }
 
-export default ColorSearchResponse
+export default PaintSearchResponse
