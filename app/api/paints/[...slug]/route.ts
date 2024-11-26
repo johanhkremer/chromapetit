@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import prisma from "@/prisma/client";
 
-export const GET = async (_: NextRequest, { params }: { params: { slug: string[] } }) => {
+export const GET = async (_: NextRequest, props: { params: Promise<{ slug: string[] }> }) => {
+    const params = await props.params;
     const [type, query] = params.slug || [];
 
     if (!type || !query) {

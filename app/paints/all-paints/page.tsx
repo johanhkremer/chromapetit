@@ -1,17 +1,27 @@
 import { Paint } from '@/app/types/colors.types';
 import ColorCircle from '@/components/ColorCircle';
+import PaginationComponent from '@/components/PaginationComponent';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import React from 'react'
 
-const AllPaintsPage = async () => {
+interface PaintResponse {
+    paints: Paint[];
+    totalPaints: number;
+    pageSize: number;
+    page: number;
+}
 
-    const res = await fetch('http://localhost:3000/api/paints', {
-        cache: 'reload'
-    })
+const AllPaintsPage = async ({ searchParams }: { searchParams: { page?: string } }) => {
+    const params = await searchParams;
+
+    const page = parseInt((params.page || '1'), 10);
+
+    const res = await fetch(`http://localhost:3000/api/paints?page=${page}`, {
+        cache: 'force-cache',
+    });
 
     if (!res.ok) {
-        // Hantera fel (t.ex. 404 eller 500)
         return (
             <div>
                 <h1>All Paints Page</h1>
@@ -20,8 +30,11 @@ const AllPaintsPage = async () => {
         );
     }
 
-    const allPaints: Paint[] = await res.json();
-
+    const {
+        paints: allPaints,
+        totalPaints,
+        pageSize
+    }: PaintResponse = await res.json();
 
     return (
         <main className='flex items-center'>
@@ -29,7 +42,7 @@ const AllPaintsPage = async () => {
                 <h1 className="text-xl font-bold mb-4">All Paints</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
                     {allPaints.map((paint) => (
-                        <Card key={paint.id} className="flex flex-col items-center p-1 bg-gray-50 rounded-lg shadow-md">
+                        <Card key={paint.id} className="flex flex-col items-center p-3 bg-gray-50 rounded-lg shadow-md">
                             <CardHeader>
                                 <CardDescription className='flex flex-col items-center'>
                                     {paint.brand}
@@ -54,6 +67,13 @@ const AllPaintsPage = async () => {
                             </CardFooter>
                         </Card>
                     ))}
+                </div>
+                <div className="mt-8 flex justify-center">
+                    <PaginationComponent
+                        itemCount={totalPaints}
+                        pageSize={pageSize}
+                        currentPage={page}
+                    />
                 </div>
             </div>
         </main>
