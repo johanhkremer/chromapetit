@@ -3,15 +3,12 @@ import prisma from '@/prisma/client';
 
 export const GET = async (request: NextRequest) => {
     try {
-        // Hämta sida och antal per sida från query parameters
         const searchParams = request.nextUrl.searchParams;
-        const page = parseInt(searchParams.get('page') || '1', 10);
-        const pageSize = 8; // Antal färger per sida
+        const page = parseInt(searchParams.get('page') || '1');
+        const pageSize = 25;
 
-        // Räkna totalt antal färger
         const totalPaints = await prisma.paint.count();
 
-        // Hämta färger med pagination
         const paints = await prisma.paint.findMany({
             skip: (page - 1) * pageSize,
             take: pageSize,

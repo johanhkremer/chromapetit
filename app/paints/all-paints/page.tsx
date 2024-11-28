@@ -18,7 +18,7 @@ const AllPaintsPage = async ({ searchParams }: { searchParams: { page?: string }
     const page = parseInt((params.page || '1'), 10);
 
     const res = await fetch(`http://localhost:3000/api/paints?page=${page}`, {
-        cache: 'force-cache',
+        cache: 'no-cache',
     });
 
     if (!res.ok) {
@@ -47,7 +47,7 @@ const AllPaintsPage = async ({ searchParams }: { searchParams: { page?: string }
                                 <CardDescription className='flex flex-col items-center'>
                                     {paint.brand}
                                 </CardDescription>
-                                <CardTitle>{paint.name}</CardTitle>
+                                <CardTitle className="overflow-hidden text-ellipsis whitespace-nowrap">{paint.name}</CardTitle>
                             </CardHeader>
                             <CardContent className='flex flex-col items-center'>
                                 <ColorCircle hexCode={paint.hexCode} finish={paint.finish} />
