@@ -10,6 +10,7 @@ export default async function Home(props: { searchParams: Promise<{ page: string
       <p>Hello World!</p>
       <Link href='/colors' />
       <PaginationComponent itemCount={100} pageSize={10} currentPage={parseInt(searchParams.page)} />
+
     </div>
   );
 }
