@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE `Paint` ADD COLUMN `blue` INTEGER NULL,
+    ADD COLUMN `green` INTEGER NULL,
+    ADD COLUMN `red` INTEGER NULL;

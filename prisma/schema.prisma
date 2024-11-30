@@ -18,6 +18,9 @@ model Paint {
   name         String
   brand        String
   hexCode      String
+  red          Int?
+  green        Int?
+  blue         Int?
   type         String
   discontinued Boolean   @default(false)
   finish       String?
