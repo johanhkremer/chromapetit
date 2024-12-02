@@ -4,7 +4,6 @@ import {
     ColumnDef,
     ColumnFiltersState,
     SortingState,
-    VisibilityState,
     flexRender,
     getCoreRowModel,
     getFilteredRowModel,
@@ -32,10 +31,11 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 import { DataTablePagination } from "./DataTablePagination"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { Button } from "./ui/button"
 import { Switch } from "./ui/switch"
 import { Label } from "./ui/label"
+import { useResponsiveColumnVisibility } from "@/hooks/useResponsiveColumnVisibility"
 
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[]
@@ -48,8 +48,21 @@ export function DataTable<TData, TValue>({
 }: DataTableProps<TData, TValue>) {
     const [sorting, setSorting] = useState<SortingState>([])
     const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([])
-    const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({})
     const [isSearchSimilarPaints, setIsSearchSimilarPaints] = useState<boolean>(false)
+
+    const initialVisibility = {
+        hexCode: true,
+        rgbValues: false,
+        name: true,
+        brand: true,
+        type: true,
+        finish: true,
+        updatedAt: true,
+        actions: true,
+    };
+
+    const { columnVisibility, setColumnVisibility } = useResponsiveColumnVisibility(initialVisibility);
+
 
     const table = useReactTable({
         data,
@@ -60,87 +73,13 @@ export function DataTable<TData, TValue>({
         getSortedRowModel: getSortedRowModel(),
         onColumnFiltersChange: setColumnFilters,
         getFilteredRowModel: getFilteredRowModel(),
-        onColumnVisibilityChange: setColumnVisibility,
         state: {
             sorting,
             columnFilters,
             columnVisibility,
         },
+        onColumnVisibilityChange: (visibility) => setColumnVisibility(visibility),
     })
-
-    // Manage column visibility based on screen size
-    useEffect(() => {
-        const mediaQueries = [
-            window.matchMedia("(max-width: 639px)"), // None (e.g., iPhone SE)
-            window.matchMedia("(min-width: 640px) and (max-width: 767px)"), // sm
-            window.matchMedia("(min-width: 768px) and (max-width: 1023px)"), // md
-            window.matchMedia("(min-width: 1024px) and (max-width: 1279px)"), // lg
-            window.matchMedia("(min-width: 1280px)"), // xl
-        ];
-
-        const updateVisibility = () => {
-            if (mediaQueries[0].matches) {
-                setColumnVisibility({
-                    hexCode: true,
-                    name: true,
-                    brand: false,
-                    type: false,
-                    finish: false,
-                    updatedAt: false,
-                    actions: true,
-                });
-            } else if (mediaQueries[1].matches) {
-                setColumnVisibility({
-                    hexCode: true,
-                    name: true,
-                    brand: true,
-                    type: false,
-                    finish: false,
-                    updatedAt: false,
-                    actions: true,
-                });
-            } else if (mediaQueries[2].matches) {
-                setColumnVisibility({
-                    hexCode: true,
-                    name: true,
-                    brand: true,
-                    type: true,
-                    finish: false,
-                    updatedAt: false,
-                    actions: true,
-                });
-            } else if (mediaQueries[3].matches) {
-                setColumnVisibility({
-                    hexCode: true,
-                    name: true,
-                    brand: true,
-                    type: true,
-                    finish: true,
-                    updatedAt: false,
-                    actions: true,
-                });
-            } else if (mediaQueries[4].matches) {
-                setColumnVisibility({
-                    hexCode: true,
-                    name: true,
-                    brand: true,
-                    type: true,
-                    finish: true,
-                    updatedAt: true,
-                    actions: true,
-                });
-            }
-        };
-
-        updateVisibility();
-
-        mediaQueries.forEach((mq) => mq.addEventListener("change", updateVisibility));
-
-        return () => {
-            mediaQueries.forEach((mq) => mq.removeEventListener("change", updateVisibility));
-        };
-    }, []);
-
 
     return (
         <div>
@@ -152,10 +91,18 @@ export function DataTable<TData, TValue>({
                             ? ('Filter name')
                             : ('Find similar paints')
                     }
-                    value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
-                    onChange={(event) =>
-                        table.getColumn("name")?.setFilterValue(event.target.value)
+                    value={
+                        !isSearchSimilarPaints
+                            ? (table.getColumn("name")?.getFilterValue() as string) ?? ""
+                            : (table.getColumn("brand")?.getFilterValue() as string) ?? ""
                     }
+                    onChange={(event) => {
+                        if (!isSearchSimilarPaints) {
+                            table.getColumn("name")?.setFilterValue(event.target.value)
+                        } else {
+                            table.getColumn("brand")?.setFilterValue(event.target.value)
+                        }
+                    }}
                     className="max-w-sm"
                 />
                 <div className="flex items-center m-3 space-x-3">

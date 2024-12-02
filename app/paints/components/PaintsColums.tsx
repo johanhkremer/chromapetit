@@ -21,12 +21,24 @@ export const paintColumns: ColumnDef<Paint>[] = [
             )
         },
         cell: ({ row }) => (
-            <ColorCircle
-                hexCode={row.original.hexCode}
-                size="sm"
-                finish={row.original.finish}
-            />
+            <div className="flex justify-center items-center">
+                <ColorCircle
+                    hexCode={row.original.hexCode}
+                    size="sm"
+                    finish={row.original.finish}
+                />
+            </div>
         ),
+    },
+    {
+        accessorKey: "rgbValues",
+        header: "RGB",
+        cell: ({ row }) => {
+            const { red, green, blue } = row.original;
+            return (
+                <span>({red}, {green}, {blue})</span>
+            );
+        }
     },
     {
         accessorKey: "name",
@@ -55,6 +67,9 @@ export const paintColumns: ColumnDef<Paint>[] = [
                 </Button>
             )
         },
+        cell: ({ row }) => (
+            <div className="text-center">{row.original.brand}</div>
+        ),
     },
     {
         accessorKey: "type",
@@ -69,6 +84,9 @@ export const paintColumns: ColumnDef<Paint>[] = [
                 </Button>
             )
         },
+        cell: ({ row }) => (
+            <div className="text-center">{row.original.type}</div>
+        ),
     },
     {
         accessorKey: "finish",
@@ -83,6 +101,9 @@ export const paintColumns: ColumnDef<Paint>[] = [
                 </Button>
             )
         },
+        cell: ({ row }) => (
+            <div className="text-center">{row.original.finish}</div>
+        ),
     },
     {
         accessorKey: "updatedAt",
@@ -101,7 +122,7 @@ export const paintColumns: ColumnDef<Paint>[] = [
             const date = row.original.updatedAt
                 ? new Date(row.original.updatedAt)
                 : new Date(row.original.createdAt)
-            return date.toISOString().split("T")[0] // Returnerar "YYYY-MM-DD"
+            return date.toISOString().split("T")[0]
         },
     },
     {
