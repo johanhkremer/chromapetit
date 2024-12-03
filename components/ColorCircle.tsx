@@ -3,13 +3,15 @@ import React from 'react';
 interface ColorCircleProps {
     hexCode: string;
     size?: 'sm' | 'md' | 'lg' | 'xl';
-    finish?: string | null;
+    finish?: string;
+    type?: string
 }
 
 const ColorCircle: React.FC<ColorCircleProps> = ({
     hexCode,
     size = 'md',
-    finish = null
+    finish = null,
+    type = null
 }) => {
     const sizeClasses = {
         sm: 'w-8 h-8',
@@ -18,7 +20,8 @@ const ColorCircle: React.FC<ColorCircleProps> = ({
         xl: 'w-24 h-24'
     }
 
-    const isMetallic = ['Metallic', 'Gold', 'Silver', 'Steel', 'Brass', 'Copper', 'Bronze'].includes(finish || '');
+    const isMetallic = finish === 'Metallic';
+    const isShade = type === 'Shade';
 
     return (
         <div
@@ -27,13 +30,21 @@ const ColorCircle: React.FC<ColorCircleProps> = ({
                 rounded-full 
                 border 
                 border-gray-200
-                ${isMetallic ? 'shadow-inner shadow-white/40 dark:shadow-white/20 brightness-110 contrast-125' : ''}
             `}
-            style={{
-                backgroundColor: hexCode
-            }}
+            style={
+                isMetallic
+                    ? {
+                        backgroundImage: `linear-gradient(30deg, ${hexCode} 25%, white 50%, ${hexCode} 75%)`,
+                        backgroundPosition: 'top left'
+                    }
+                    : isShade
+                        ? {
+                            backgroundImage: `linear-gradient(to bottom, ${hexCode}, #d3d3d3)`, // HexCode överst, ljusgrå längst ner
+                        }
+                        : { backgroundColor: hexCode }
+            }
         />
-    )
+    );
 }
 
 export default ColorCircle;

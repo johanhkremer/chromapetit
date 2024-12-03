@@ -5,6 +5,7 @@ import ColorCircle from "@/components/ColorCircle"
 import { Button } from "@/components/ui/button"
 import { Paint } from "@/app/types/colors.types"
 import { ArrowUpDown } from "lucide-react"
+import SimilarColorsButton from "@/components/SimilarColorsButton"
 
 export const paintColumns: ColumnDef<Paint>[] = [
     {
@@ -26,6 +27,7 @@ export const paintColumns: ColumnDef<Paint>[] = [
                     hexCode={row.original.hexCode}
                     size="sm"
                     finish={row.original.finish}
+                    type={row.original.type}
                 />
             </div>
         ),
@@ -128,6 +130,16 @@ export const paintColumns: ColumnDef<Paint>[] = [
     {
         id: "actions",
         header: "Find similar paints",
-        cell: () => <Button>Search</Button>,
+        cell: ({ row, table }) => {
+            // Assuming the table context contains all paints
+            const allPaints = table.getCoreRowModel().rows.map(r => r.original);
+
+            return (
+                <SimilarColorsButton
+                    paint={row.original}
+                    allPaints={allPaints}
+                />
+            );
+        },
     },
 ]

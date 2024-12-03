@@ -33,8 +33,6 @@ import {
 import { DataTablePagination } from "./DataTablePagination"
 import { useState } from "react"
 import { Button } from "./ui/button"
-import { Switch } from "./ui/switch"
-import { Label } from "./ui/label"
 import { useResponsiveColumnVisibility } from "@/hooks/useResponsiveColumnVisibility"
 
 interface DataTableProps<TData, TValue> {
@@ -48,7 +46,6 @@ export function DataTable<TData, TValue>({
 }: DataTableProps<TData, TValue>) {
     const [sorting, setSorting] = useState<SortingState>([])
     const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([])
-    const [isSearchSimilarPaints, setIsSearchSimilarPaints] = useState<boolean>(false)
 
     const initialVisibility = {
         hexCode: true,
@@ -62,7 +59,6 @@ export function DataTable<TData, TValue>({
     };
 
     const { columnVisibility, setColumnVisibility } = useResponsiveColumnVisibility(initialVisibility);
-
 
     const table = useReactTable({
         data,
@@ -86,33 +82,11 @@ export function DataTable<TData, TValue>({
             {/* Search Input */}
             <div className="flex items-center py-4">
                 <Input
-                    placeholder={
-                        !isSearchSimilarPaints
-                            ? ('Filter name')
-                            : ('Find similar paints')
-                    }
-                    value={
-                        !isSearchSimilarPaints
-                            ? (table.getColumn("name")?.getFilterValue() as string) ?? ""
-                            : (table.getColumn("brand")?.getFilterValue() as string) ?? ""
-                    }
-                    onChange={(event) => {
-                        if (!isSearchSimilarPaints) {
-                            table.getColumn("name")?.setFilterValue(event.target.value)
-                        } else {
-                            table.getColumn("brand")?.setFilterValue(event.target.value)
-                        }
-                    }}
+                    placeholder={'Filter name'}
+                    value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
+                    onChange={(event) => { table.getColumn("name")?.setFilterValue(event.target.value) }}
                     className="max-w-sm"
                 />
-                <div className="flex items-center m-3 space-x-3">
-                    <Switch
-                        id="search"
-                        checked={isSearchSimilarPaints}
-                        onCheckedChange={setIsSearchSimilarPaints}
-                    />
-                    <Label htmlFor="search">{!isSearchSimilarPaints ? ("Search by Name") : ("Search for Similar Colors")}</Label>
-                </div>
                 {/* Column visibility */}
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
