@@ -4,6 +4,7 @@ import {
     BadgeCheck,
     ChevronsUpDown,
     LogOut,
+    LogIn,
 } from "lucide-react"
 
 import {
@@ -26,11 +27,12 @@ import {
     SidebarMenuItem,
     useSidebar,
 } from "@/components/ui/sidebar"
+import { signIn, signOut } from "next-auth/react" // Import signIn och signOut från next-auth
 
 export function NavUser({
     user,
 }: {
-    user: {
+    user?: { // Gör `user` valfri för att hantera icke-inloggade användare
         name: string
         email: string
         avatar: string
@@ -47,15 +49,21 @@ export function NavUser({
                             size="lg"
                             className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
                         >
-                            <Avatar className="h-8 w-8 rounded-lg">
-                                <AvatarImage src={user.avatar} alt={user.name} />
-                                <AvatarFallback className="rounded-lg">CN</AvatarFallback>
-                            </Avatar>
-                            <div className="grid flex-1 text-left text-sm leading-tight">
-                                <span className="truncate font-semibold">{user.name}</span>
-                                <span className="truncate text-xs">{user.email}</span>
-                            </div>
-                            <ChevronsUpDown className="ml-auto size-4" />
+                            {user ? (
+                                <>
+                                    <Avatar className="h-8 w-8 rounded-lg">
+                                        <AvatarImage src={user.avatar} alt={user.name} />
+                                        <AvatarFallback className="rounded-lg">CN</AvatarFallback>
+                                    </Avatar>
+                                    <div className="grid flex-1 text-left text-sm leading-tight">
+                                        <span className="truncate font-semibold">{user.name}</span>
+                                        <span className="truncate text-xs">{user.email}</span>
+                                    </div>
+                                    <ChevronsUpDown className="ml-auto size-4" />
+                                </>
+                            ) : (
+                                <span className="ml-auto truncate text-sm">Sign in</span>
+                            )}
                         </SidebarMenuButton>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent
@@ -64,33 +72,41 @@ export function NavUser({
                         align="end"
                         sideOffset={4}
                     >
-                        <DropdownMenuLabel className="p-0 font-normal">
-                            <div className="flex items-center gap-2 px-1 py-1.5 text-left text-sm">
-                                <Avatar className="h-8 w-8 rounded-lg">
-                                    <AvatarImage src={user.avatar} alt={user.name} />
-                                    <AvatarFallback className="rounded-lg">CN</AvatarFallback>
-                                </Avatar>
-                                <div className="grid flex-1 text-left text-sm leading-tight">
-                                    <span className="truncate font-semibold">{user.name}</span>
-                                    <span className="truncate text-xs">{user.email}</span>
-                                </div>
-                            </div>
-                        </DropdownMenuLabel>
+                        {user ? (
+                            <>
+                                <DropdownMenuLabel className="p-0 font-normal">
+                                    <div className="flex items-center gap-2 px-1 py-1.5 text-left text-sm">
+                                        <Avatar className="h-8 w-8 rounded-lg">
+                                            <AvatarImage src={user.avatar} alt={user.name} />
+                                            <AvatarFallback className="rounded-lg">CN</AvatarFallback>
+                                        </Avatar>
+                                        <div className="grid flex-1 text-left text-sm leading-tight">
+                                            <span className="truncate font-semibold">{user.name}</span>
+                                            <span className="truncate text-xs">{user.email}</span>
+                                        </div>
+                                    </div>
+                                </DropdownMenuLabel>
 
-                        <DropdownMenuGroup>
-                            <DropdownMenuItem>
-                                <BadgeCheck />
-                                Account
+                                <DropdownMenuGroup>
+                                    <DropdownMenuItem>
+                                        <BadgeCheck />
+                                        Account
+                                    </DropdownMenuItem>
+                                </DropdownMenuGroup>
+
+                                <DropdownMenuSeparator />
+
+                                <DropdownMenuItem onClick={() => signOut()}>
+                                    <LogOut />
+                                    Log out
+                                </DropdownMenuItem>
+                            </>
+                        ) : (
+                            <DropdownMenuItem onClick={() => signIn("google")}>
+                                <LogIn />
+                                Sign in with Google
                             </DropdownMenuItem>
-                        </DropdownMenuGroup>
-
-                        <DropdownMenuSeparator />
-
-                        <DropdownMenuItem>
-                            <LogOut />
-                            Log out
-                        </DropdownMenuItem>
-
+                        )}
                     </DropdownMenuContent>
                 </DropdownMenu>
             </SidebarMenuItem>

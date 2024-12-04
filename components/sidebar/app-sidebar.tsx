@@ -1,16 +1,7 @@
 "use client"
 
 import * as React from "react"
-import {
-    Palette,
-    Wrench,
-    Brush,
-    Shield,
-    Home,
-    Users,
-    Paintbrush2
-} from "lucide-react"
-
+import { Palette, Wrench, Brush, Shield, Home, Users, Paintbrush2 } from "lucide-react"
 import { NavMain } from "@/components/sidebar/nav-main"
 import { NavProjects } from "@/components/sidebar/nav-projects"
 import { NavUser } from "@/components/sidebar/nav-user"
@@ -22,14 +13,9 @@ import {
     SidebarHeader,
     SidebarRail,
 } from "@/components/ui/sidebar"
+import { useSession } from "next-auth/react" // Importera useSession
 
-// This is sample data.
 const data = {
-    user: {
-        name: "Johan Kremer",
-        email: "johan.h.kremer@gmail.com",
-        avatar: "/dragon-icon.jpg",
-    },
     teams: [
         {
             name: "ChromaPetit",
@@ -69,78 +55,43 @@ const data = {
                 },
             ],
         },
-        // {
-        //     title: "Documentation",
-        //     url: "#",
-        //     icon: BookOpen,
-        //     items: [
-        //         {
-        //             title: "Introduction",
-        //             url: "#",
-        //         },
-        //         {
-        //             title: "Get Started",
-        //             url: "#",
-        //         },
-        //         {
-        //             title: "Tutorials",
-        //             url: "#",
-        //         },
-        //         {
-        //             title: "Changelog",
-        //             url: "#",
-        //         },
-        //     ],
-        // },
-        // {
-        //     title: "Settings",
-        //     url: "#",
-        //     icon: Settings2,
-        //     items: [
-        //         {
-        //             title: "General",
-        //             url: "#",
-        //         },
-        //         {
-        //             title: "Team",
-        //             url: "#",
-        //         },
-        //         {
-        //             title: "Billing",
-        //             url: "#",
-        //         },
-        //         {
-        //             title: "Limits",
-        //             url: "#",
-        //         },
-        //     ],
-        // },
     ],
     projects: [
         {
             name: "Warhammer 40K: Space Marine Chapter",
             url: "#",
-            icon: Shield, // Ikon som representerar Space Marines, du kan ändra till något mer specifikt
+            icon: Shield,
         },
         {
             name: "Fantasy Terrain Painting",
             url: "#",
-            icon: Home, // En ikon som representerar terräng, t.ex. ett hus
+            icon: Home,
         },
         {
             name: "D&D Miniature Collection",
             url: "#",
-            icon: Users, // Ikon som symboliserar karaktärer/grupper
+            icon: Users,
         },
         {
             name: "Custom Paint Schemes",
             url: "#",
-            icon: Paintbrush2, // Ikon för målarverktyg
+            icon: Paintbrush2,
         },
     ],
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+    const { data: session, status } = useSession()
+    const isLoading = status === "loading"
+
+    const user = session?.user
+        ? {
+            name: session.user.name || "Unknown User",
+            email: session.user.email || "No email",
+            avatar: session.user.image || "/default-avatar.png",
+        }
+        : undefined
+
     return (
         <Sidebar collapsible="icon" {...props}>
             <SidebarHeader>
@@ -151,7 +102,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                 <NavProjects projects={data.projects} />
             </SidebarContent>
             <SidebarFooter>
-                <NavUser user={data.user} />
+                {!isLoading ? (
+                    <NavUser user={user} />
+                ) : (
+                    <div className="flex items-center justify-center h-16">
+                        <span>Loading...</span>
+                    </div>
+                )}
             </SidebarFooter>
             <SidebarRail />
         </Sidebar>
