@@ -27,17 +27,15 @@ import {
     SidebarMenuItem,
     useSidebar,
 } from "@/components/ui/sidebar"
-import { signIn, signOut } from "next-auth/react" // Import signIn och signOut från next-auth
+import { signIn, signOut } from "next-auth/react"
 
-export function NavUser({
-    user,
-}: {
-    user?: { // Gör `user` valfri för att hantera icke-inloggade användare
-        name: string
-        email: string
-        avatar: string
-    }
-}) {
+interface User {
+    name: string
+    email: string
+    avatar: string
+}
+
+export function NavUser({ user, }: { user?: User }) {
     const { isMobile } = useSidebar()
 
     return (
@@ -102,9 +100,9 @@ export function NavUser({
                                 </DropdownMenuItem>
                             </>
                         ) : (
-                            <DropdownMenuItem onClick={() => signIn("google")}>
+                            <DropdownMenuItem onClick={() => signIn("google", { prompt: "select_account" })}>
                                 <LogIn />
-                                Sign in with Google
+                                Sign in
                             </DropdownMenuItem>
                         )}
                     </DropdownMenuContent>

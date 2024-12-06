@@ -24,6 +24,8 @@ import {
     SidebarMenuItem,
     useSidebar,
 } from "@/components/ui/sidebar"
+import { useSession } from "next-auth/react"
+import Link from "next/link"
 
 export function NavProjects({
     projects,
@@ -34,12 +36,18 @@ export function NavProjects({
         icon: LucideIcon
     }[]
 }) {
+    const { data: session } = useSession()
     const { isMobile } = useSidebar()
 
-    //Ska endast visas om användaren är inloggad, visar sparade färger samt projekt
+    if (!session) {
+        return null
+    }
+
     return (
         <SidebarGroup className="group-data-[collapsible=icon]:hidden">
-            <SidebarGroupLabel>Projects</SidebarGroupLabel>
+            <Link href="/projects">
+                <SidebarGroupLabel>Projects</SidebarGroupLabel>
+            </Link>
             <SidebarMenu>
                 {projects.map((item) => (
                     <SidebarMenuItem key={item.name}>

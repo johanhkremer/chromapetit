@@ -1,16 +1,12 @@
-import PaginationComponent from "@/components/PaginationComponent";
-import Link from "next/link";
+import { auth } from "@/auth"
 
-export default async function Home(props: { searchParams: Promise<{ page: string }> }) {
-  const searchParams = await props.searchParams;
+export default async function Home() {
+  const session = await auth()
 
   return (
     <div>
-      <h1>Home</h1>
-      <p>Hello World!</p>
-      <Link href='/colors' />
-      <PaginationComponent itemCount={100} pageSize={10} currentPage={parseInt(searchParams.page)} />
-
+      <h1>Welcome</h1>
+      <p>{session?.user?.name}</p>
     </div>
   );
 }

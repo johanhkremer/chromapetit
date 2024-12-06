@@ -13,7 +13,7 @@ import {
     SidebarHeader,
     SidebarRail,
 } from "@/components/ui/sidebar"
-import { useSession } from "next-auth/react" // Importera useSession
+import { useSession } from "next-auth/react"
 
 const data = {
     teams: [

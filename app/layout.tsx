@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/sidebar/app-sidebar";
+import { SessionProvider } from "next-auth/react"
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,13 +17,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <SidebarProvider>
-          <AppSidebar />
-          <SidebarTrigger />
-          <main className="pt-3 mx-auto">
-            {children}
-          </main>
-        </SidebarProvider>
+        <SessionProvider>
+          <SidebarProvider>
+            <AppSidebar />
+            <SidebarTrigger />
+            <main className="pt-3 mx-auto">
+              {children}
+            </main>
+          </SidebarProvider>
+        </SessionProvider>
       </body>
     </html>
   );
