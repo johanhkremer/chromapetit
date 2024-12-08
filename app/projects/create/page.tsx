@@ -1,7 +1,14 @@
 import React from "react";
 import CreateProjectForm from "./components/CreateProjectForm";
+import { CreateProjectData } from "@/schemas/CreateProjectSchema";
 
-const CreateProjectPage = () => {
+interface CreateProjectFormProp {
+    onSubmit: (data: CreateProjectData) => void
+}
+
+const CreateProjectPage: React.FC<CreateProjectFormProp> = async ({ onSubmit: data }) => {
+
+    console.log(data)
 
     return (
         <main className="container">

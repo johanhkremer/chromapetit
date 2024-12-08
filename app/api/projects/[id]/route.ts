@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import prisma from "@/prisma/client";
 
+//GET unique project on user
 export const GET = async (req: Request, { params }: { params: { id: string } }) => {
 
     try {
@@ -25,6 +26,7 @@ export const GET = async (req: Request, { params }: { params: { id: string } }) 
     }
 };
 
+//Update project
 export const PUT = async (req: Request, { params }: { params: { id: string } }) => {
     try {
         const body = await req.json();
@@ -43,6 +45,7 @@ export const PUT = async (req: Request, { params }: { params: { id: string } }) 
     }
 };
 
+//Delete project
 export const DELETE = async (req: Request, { params }: { params: { id: string } }) => {
     try {
         await prisma.project.delete({
