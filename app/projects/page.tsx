@@ -1,9 +1,14 @@
 import React from 'react'
+import { auth } from "@/auth"
 
-const page = () => {
+const ProjectsPage = async () => {
+    const session = await auth()
+
     return (
-        <div>Projects</div>
+        <main>
+            <h1>Projects Overview</h1>
+        </main>
     )
 }
 
-export default page
+export default ProjectsPage

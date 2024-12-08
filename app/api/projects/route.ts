@@ -1,7 +1,7 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import prisma from "@/prisma/client";
 import { auth } from "@/auth";
-import { projectSchema } from "@/schemas/projectSchema";
+import { CreateProjectSchema } from "@/schemas/CreateProjectSchema";
 import { z } from "zod";
 
 export const GET = async () => {
@@ -24,28 +24,33 @@ export const GET = async () => {
     }
 };
 
-export const POST = async (req: Request) => {
+export const POST = async (req: NextRequest, res: NextResponse) => {
     const session = await auth();
-
-    if (!session?.user?.id) {
-        return NextResponse.json({ error: "Not authenticated" }, { status: 401 });
-    }
 
     try {
         const body = await req.json();
-        const validatedData = projectSchema.parse(body);
+        const validation = CreateProjectSchema.parse(body);
 
-        const projects = await prisma.project.findMany({
-            where: {
-                userId: session.user.id,
-                ...(validatedData.filter && {
-                    name: { contains: validatedData.filter },
-                }),
+        // Skapa projekt i databasen
+        const project = await prisma.project.create({
+            data: {
+                name: validation.name,
+                description: validation.description,
+                userId: session?.user?.id || "",
+                paints: {
+                    create: validation.paints?.map((paint) => ({
+                        paintId: paint.paintId,
+                    })) || [],
+                },
+                images: {
+                    create: validation.images?.map((image) => ({
+                        imageUrl: image.imageUrl,
+                    })) || [],
+                },
             },
-            take: validatedData.limit || undefined,
         });
 
-        return NextResponse.json(projects);
+        return NextResponse.json(project, { status: 201 });
     } catch (error: any) {
         if (error instanceof z.ZodError) {
             return NextResponse.json(
@@ -57,4 +62,5 @@ export const POST = async (req: Request) => {
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 };
+
 
