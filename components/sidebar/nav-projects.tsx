@@ -5,7 +5,6 @@ import {
     Forward,
     MoreHorizontal,
     Trash2,
-    type LucideIcon,
 } from "lucide-react"
 
 import {
@@ -26,18 +25,38 @@ import {
 } from "@/components/ui/sidebar"
 import { useSession } from "next-auth/react"
 import Link from "next/link"
+import { useEffect, useState } from "react"
+import { ProjectData } from "@/schemas/CreateProjectSchema"
 
-export function NavProjects({
-    projects,
-}: {
-    projects: {
-        name: string
-        url: string
-        icon: LucideIcon
-    }[]
-}) {
+export function NavProjects() {
     const { data: session } = useSession()
     const { isMobile } = useSidebar()
+    const [projects, setProjects] = useState<ProjectData[]>([])
+    const [error, setError] = useState<string | null>(null)
+
+    useEffect(() => {
+        const fetchProjectData = async () => {
+            try {
+                const res = await fetch(`http://localhost:3000/api/projects`, {
+                    cache: "no-cache",
+                })
+
+                if (!res.ok) {
+                    throw new Error(`Error fetching projects: ${res.statusText}`)
+                }
+
+                const data = await res.json()
+                setProjects(data)
+            } catch (error) {
+                console.error(error)
+                setError("Failed to fetch projects. Please try again.")
+            }
+        }
+
+        fetchProjectData()
+    }, [])
+
+
 
     if (!session) {
         return null
@@ -49,43 +68,44 @@ export function NavProjects({
                 <SidebarGroupLabel>Projects</SidebarGroupLabel>
             </Link>
             <SidebarMenu>
-                {projects.map((item) => (
-                    <SidebarMenuItem key={item.name}>
-                        <SidebarMenuButton asChild>
-                            <a href={item.url}>
-                                <item.icon />
-                                <span>{item.name}</span>
-                            </a>
-                        </SidebarMenuButton>
-                        <DropdownMenu>
-                            <DropdownMenuTrigger asChild>
-                                <SidebarMenuAction showOnHover>
-                                    <MoreHorizontal />
-                                    <span className="sr-only">More</span>
-                                </SidebarMenuAction>
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent
-                                className="w-48 rounded-lg"
-                                side={isMobile ? "bottom" : "right"}
-                                align={isMobile ? "end" : "start"}
-                            >
-                                <DropdownMenuItem>
-                                    <Folder className="text-muted-foreground" />
-                                    <span>View Project</span>
-                                </DropdownMenuItem>
-                                <DropdownMenuItem>
-                                    <Forward className="text-muted-foreground" />
-                                    <span>Share Project</span>
-                                </DropdownMenuItem>
-                                <DropdownMenuSeparator />
-                                <DropdownMenuItem>
-                                    <Trash2 className="text-muted-foreground" />
-                                    <span>Delete Project</span>
-                                </DropdownMenuItem>
-                            </DropdownMenuContent>
-                        </DropdownMenu>
-                    </SidebarMenuItem>
-                ))}
+                {error ? (<p className="text-red-500">{error}</p>) : (
+                    <>{projects.map((project) => (
+                        <SidebarMenuItem key={project.name}>
+                            <SidebarMenuButton asChild>
+                                <a href={`http://localhost:3000/projects/${project.id}`}>
+                                    <span>{project.name}</span>
+                                </a>
+                            </SidebarMenuButton>
+                            <DropdownMenu>
+                                <DropdownMenuTrigger asChild>
+                                    <SidebarMenuAction showOnHover>
+                                        <MoreHorizontal />
+                                        <span className="sr-only">More</span>
+                                    </SidebarMenuAction>
+                                </DropdownMenuTrigger>
+                                <DropdownMenuContent
+                                    className="w-48 rounded-lg"
+                                    side={isMobile ? "bottom" : "right"}
+                                    align={isMobile ? "end" : "start"}
+                                >
+                                    <DropdownMenuItem>
+                                        <Folder className="text-muted-foreground" />
+                                        <span>View Project</span>
+                                    </DropdownMenuItem>
+                                    <DropdownMenuItem>
+                                        <Forward className="text-muted-foreground" />
+                                        <span>Share Project</span>
+                                    </DropdownMenuItem>
+                                    <DropdownMenuSeparator />
+                                    <DropdownMenuItem>
+                                        <Trash2 className="text-muted-foreground" />
+                                        <span>Delete Project</span>
+                                    </DropdownMenuItem>
+                                </DropdownMenuContent>
+                            </DropdownMenu>
+                        </SidebarMenuItem>
+                    ))}</>
+                )}
                 <SidebarMenuItem>
                     <SidebarMenuButton className="text-sidebar-foreground/70">
                         <MoreHorizontal className="text-sidebar-foreground/70" />
@@ -96,3 +116,5 @@ export function NavProjects({
         </SidebarGroup>
     )
 }
+
+// Kan läggas ovanför span med projektnamn om jag orkar fixa med ikoner: <project.icon />

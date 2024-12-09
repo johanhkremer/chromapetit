@@ -21,14 +21,14 @@ export const GET = async () => {
         });
 
         return NextResponse.json(projects);
-    } catch (error: any) {
+    } catch (error) {
         console.error(error);
         return NextResponse.json({ error: "Internal server error" }, { status: 500 });
     }
 };
 
 //Create a new project on current user
-export const POST = async (req: NextRequest, res: NextResponse) => {
+export const POST = async (req: NextRequest) => {
     const session = await auth();
 
     if (!session || !session.user || !session.user.id) {
@@ -61,7 +61,7 @@ export const POST = async (req: NextRequest, res: NextResponse) => {
         });
 
         return NextResponse.json(project, { status: 201 });
-    } catch (error: any) {
+    } catch (error) {
         if (error instanceof z.ZodError) {
             return NextResponse.json(
                 { error: "Invalid input", details: error.errors },
@@ -69,6 +69,6 @@ export const POST = async (req: NextRequest, res: NextResponse) => {
             );
         }
 
-        return NextResponse.json({ error: "Internal server error", details: error.message }, { status: 500 });
+        return NextResponse.json({ error: "Internal server error", details: (error as Error).message }, { status: 500 });
     }
 };

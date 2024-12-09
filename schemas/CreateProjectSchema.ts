@@ -20,7 +20,15 @@ export const CreateProjectSchema = z.object({
         })).optional()
 });
 
+//Schema for POST project
 export type CreateProjectData = z.infer<typeof CreateProjectSchema>;
+
+export const ProjectSchema = CreateProjectSchema.extend({
+    id: z.number().int(),
+});
+
+//Schema for GET project, with id included
+export type ProjectData = z.infer<typeof ProjectSchema>;
 
 export const CreatePaintSchema = z.object({
     name: z.string().min(1, { message: "Paint name is required" }),

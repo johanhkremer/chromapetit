@@ -1,11 +1,7 @@
 "use client"
 
-import * as React from "react"
-
-import {
-    useSidebar,
-} from "@/components/ui/sidebar"
 import Link from "next/link"
+import { useState } from "react"
 
 export function Logo({
     teams,
@@ -16,8 +12,8 @@ export function Logo({
         plan: string
     }[]
 }) {
-    const { isMobile } = useSidebar()
-    const [activeTeam, setActiveTeam] = React.useState(teams[0])
+    //Removed setActiveTeam since only one team is active
+    const [activeTeam] = useState(teams[0])
 
     return (
         <Link href='/'>

@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Palette, Wrench, Brush, Shield, Home, Users, Paintbrush2 } from "lucide-react"
+import { Palette, Wrench, Brush } from "lucide-react"
 import { NavMain } from "@/components/sidebar/nav-main"
 import { NavProjects } from "@/components/sidebar/nav-projects"
 import { NavUser } from "@/components/sidebar/nav-user"
@@ -56,28 +56,6 @@ const data = {
             ],
         },
     ],
-    projects: [
-        {
-            name: "Warhammer 40K: Space Marine Chapter",
-            url: "#",
-            icon: Shield,
-        },
-        {
-            name: "Fantasy Terrain Painting",
-            url: "#",
-            icon: Home,
-        },
-        {
-            name: "D&D Miniature Collection",
-            url: "#",
-            icon: Users,
-        },
-        {
-            name: "Custom Paint Schemes",
-            url: "#",
-            icon: Paintbrush2,
-        },
-    ],
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
@@ -99,7 +77,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             </SidebarHeader>
             <SidebarContent>
                 <NavMain items={data.navMain} />
-                <NavProjects projects={data.projects} />
+                <NavProjects />
             </SidebarContent>
             <SidebarFooter>
                 {!isLoading ? (

@@ -1,10 +1,8 @@
 import React from 'react'
-import { auth } from "@/auth"
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 const ProjectsPage = async () => {
-    const session = await auth()
 
     return (
         <main>
