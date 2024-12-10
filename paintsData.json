@@ -1,0 +1,6218 @@
+[
+    {
+        "Abaddon Black": "Averland Sunset",
+        "Citadel": "Citadel",
+        "#231F20": "#FED71B",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Balthasar Gold",
+        "Citadel": "Citadel",
+        "#231F20": "#B47355",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bugman’s Glow",
+        "Citadel": "Citadel",
+        "#231F20": "#9B5541",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Caledor Sky",
+        "Citadel": "Citadel",
+        "#231F20": "#346E9C",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Castellan Green",
+        "Citadel": "Citadel",
+        "#231F20": "#2B4C2C",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Celestra Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#91A1AC",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Corax White",
+        "Citadel": "Citadel",
+        "#231F20": "#FFFFFF",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Death Guard Green",
+        "Citadel": "Citadel",
+        "#231F20": "#849A6E",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dryad Bark",
+        "Citadel": "Citadel",
+        "#231F20": "#54392D",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Incubi Darkness",
+        "Citadel": "Citadel",
+        "#231F20": "#1A4042",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Iron Warriors",
+        "Citadel": "Citadel",
+        "#231F20": "#454545",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Jokaero Orange",
+        "Citadel": "Citadel",
+        "#231F20": "#FF4D00",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Kantor Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#001B48",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Khorne Red",
+        "Citadel": "Citadel",
+        "#231F20": "#6B0F11",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Leadbelcher",
+        "Citadel": "Citadel",
+        "#231F20": "#888888",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Macragge Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#0F4C81",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mechanicus Standard Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#3E4B4D",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mephiston Red",
+        "Citadel": "Citadel",
+        "#231F20": "#960C0C",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Morghast Bone",
+        "Citadel": "Citadel",
+        "#231F20": "#B9A85B",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Naggaroth Night",
+        "Citadel": "Citadel",
+        "#231F20": "#3C2647",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Rakarth Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#B7B29D",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Retributor Armour",
+        "Citadel": "Citadel",
+        "#231F20": "#B4975A",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Rhinox Hide",
+        "Citadel": "Citadel",
+        "#231F20": "#4A332F",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Screaming Bell",
+        "Citadel": "Citadel",
+        "#231F20": "#B43A2D",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Screamer Pink",
+        "Citadel": "Citadel",
+        "#231F20": "#821034",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Steel Legion Drab",
+        "Citadel": "Citadel",
+        "#231F20": "#6B5B3D",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Stegadon Scale Green",
+        "Citadel": "Citadel",
+        "#231F20": "#064650",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "The Fang",
+        "Citadel": "Citadel",
+        "#231F20": "#436176",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Thousand Sons Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#01A2C7",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Waaagh! Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#1A441E",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "XV88",
+        "Citadel": "Citadel",
+        "#231F20": "#6C4715",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Zandri Dust",
+        "Citadel": "Citadel",
+        "#231F20": "#988F6C",
+        "Base": "Base",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Administratum Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#959DA0",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ahriman Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#019FBD",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Alaitoc Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#2B6491",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Altdorf Guard Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#1F5B9E",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Arhkan Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#6C7174",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Auric Armour Gold",
+        "Citadel": "Citadel",
+        "#231F20": "#DBA639",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Baharroth Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#53C8DE",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Balor Brown",
+        "Citadel": "Citadel",
+        "#231F20": "#954F21",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bestigor Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#D47D62",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cadian Fleshtone",
+        "Citadel": "Citadel",
+        "#231F20": "#D9A76A",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Calgar Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#2B548C",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dawnstone",
+        "Citadel": "Citadel",
+        "#231F20": "#697068",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Deathclaw Brown",
+        "Citadel": "Citadel",
+        "#231F20": "#C66A4E",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dryad Bark",
+        "Citadel": "Citadel",
+        "#231F20": "#3E3126",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Elysian Green",
+        "Citadel": "Citadel",
+        "#231F20": "#78934D",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Emperor's Children Pink",
+        "Citadel": "Citadel",
+        "#231F20": "#D85998",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Eshin Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#4B4E51",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Evil Sunz Scarlet",
+        "Citadel": "Citadel",
+        "#231F20": "#FF4D4D",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fenrisian Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#729EB8",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fire Dragon Bright",
+        "Citadel": "Citadel",
+        "#231F20": "#FF6200",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Flash Gitz Yellow",
+        "Citadel": "Citadel",
+        "#231F20": "#FFF700",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fulgurite Copper",
+        "Citadel": "Citadel",
+        "#231F20": "#B96F49",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gal Vorbak Red",
+        "Citadel": "Citadel",
+        "#231F20": "#640311",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Genestealer Purple",
+        "Citadel": "Citadel",
+        "#231F20": "#7453A5",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hashut Copper",
+        "Citadel": "Citadel",
+        "#231F20": "#B96F49",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hoeth Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#4B7BE5",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ice Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#5CB4E5",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ironbreaker",
+        "Citadel": "Citadel",
+        "#231F20": "#999999",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Kabalite Green",
+        "Citadel": "Citadel",
+        "#231F20": "#008068",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Kislev Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#D9B39C",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Lothern Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#2B9DDE",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mournfang Brown",
+        "Citadel": "Citadel",
+        "#231F20": "#8B3F24",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ogryn Camo",
+        "Citadel": "Citadel",
+        "#231F20": "#99AC5D",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pallid Wych Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#DBDAC0",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pink Horror",
+        "Citadel": "Citadel",
+        "#231F20": "#A54A76",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ratskin Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#B36A50",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Runefang Steel",
+        "Citadel": "Citadel",
+        "#231F20": "#C0C0C0",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Screaming Skull",
+        "Citadel": "Citadel",
+        "#231F20": "#DBD5C5",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Skarsnik Green",
+        "Citadel": "Citadel",
+        "#231F20": "#72A88B",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Skrag Brown",
+        "Citadel": "Citadel",
+        "#231F20": "#9B4A1E",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Skullcrusher Brass",
+        "Citadel": "Citadel",
+        "#231F20": "#B96F49",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Soot Black",
+        "Citadel": "Citadel",
+        "#231F20": "#1A1A1A",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Squig Orange",
+        "Citadel": "Citadel",
+        "#231F20": "#FF4415",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Stormhost Silver",
+        "Citadel": "Citadel",
+        "#231F20": "#E6E6E6",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sybarite Green",
+        "Citadel": "Citadel",
+        "#231F20": "#25A56B",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tallarn Sand",
+        "Citadel": "Citadel",
+        "#231F20": "#B69760",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tau Light Ochre",
+        "Citadel": "Citadel",
+        "#231F20": "#C88C31",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Temple Guard Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#1B8C95",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Thunderhawk Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#375865",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Troll Slayer Orange",
+        "Citadel": "Citadel",
+        "#231F20": "#FF5416",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tuskgor Fur",
+        "Citadel": "Citadel",
+        "#231F20": "#863A2F",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ungor Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#C37B55",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ushabti Bone",
+        "Citadel": "Citadel",
+        "#231F20": "#BBB599",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Wazdakka Red",
+        "Citadel": "Citadel",
+        "#231F20": "#880012",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "White Scar",
+        "Citadel": "Citadel",
+        "#231F20": "#FFFFFF",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Word Bearers Red",
+        "Citadel": "Citadel",
+        "#231F20": "#640311",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Xereus Purple",
+        "Citadel": "Citadel",
+        "#231F20": "#4B2B5C",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yriel Yellow",
+        "Citadel": "Citadel",
+        "#231F20": "#FFF200",
+        "Base": "Layer",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Agrax Earthshade",
+        "Citadel": "Citadel",
+        "#231F20": "#50443C",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Athonian Camoshade",
+        "Citadel": "Citadel",
+        "#231F20": "#4B5444",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Biel-Tan Green",
+        "Citadel": "Citadel",
+        "#231F20": "#1A4D40",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Carroburg Crimson",
+        "Citadel": "Citadel",
+        "#231F20": "#940D36",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Coelia Greenshade",
+        "Citadel": "Citadel",
+        "#231F20": "#1E4D4C",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Drakenhof Nightshade",
+        "Citadel": "Citadel",
+        "#231F20": "#243C5A",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Druchii Violet",
+        "Citadel": "Citadel",
+        "#231F20": "#4A2A4A",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fuegan Orange",
+        "Citadel": "Citadel",
+        "#231F20": "#AF3D0E",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Nuln Oil",
+        "Citadel": "Citadel",
+        "#231F20": "#1A1A1A",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Reikland Fleshshade",
+        "Citadel": "Citadel",
+        "#231F20": "#AF6D4C",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Seraphim Sepia",
+        "Citadel": "Citadel",
+        "#231F20": "#B88D4A",
+        "Base": "Shade",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Astorath Red",
+        "Citadel": "Citadel",
+        "#231F20": "#9E1519",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Changeling Pink",
+        "Citadel": "Citadel",
+        "#231F20": "#FF99CC",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Chronus Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#4B7BE5",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dawnstone",
+        "Citadel": "Citadel",
+        "#231F20": "#697068",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Eldar Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#E8C59F",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Etherium Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#90C5DE",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hellion Green",
+        "Citadel": "Citadel",
+        "#231F20": "#00CC66",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hoeth Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#4B7BE5",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Imrik Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#2B9DDE",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Longbeard Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#B8C1C8",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Lucius Lilac",
+        "Citadel": "Citadel",
+        "#231F20": "#9966CC",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Necron Compound",
+        "Citadel": "Citadel",
+        "#231F20": "#888888",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Praxeti White",
+        "Citadel": "Citadel",
+        "#231F20": "#FFFFFF",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ryza Rust",
+        "Citadel": "Citadel",
+        "#231F20": "#FF4415",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sigmarite",
+        "Citadel": "Citadel",
+        "#231F20": "#DBA639",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Slaanesh Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#7A6C7E",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Stormfang",
+        "Citadel": "Citadel",
+        "#231F20": "#729EB8",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sylvaneth Bark",
+        "Citadel": "Citadel",
+        "#231F20": "#4D3326",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Terminatus Stone",
+        "Citadel": "Citadel",
+        "#231F20": "#C4BFB5",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Thunderhawk Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#375865",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tyrant Skull",
+        "Citadel": "Citadel",
+        "#231F20": "#C4BFB5",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Verminlord Hide",
+        "Citadel": "Citadel",
+        "#231F20": "#4D3326",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Wrack White",
+        "Citadel": "Citadel",
+        "#231F20": "#FFFFFF",
+        "Base": "Dry",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bad Moon Yellow",
+        "Citadel": "Citadel",
+        "#231F20": "#F7EA00",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Imperial Fist",
+        "Citadel": "Citadel",
+        "#231F20": "#E5A12D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ironjawz Yellow",
+        "Citadel": "Citadel",
+        "#231F20": "#F9D33A",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Iyanden Yellow",
+        "Citadel": "Citadel",
+        "#231F20": "#D5C68A",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Nazdreg Yellow",
+        "Citadel": "Citadel",
+        "#231F20": "#B4A700",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Magmadroth Flame",
+        "Citadel": "Citadel",
+        "#231F20": "#FF4F00",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gryph-Hound Orange",
+        "Citadel": "Citadel",
+        "#231F20": "#FF6E27",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Baal Red",
+        "Citadel": "Citadel",
+        "#231F20": "#AE1A31",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Blood Angels Red",
+        "Citadel": "Citadel",
+        "#231F20": "#C30D29",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Flesh Tearers Red",
+        "Citadel": "Citadel",
+        "#231F20": "#C12A2A",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Doomfire Magenta",
+        "Citadel": "Citadel",
+        "#231F20": "#A10F3D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Volupus Pink",
+        "Citadel": "Citadel",
+        "#231F20": "#FF6F9F",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sigvald Burgundy",
+        "Citadel": "Citadel",
+        "#231F20": "#9A1723",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Magos Purple",
+        "Citadel": "Citadel",
+        "#231F20": "#5D3546",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Luxion Purple",
+        "Citadel": "Citadel",
+        "#231F20": "#6D4B93",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Leviathan Purple",
+        "Citadel": "Citadel",
+        "#231F20": "#AA4E8D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Shyish Purple",
+        "Citadel": "Citadel",
+        "#231F20": "#4B2C4C",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pylar Glacier",
+        "Citadel": "Citadel",
+        "#231F20": "#7DDAE6",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Frostheart",
+        "Citadel": "Citadel",
+        "#231F20": "#A7E8E4",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Talassar Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#1E4C78",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Asurmen Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#2E7EB4",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Celestium Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#5DA6DB",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ultramarines Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#005AA3",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Leviadon Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#B0D4EA",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Stormfiend",
+        "Citadel": "Citadel",
+        "#231F20": "#7E9EB8",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Karandras Green",
+        "Citadel": "Citadel",
+        "#231F20": "#4D7A8C",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Striking Scorpion Green",
+        "Citadel": "Citadel",
+        "#231F20": "#3A9A4C",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mantis Warriors Green",
+        "Citadel": "Citadel",
+        "#231F20": "#5EAA5D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Plaguebearer Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#C9B7A4",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gutrippa Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#D8C9A4",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Militarum Green",
+        "Citadel": "Citadel",
+        "#231F20": "#6D7B5D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Creed Camo",
+        "Citadel": "Citadel",
+        "#231F20": "#4D6D4F",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Angels Green",
+        "Citadel": "Citadel",
+        "#231F20": "#3B3C31",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hexwraith Flame",
+        "Citadel": "Citadel",
+        "#231F20": "#6B6D84",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Briar Queen Chill",
+        "Citadel": "Citadel",
+        "#231F20": "#BEC0C6",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Nighthaunt Gloom",
+        "Citadel": "Citadel",
+        "#231F20": "#7B8B92",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gryph-Charger Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#B1B6B4",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Space Wolves Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#7E838E",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Skeleton Horde",
+        "Citadel": "Citadel",
+        "#231F20": "#D6D5D3",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Aggaros Dunes",
+        "Citadel": "Citadel",
+        "#231F20": "#D7B99D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Garaghak's Sewer",
+        "Citadel": "Citadel",
+        "#231F20": "#5B4A3E",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Snakebite Leather",
+        "Citadel": "Citadel",
+        "#231F20": "#D26B40",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gore-Grunta Fur",
+        "Citadel": "Citadel",
+        "#231F20": "#B83D23",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Aethermatic Blue",
+        "Citadel": "Citadel",
+        "#231F20": "#A4D8E1",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Kroxigor Scales",
+        "Citadel": "Citadel",
+        "#231F20": "#A3C7B5",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Akhelian Green",
+        "Citadel": "Citadel",
+        "#231F20": "#2F4B3D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Terradon Turquoise",
+        "Citadel": "Citadel",
+        "#231F20": "#0083B0",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Aeldari Emerald",
+        "Citadel": "Citadel",
+        "#231F20": "#8DAE5E",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ork Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#3C3A31",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Warp Lightning",
+        "Citadel": "Citadel",
+        "#231F20": "#E0E4A7",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ratling Grime",
+        "Citadel": "Citadel",
+        "#231F20": "#3A3B2D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Wyldwood",
+        "Citadel": "Citadel",
+        "#231F20": "#A6B1A6",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cygor Brown",
+        "Citadel": "Citadel",
+        "#231F20": "#5A4E4D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Guilliman Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#D6B9A4",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fyreslayer Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#EFB682",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Darkoath Flesh",
+        "Citadel": "Citadel",
+        "#231F20": "#7A542A",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dreadful Visage",
+        "Citadel": "Citadel",
+        "#231F20": "#6A484D",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Apothecary White",
+        "Citadel": "Citadel",
+        "#231F20": "#D0D0D0",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Basilicanum Grey",
+        "Citadel": "Citadel",
+        "#231F20": "#A49C91",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Black Templar",
+        "Citadel": "Citadel",
+        "#231F20": "#2E2D2B",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Black Legion",
+        "Citadel": "Citadel",
+        "#231F20": "#1D1D1B",
+        "Base": "Contrast",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Balthasar Gold",
+        "Citadel": "Citadel",
+        "#231F20": "#A08A39",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Canoptek Alloy",
+        "Citadel": "Citadel",
+        "#231F20": "#C0C0C0",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Castellax Bronze",
+        "Citadel": "Citadel",
+        "#231F20": "#CD7F32",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Forgecraft Metal",
+        "Citadel": "Citadel",
+        "#231F20": "#A8A8A8",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Gehenna's Gold",
+        "Citadel": "Citadel",
+        "#231F20": "#FFD700",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Grey Knights Steel",
+        "Citadel": "Citadel",
+        "#231F20": "#B1B6B8",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Iron Hands Steel",
+        "Citadel": "Citadel",
+        "#231F20": "#71797E",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Leadbelcher",
+        "Citadel": "Citadel",
+        "#231F20": "#B6B6B6",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Necron Compound",
+        "Citadel": "Citadel",
+        "#231F20": "#888888",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Retributor Armour",
+        "Citadel": "Citadel",
+        "#231F20": "#C5B54D",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Runelord Brass",
+        "Citadel": "Citadel",
+        "#231F20": "#8B6A3A",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Screaming Bell",
+        "Citadel": "Citadel",
+        "#231F20": "#DA4C2A",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Sycorax Bronze",
+        "Citadel": "Citadel",
+        "#231F20": "#CD7F32",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Warplock Bronze",
+        "Citadel": "Citadel",
+        "#231F20": "#8B8A71",
+        "Base": "Metallic",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Dead White",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFFFFF",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Skull White",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFF5ED",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ghost Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#C6D1D3",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Wolf Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#8FA4B3",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sombre Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#4C5B66",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#014875",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Night Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#003153",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Magic Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#0080FF",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Electric Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#0099FF",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ultramarine Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#1E4B8E",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Royal Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#244B8B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Deep Sky Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#00BFFF",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Turquoise",
+        "Citadel": "Vallejo",
+        "#231F20": "#40E0D0",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Jade Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#00A86B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scorpion Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#3F704D",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sick Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#8DC73F",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Escorpena Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#175732",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Goblin Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#236E2B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#004D26",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scurvy Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#009F6B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Camouflage Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#4B5320",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yellow Olive",
+        "Citadel": "Vallejo",
+        "#231F20": "#C7B446",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bronze Fleshtone",
+        "Citadel": "Vallejo",
+        "#231F20": "#CD853F",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Elf Skintone",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFD39B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dwarf Skin",
+        "Citadel": "Vallejo",
+        "#231F20": "#D39B7C",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Barbarian Flesh",
+        "Citadel": "Vallejo",
+        "#231F20": "#F4C097",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Moon Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFF200",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sun Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFD700",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gold Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFB90F",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scrofulous Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Plague Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#796743",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Beasty Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#754C24",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Charred Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#3B2417",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Earth Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Orange Fire",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF4500",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hot Orange",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF4D00",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bloody Red",
+        "Citadel": "Vallejo",
+        "#231F20": "#B01B1B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gory Red",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B0000",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scarlet Red",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF2400",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Terracotta",
+        "Citadel": "Vallejo",
+        "#231F20": "#E2725B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hexed Lichen",
+        "Citadel": "Vallejo",
+        "#231F20": "#5D3954",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Royal Purple",
+        "Citadel": "Vallejo",
+        "#231F20": "#602F6B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Warlord Purple",
+        "Citadel": "Vallejo",
+        "#231F20": "#4B0082",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Squid Pink",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFB6C1",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Black",
+        "Citadel": "Vallejo",
+        "#231F20": "#000000",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Imperial Purple",
+        "Citadel": "Vallejo",
+        "#231F20": "#4B0082",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Flesh",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tan",
+        "Citadel": "Vallejo",
+        "#231F20": "#D2B48C",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Skintone",
+        "Citadel": "Vallejo",
+        "#231F20": "#F4C097",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Elf Flesh",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFE4C4",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Rosy Flesh",
+        "Citadel": "Vallejo",
+        "#231F20": "#F4C2C2",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Warmgrey",
+        "Citadel": "Vallejo",
+        "#231F20": "#A9A9A9",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Bluegrey",
+        "Citadel": "Vallejo",
+        "#231F20": "#4A6B8A",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#696969",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Charcoal",
+        "Citadel": "Vallejo",
+        "#231F20": "#36454F",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Black Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#1B1B19",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#654321",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Red",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B0000",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Violet",
+        "Citadel": "Vallejo",
+        "#231F20": "#4B0082",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#00008B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#006400",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Ochre",
+        "Citadel": "Vallejo",
+        "#231F20": "#CC7722",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Gold Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#B8860B",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Orange",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF4500",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Witch Purple",
+        "Citadel": "Vallejo",
+        "#231F20": "#660066",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Glistening Blood",
+        "Citadel": "Vallejo",
+        "#231F20": "#800000",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Desert Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#EDC9AF",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Parasite Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Filthy Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Leather Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heavy Sienna",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Khaki",
+        "Citadel": "Vallejo",
+        "#231F20": "#C3B091",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Combat Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#4B5320",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cayman Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#4B5320",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mutation Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#50C878",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Poisonous Cloud",
+        "Citadel": "Vallejo",
+        "#231F20": "#98FF98",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Foul Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#228B22",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Art Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#000080",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Stormy Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#4A6B8A",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Toxic Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#00FF00",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bone White",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFF8DC",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Stonewall Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#808080",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Undead Flesh",
+        "Citadel": "Vallejo",
+        "#231F20": "#E3DCC4",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cold Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#778899",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Wolf Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#8FA4B3",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Magic Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#0067A5",
+        "Base": "Game Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "White",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFFFFF",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ivory",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFFFF0",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Light Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#D3D3D3",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Medium Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#808080",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#404040",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Black Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#1A1A1A",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Black",
+        "Citadel": "Vallejo",
+        "#231F20": "#000000",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pale Sand",
+        "Citadel": "Vallejo",
+        "#231F20": "#EAE0C8",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Desert Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#EDC9AF",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Beige",
+        "Citadel": "Vallejo",
+        "#231F20": "#BFB8A5",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cork Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#AB8F76",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "German Cam. Beige",
+        "Citadel": "Vallejo",
+        "#231F20": "#BDB76B",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Khaki",
+        "Citadel": "Vallejo",
+        "#231F20": "#C3B091",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "US Field Drab",
+        "Citadel": "Vallejo",
+        "#231F20": "#6B4423",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "English Uniform",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B7355",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Brown Sand",
+        "Citadel": "Vallejo",
+        "#231F20": "#997C52",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Flat Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Chocolate Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#5C4033",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mahogany Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#4A2511",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Saddle Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burnt Umber",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yellow Ochre",
+        "Citadel": "Vallejo",
+        "#231F20": "#DAA520",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gold Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFC926",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Deep Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFB200",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Lemon Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFF44F",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B8000",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "German Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#DAA520",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Orange",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFA500",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Clear Orange",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF7F00",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scarlet",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF2400",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Vermillion",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF4D00",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Flat Red",
+        "Citadel": "Vallejo",
+        "#231F20": "#CD0000",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Carmine Red",
+        "Citadel": "Vallejo",
+        "#231F20": "#960018",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hull Red",
+        "Citadel": "Vallejo",
+        "#231F20": "#7C0A02",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "German Red Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Green Sky",
+        "Citadel": "Vallejo",
+        "#231F20": "#00FF7F",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Light Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#90EE90",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Intermediate Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#3CB371",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Medium Olive",
+        "Citadel": "Vallejo",
+        "#231F20": "#808000",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Russian Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#355E3B",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "German Cam. Dark Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#004225",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#006400",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Deep Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#004D40",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Black Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#002D15",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Azure",
+        "Citadel": "Vallejo",
+        "#231F20": "#007FFF",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sky Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#87CEEB",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Medium Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#0000CD",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#00008B",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Prussian Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#003153",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Royal Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#4169E1",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Oxford Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#002147",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Light Sea Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#B0C4DE",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Intermediate Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#4682B4",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Sea Blue",
+        "Citadel": "Vallejo",
+        "#231F20": "#000080",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Olive Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#4D4D3D",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Green Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#4D5645",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Brown Violet",
+        "Citadel": "Vallejo",
+        "#231F20": "#4A4843",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "US Olive Drab",
+        "Citadel": "Vallejo",
+        "#231F20": "#3B3C36",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yellow Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#9BB668",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cam. Olive Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#4B5320",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Reflective Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#008000",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bronze Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#4A5D23",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pastel Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#77DD77",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Light Olive",
+        "Citadel": "Vallejo",
+        "#231F20": "#6B8E23",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yellow Olive",
+        "Citadel": "Vallejo",
+        "#231F20": "#C7B446",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Golden Olive",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B8B2C",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Lime Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#32CD32",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Uniform Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#4B5320",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gunship Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#1A4C1A",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Interior Green",
+        "Citadel": "Vallejo",
+        "#231F20": "#556B2F",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Violet",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B00FF",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Royal Purple",
+        "Citadel": "Vallejo",
+        "#231F20": "#602F6B",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Purple",
+        "Citadel": "Vallejo",
+        "#231F20": "#800080",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Magenta",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF00FF",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burgundy Red",
+        "Citadel": "Vallejo",
+        "#231F20": "#800020",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Red Leather",
+        "Citadel": "Vallejo",
+        "#231F20": "#A52A2A",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cavalry Brown",
+        "Citadel": "Vallejo",
+        "#231F20": "#8B4513",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Smoke",
+        "Citadel": "Vallejo",
+        "#231F20": "#848884",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "German Cam. Orange Ochre",
+        "Citadel": "Vallejo",
+        "#231F20": "#CC7722",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Salmon Rose",
+        "Citadel": "Vallejo",
+        "#231F20": "#FF8C69",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Basic Skintone",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFD39B",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sunny Skintone",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFE4C4",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Light Flesh",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFE4C4",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Medium Fleshtone",
+        "Citadel": "Vallejo",
+        "#231F20": "#F4C097",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Brown Rose",
+        "Citadel": "Vallejo",
+        "#231F20": "#D8A0A6",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tan",
+        "Citadel": "Vallejo",
+        "#231F20": "#D2B48C",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sand",
+        "Citadel": "Vallejo",
+        "#231F20": "#F4A460",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Sand",
+        "Citadel": "Vallejo",
+        "#231F20": "#967117",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Green Ochre",
+        "Citadel": "Vallejo",
+        "#231F20": "#CAAF76",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Buff",
+        "Citadel": "Vallejo",
+        "#231F20": "#F0DC82",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ice Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFF68F",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Deck Tan",
+        "Citadel": "Vallejo",
+        "#231F20": "#E8DCC4",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pale Yellow",
+        "Citadel": "Vallejo",
+        "#231F20": "#FFEF96",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Japanese Uniform WWII",
+        "Citadel": "Vallejo",
+        "#231F20": "#B8860B",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Stone Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#808080",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Basalt Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#4A4A4A",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "London Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#808080",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "German Grey",
+        "Citadel": "Vallejo",
+        "#231F20": "#3D3D3D",
+        "Base": "Model Color",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Arcane Blue",
+        "Citadel": "P3",
+        "#231F20": "#4B7F98",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Battlefield Brown",
+        "Citadel": "P3",
+        "#231F20": "#594539",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Beaten Purple",
+        "Citadel": "P3",
+        "#231F20": "#4A3158",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bloodstone",
+        "Citadel": "P3",
+        "#231F20": "#6E3836",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Coal Black",
+        "Citadel": "P3",
+        "#231F20": "#1F3338",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cryx Bane Base",
+        "Citadel": "P3",
+        "#231F20": "#2B3C35",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cygnar Blue Base",
+        "Citadel": "P3",
+        "#231F20": "#25487C",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cygnar Blue Highlight",
+        "Citadel": "P3",
+        "#231F20": "#3E6AA3",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Exile Blue",
+        "Citadel": "P3",
+        "#231F20": "#375C81",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Frostbite",
+        "Citadel": "P3",
+        "#231F20": "#FFFFFF",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Greatcoat Grey",
+        "Citadel": "P3",
+        "#231F20": "#5B6066",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Gun Corps Brown",
+        "Citadel": "P3",
+        "#231F20": "#8B5C3F",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Heartfire",
+        "Citadel": "P3",
+        "#231F20": "#B90B0B",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Idrian Flesh",
+        "Citadel": "P3",
+        "#231F20": "#D5A787",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ironhull Grey",
+        "Citadel": "P3",
+        "#231F20": "#7A7F83",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Jack Bone",
+        "Citadel": "P3",
+        "#231F20": "#D5C4A1",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Khador Red Base",
+        "Citadel": "P3",
+        "#231F20": "#A32E2B",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Khador Red Highlight",
+        "Citadel": "P3",
+        "#231F20": "#C64642",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Menoth White Base",
+        "Citadel": "P3",
+        "#231F20": "#D6C7A4",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Menoth White Highlight",
+        "Citadel": "P3",
+        "#231F20": "#F0E5C6",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Midlund Flesh",
+        "Citadel": "P3",
+        "#231F20": "#BC8A6A",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Morrow White",
+        "Citadel": "P3",
+        "#231F20": "#FFFFFF",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Murderous Magenta",
+        "Citadel": "P3",
+        "#231F20": "#91216F",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Necrotite Green",
+        "Citadel": "P3",
+        "#231F20": "#497B4D",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ordic Olive",
+        "Citadel": "P3",
+        "#231F20": "#4E563B",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pig Iron",
+        "Citadel": "P3",
+        "#231F20": "#53534F",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Rucksack Tan",
+        "Citadel": "P3",
+        "#231F20": "#897860",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sanguine Base",
+        "Citadel": "P3",
+        "#231F20": "#640C0B",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sanguine Highlight",
+        "Citadel": "P3",
+        "#231F20": "#8B2422",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Skorne Red",
+        "Citadel": "P3",
+        "#231F20": "#B43A36",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sulfuric Yellow",
+        "Citadel": "P3",
+        "#231F20": "#FFF200",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tenebrous Grey",
+        "Citadel": "P3",
+        "#231F20": "#414144",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Thornwood Green",
+        "Citadel": "P3",
+        "#231F20": "#314D36",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Trollblood Base",
+        "Citadel": "P3",
+        "#231F20": "#3D7C9B",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Trollblood Highlight",
+        "Citadel": "P3",
+        "#231F20": "#5599BB",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Umbral Umber",
+        "Citadel": "P3",
+        "#231F20": "#3C3431",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Wintergreen",
+        "Citadel": "P3",
+        "#231F20": "#00A499",
+        "Base": "Standard",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Clay",
+        "Citadel": "Scale75",
+        "#231F20": "#8B4513",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Kobalt Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#0047AB",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Burnt Sienna",
+        "Citadel": "Scale75",
+        "#231F20": "#E97451",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Burnt Umber",
+        "Citadel": "Scale75",
+        "#231F20": "#8A3324",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Cadmium Red",
+        "Citadel": "Scale75",
+        "#231F20": "#E30022",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Cadmium Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FFF600",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Carbon Black",
+        "Citadel": "Scale75",
+        "#231F20": "#130F10",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Cerulean Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#2A52BE",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Indian Red",
+        "Citadel": "Scale75",
+        "#231F20": "#CD5C5C",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Naples Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FADA5E",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Permanent Rose",
+        "Citadel": "Scale75",
+        "#231F20": "#FF33CC",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Raw Sienna",
+        "Citadel": "Scale75",
+        "#231F20": "#D68A59",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Raw Umber",
+        "Citadel": "Scale75",
+        "#231F20": "#826644",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Titanium White",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFFFF",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Ultramarine Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#0437F2",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Viridian Green",
+        "Citadel": "Scale75",
+        "#231F20": "#40826D",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Burnt Sienna",
+        "Citadel": "Scale75",
+        "#231F20": "#E97451",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Burnt Umber",
+        "Citadel": "Scale75",
+        "#231F20": "#8A3324",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Cadmium Red",
+        "Citadel": "Scale75",
+        "#231F20": "#E30022",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Cadmium Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FFF600",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Carbon Black",
+        "Citadel": "Scale75",
+        "#231F20": "#130F10",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Cerulean Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#2A52BE",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Indian Red",
+        "Citadel": "Scale75",
+        "#231F20": "#CD5C5C",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Naples Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FADA5E",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Permanent Rose",
+        "Citadel": "Scale75",
+        "#231F20": "#FF33CC",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Raw Sienna",
+        "Citadel": "Scale75",
+        "#231F20": "#D68A59",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Raw Umber",
+        "Citadel": "Scale75",
+        "#231F20": "#826644",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Titanium White",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFFFF",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Ultramarine Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#0437F2",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Artist Viridian Green",
+        "Citadel": "Scale75",
+        "#231F20": "#40826D",
+        "Base": "Artist",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "African Shadow",
+        "Citadel": "Scale75",
+        "#231F20": "#3E2819",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Aldebaran Red",
+        "Citadel": "Scale75",
+        "#231F20": "#C41E3A",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Arabian Shadow",
+        "Citadel": "Scale75",
+        "#231F20": "#CC9066",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Arctic Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#6CA0C4",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Black",
+        "Citadel": "Scale75",
+        "#231F20": "#000000",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Blood Red",
+        "Citadel": "Scale75",
+        "#231F20": "#AA0114",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Brown Leather",
+        "Citadel": "Scale75",
+        "#231F20": "#8B4513",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burnt Flesh",
+        "Citadel": "Scale75",
+        "#231F20": "#CC7F66",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Caribbean Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#00B2CA",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Caspian Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#007BA7",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Deep Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#000080",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Deep Red",
+        "Citadel": "Scale75",
+        "#231F20": "#800000",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dubai Brown",
+        "Citadel": "Scale75",
+        "#231F20": "#967969",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Eclipse Grey",
+        "Citadel": "Scale75",
+        "#231F20": "#4A4A4A",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fall Green",
+        "Citadel": "Scale75",
+        "#231F20": "#4F7942",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fuchsia",
+        "Citadel": "Scale75",
+        "#231F20": "#FF00FF",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hyperion Purple",
+        "Citadel": "Scale75",
+        "#231F20": "#9370DB",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Lilac",
+        "Citadel": "Scale75",
+        "#231F20": "#C8A2C8",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mars Orange",
+        "Citadel": "Scale75",
+        "#231F20": "#FF4500",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mediterranean Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#1974D2",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Naboo Orange",
+        "Citadel": "Scale75",
+        "#231F20": "#FFA500",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Petroleum Grey",
+        "Citadel": "Scale75",
+        "#231F20": "#2F4F4F",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sunset Purple",
+        "Citadel": "Scale75",
+        "#231F20": "#8B008B",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "White",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFFFF",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Abyssal Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#000033",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Antares Red",
+        "Citadel": "Scale75",
+        "#231F20": "#960018",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bering Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#4F84C4",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Black Forest Green",
+        "Citadel": "Scale75",
+        "#231F20": "#004225",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Boreal Green",
+        "Citadel": "Scale75",
+        "#231F20": "#2E5D4B",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cantabric Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#0047AB",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Elf Green",
+        "Citadel": "Scale75",
+        "#231F20": "#229944",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Indian Shadow",
+        "Citadel": "Scale75",
+        "#231F20": "#CD853F",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Iroko",
+        "Citadel": "Scale75",
+        "#231F20": "#432616",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Light Flesh",
+        "Citadel": "Scale75",
+        "#231F20": "#FFE5B4",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Nacar White",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFAFA",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "New Wood",
+        "Citadel": "Scale75",
+        "#231F20": "#8B4513",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Orc Blood",
+        "Citadel": "Scale75",
+        "#231F20": "#7C0A02",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pale Flesh",
+        "Citadel": "Scale75",
+        "#231F20": "#FFE4C4",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pale Skin",
+        "Citadel": "Scale75",
+        "#231F20": "#FFE4B5",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Rainy Grey",
+        "Citadel": "Scale75",
+        "#231F20": "#708090",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sandalwood",
+        "Citadel": "Scale75",
+        "#231F20": "#8B4513",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Spring Green",
+        "Citadel": "Scale75",
+        "#231F20": "#00FF7F",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Surfer Orc Flesh",
+        "Citadel": "Scale75",
+        "#231F20": "#8FBC8F",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tenere Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FFD700",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tribal Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#4169E1",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Violet",
+        "Citadel": "Scale75",
+        "#231F20": "#8B00FF",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "War Front Green",
+        "Citadel": "Scale75",
+        "#231F20": "#355E3B",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yellow Bone",
+        "Citadel": "Scale75",
+        "#231F20": "#FFF68F",
+        "Base": "Fantasy & Games",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "FX Fluor Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#00FFFF",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Green",
+        "Citadel": "Scale75",
+        "#231F20": "#39FF14",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Orange",
+        "Citadel": "Scale75",
+        "#231F20": "#FF6700",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Pink",
+        "Citadel": "Scale75",
+        "#231F20": "#FF69B4",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Red",
+        "Citadel": "Scale75",
+        "#231F20": "#FF3131",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFF00",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#00FFFF",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Green",
+        "Citadel": "Scale75",
+        "#231F20": "#39FF14",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Orange",
+        "Citadel": "Scale75",
+        "#231F20": "#FF6700",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Pink",
+        "Citadel": "Scale75",
+        "#231F20": "#FF69B4",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Red",
+        "Citadel": "Scale75",
+        "#231F20": "#FF3131",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "FX Fluor Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFF00",
+        "Base": "FX Fluor",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "Inktense Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#0000FF",
+        "Base": "Inktensity",
+        "FALSE": "FALSE",
+        "Matte": "Ink"
+    },
+    {
+        "Abaddon Black": "Inktense Violet",
+        "Citadel": "Scale75",
+        "#231F20": "#9400D3",
+        "Base": "Inktensity",
+        "FALSE": "FALSE",
+        "Matte": "Ink"
+    },
+    {
+        "Abaddon Black": "Inktense Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FFD700",
+        "Base": "Inktensity",
+        "FALSE": "FALSE",
+        "Matte": "Ink"
+    },
+    {
+        "Abaddon Black": "Inktense Black",
+        "Citadel": "Scale75",
+        "#231F20": "#000000",
+        "Base": "Inktensity",
+        "FALSE": "FALSE",
+        "Matte": "Ink"
+    },
+    {
+        "Abaddon Black": "Inktense Green",
+        "Citadel": "Scale75",
+        "#231F20": "#008000",
+        "Base": "Inktensity",
+        "FALSE": "FALSE",
+        "Matte": "Ink"
+    },
+    {
+        "Abaddon Black": "Inktense Red",
+        "Citadel": "Scale75",
+        "#231F20": "#FF0000",
+        "Base": "Inktensity",
+        "FALSE": "FALSE",
+        "Matte": "Ink"
+    },
+    {
+        "Abaddon Black": "Instant Blood",
+        "Citadel": "Scale75",
+        "#231F20": "#8B0000",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Bone",
+        "Citadel": "Scale75",
+        "#231F20": "#E3DAC9",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Brown",
+        "Citadel": "Scale75",
+        "#231F20": "#964B00",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Dirt",
+        "Citadel": "Scale75",
+        "#231F20": "#9B7653",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Leather",
+        "Citadel": "Scale75",
+        "#231F20": "#8B4513",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#C0C0C0",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Mud",
+        "Citadel": "Scale75",
+        "#231F20": "#70543E",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Rust",
+        "Citadel": "Scale75",
+        "#231F20": "#B7410E",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Skin",
+        "Citadel": "Scale75",
+        "#231F20": "#FFE5B4",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Wood",
+        "Citadel": "Scale75",
+        "#231F20": "#DEB887",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Blood",
+        "Citadel": "Scale75",
+        "#231F20": "#8B0000",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Bone",
+        "Citadel": "Scale75",
+        "#231F20": "#E3DAC9",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Brown",
+        "Citadel": "Scale75",
+        "#231F20": "#964B00",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Dirt",
+        "Citadel": "Scale75",
+        "#231F20": "#9B7653",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Leather",
+        "Citadel": "Scale75",
+        "#231F20": "#8B4513",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#C0C0C0",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Mud",
+        "Citadel": "Scale75",
+        "#231F20": "#70543E",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Rust",
+        "Citadel": "Scale75",
+        "#231F20": "#B7410E",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Skin",
+        "Citadel": "Scale75",
+        "#231F20": "#FFE5B4",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Instant Wood",
+        "Citadel": "Scale75",
+        "#231F20": "#DEB887",
+        "Base": "Instant Colors",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Decayed Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#6E7B8B",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Elven Gold",
+        "Citadel": "Scale75",
+        "#231F20": "#CFB53B",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Emerald Alchemy",
+        "Citadel": "Scale75",
+        "#231F20": "#50C878",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Golden Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#FFD700",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Graphene",
+        "Citadel": "Scale75",
+        "#231F20": "#1C1C1C",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Heavy Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#C0C0C0",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Moonstone Alchemy",
+        "Citadel": "Scale75",
+        "#231F20": "#7B68EE",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Necro Gold",
+        "Citadel": "Scale75",
+        "#231F20": "#CFB53B",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Old Copper",
+        "Citadel": "Scale75",
+        "#231F20": "#B87333",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Oro Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#FFD700",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Tesla Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#4169E1",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Trash Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#708090",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Victorian Brass",
+        "Citadel": "Scale75",
+        "#231F20": "#B8860B",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Citrine Alchemy",
+        "Citadel": "Scale75",
+        "#231F20": "#E4D00A",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Dwarven Gold",
+        "Citadel": "Scale75",
+        "#231F20": "#CFB53B",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Graphite",
+        "Citadel": "Scale75",
+        "#231F20": "#383838",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Mecha Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#C0C0C0",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Ruby Alchemy",
+        "Citadel": "Scale75",
+        "#231F20": "#E0115F",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Speed Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#808080",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Thrash Metal",
+        "Citadel": "Scale75",
+        "#231F20": "#4A4A4A",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Viking Gold",
+        "Citadel": "Scale75",
+        "#231F20": "#DAA520",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "White Alchemy",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFFFF",
+        "Base": "Metal & Alchemy",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Scale Black",
+        "Citadel": "Scale75",
+        "#231F20": "#000000",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#0000FF",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Brown",
+        "Citadel": "Scale75",
+        "#231F20": "#964B00",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Green",
+        "Citadel": "Scale75",
+        "#231F20": "#008000",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Grey",
+        "Citadel": "Scale75",
+        "#231F20": "#808080",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Magenta",
+        "Citadel": "Scale75",
+        "#231F20": "#FF00FF",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Orange",
+        "Citadel": "Scale75",
+        "#231F20": "#FFA500",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Pink",
+        "Citadel": "Scale75",
+        "#231F20": "#FFC0CB",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Purple",
+        "Citadel": "Scale75",
+        "#231F20": "#800080",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Red",
+        "Citadel": "Scale75",
+        "#231F20": "#FF0000",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale White",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFFFF",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFF00",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Black",
+        "Citadel": "Scale75",
+        "#231F20": "#000000",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Blue",
+        "Citadel": "Scale75",
+        "#231F20": "#0000FF",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Brown",
+        "Citadel": "Scale75",
+        "#231F20": "#964B00",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Green",
+        "Citadel": "Scale75",
+        "#231F20": "#008000",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Grey",
+        "Citadel": "Scale75",
+        "#231F20": "#808080",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Magenta",
+        "Citadel": "Scale75",
+        "#231F20": "#FF00FF",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Orange",
+        "Citadel": "Scale75",
+        "#231F20": "#FFA500",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Pink",
+        "Citadel": "Scale75",
+        "#231F20": "#FFC0CB",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Purple",
+        "Citadel": "Scale75",
+        "#231F20": "#800080",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Red",
+        "Citadel": "Scale75",
+        "#231F20": "#FF0000",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale White",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFFFF",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scale Yellow",
+        "Citadel": "Scale75",
+        "#231F20": "#FFFF00",
+        "Base": "Scale Artist Colour",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Anthraquinone Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0B1C48",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Benzimidazolone Yellow Light",
+        "Citadel": "Golden",
+        "#231F20": "#FFE075",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burnt Sienna",
+        "Citadel": "Golden",
+        "#231F20": "#E97451",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burnt Umber",
+        "Citadel": "Golden",
+        "#231F20": "#8A3324",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Carbon Black",
+        "Citadel": "Golden",
+        "#231F20": "#000000",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cerulean Blue Chromium",
+        "Citadel": "Golden",
+        "#231F20": "#2A52BE",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cobalt Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0047AB",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cobalt Teal",
+        "Citadel": "Golden",
+        "#231F20": "#0099BC",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Diarylide Yellow",
+        "Citadel": "Golden",
+        "#231F20": "#FFA812",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Green Gold",
+        "Citadel": "Golden",
+        "#231F20": "#8B8B3B",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hansa Yellow Light",
+        "Citadel": "Golden",
+        "#231F20": "#FFF44F",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Hansa Yellow Medium",
+        "Citadel": "Golden",
+        "#231F20": "#FFE87C",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Indian Yellow Hue",
+        "Citadel": "Golden",
+        "#231F20": "#FFB300",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Interference Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0047AB",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Interference Gold",
+        "Citadel": "Golden",
+        "#231F20": "#CFB53B",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Interference Green",
+        "Citadel": "Golden",
+        "#231F20": "#00A550",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Interference Orange",
+        "Citadel": "Golden",
+        "#231F20": "#FF4500",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Interference Red",
+        "Citadel": "Golden",
+        "#231F20": "#DC143C",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Interference Violet",
+        "Citadel": "Golden",
+        "#231F20": "#8B00FF",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Iridescent Bronze",
+        "Citadel": "Golden",
+        "#231F20": "#CD7F32",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Iridescent Gold",
+        "Citadel": "Golden",
+        "#231F20": "#DAA520",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Iridescent Pearl",
+        "Citadel": "Golden",
+        "#231F20": "#E6E6FA",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Iridescent Silver",
+        "Citadel": "Golden",
+        "#231F20": "#C0C0C0",
+        "Base": "Iridescent",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Light Ultramarine Blue",
+        "Citadel": "Golden",
+        "#231F20": "#4166F5",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Manganese Blue Hue",
+        "Citadel": "Golden",
+        "#231F20": "#03A89E",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Naphthol Red Light",
+        "Citadel": "Golden",
+        "#231F20": "#FF4433",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Neutral Gray N5",
+        "Citadel": "Golden",
+        "#231F20": "#808080",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Paynes Gray",
+        "Citadel": "Golden",
+        "#231F20": "#536878",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Phthalo Blue (Green Shade)",
+        "Citadel": "Golden",
+        "#231F20": "#000F89",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Phthalo Green (Blue Shade)",
+        "Citadel": "Golden",
+        "#231F20": "#123524",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Primary Magenta",
+        "Citadel": "Golden",
+        "#231F20": "#FF0090",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Prussian Blue Hue",
+        "Citadel": "Golden",
+        "#231F20": "#003153",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Quinacridone Magenta",
+        "Citadel": "Golden",
+        "#231F20": "#8C366C",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Quinacridone Red",
+        "Citadel": "Golden",
+        "#231F20": "#8E3A59",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Raw Sienna",
+        "Citadel": "Golden",
+        "#231F20": "#D68A59",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Raw Umber",
+        "Citadel": "Golden",
+        "#231F20": "#826644",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Titanium White",
+        "Citadel": "Golden",
+        "#231F20": "#FFFFFF",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Transparent Red Iron Oxide",
+        "Citadel": "Golden",
+        "#231F20": "#853C32",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Transparent"
+    },
+    {
+        "Abaddon Black": "Transparent Yellow Iron Oxide",
+        "Citadel": "Golden",
+        "#231F20": "#CD9B1D",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Transparent"
+    },
+    {
+        "Abaddon Black": "Ultramarine Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0437F2",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Van Dyke Brown",
+        "Citadel": "Golden",
+        "#231F20": "#664228",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yellow Ochre",
+        "Citadel": "Golden",
+        "#231F20": "#CC7722",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Zinc White",
+        "Citadel": "Golden",
+        "#231F20": "#FFFFFB",
+        "Base": "Heavy Body",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Anthraquinone Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0B1C48",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Satin"
+    },
+    {
+        "Abaddon Black": "Burnt Sienna",
+        "Citadel": "Golden",
+        "#231F20": "#E97451",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Satin"
+    },
+    {
+        "Abaddon Black": "Cobalt Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0047AB",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Satin"
+    },
+    {
+        "Abaddon Black": "Dioxazine Purple",
+        "Citadel": "Golden",
+        "#231F20": "#431C53",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Satin"
+    },
+    {
+        "Abaddon Black": "Fluorescent Pink",
+        "Citadel": "Golden",
+        "#231F20": "#FF69B4",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "Fluorescent Yellow",
+        "Citadel": "Golden",
+        "#231F20": "#FFFF00",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Fluorescent"
+    },
+    {
+        "Abaddon Black": "Micaceous Iron Oxide",
+        "Citadel": "Golden",
+        "#231F20": "#4A4244",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Phthalo Green",
+        "Citadel": "Golden",
+        "#231F20": "#123524",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Satin"
+    },
+    {
+        "Abaddon Black": "Quinacridone Violet",
+        "Citadel": "Golden",
+        "#231F20": "#8B008B",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Satin"
+    },
+    {
+        "Abaddon Black": "Titanium White",
+        "Citadel": "Golden",
+        "#231F20": "#FFFFFF",
+        "Base": "Fluid",
+        "FALSE": "FALSE",
+        "Matte": "Satin"
+    },
+    {
+        "Abaddon Black": "Bone Black",
+        "Citadel": "Golden",
+        "#231F20": "#1B1B1B",
+        "Base": "Open",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burnt Umber",
+        "Citadel": "Golden",
+        "#231F20": "#8A3324",
+        "Base": "Open",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cobalt Teal",
+        "Citadel": "Golden",
+        "#231F20": "#0099BC",
+        "Base": "Open",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Green Gold",
+        "Citadel": "Golden",
+        "#231F20": "#8B8B3B",
+        "Base": "Open",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Quinacridone Red",
+        "Citadel": "Golden",
+        "#231F20": "#8E3A59",
+        "Base": "Open",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sap Green",
+        "Citadel": "Golden",
+        "#231F20": "#507D2A",
+        "Base": "Open",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Titanium White",
+        "Citadel": "Golden",
+        "#231F20": "#FFFFFF",
+        "Base": "Open",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yellow Ochre",
+        "Citadel": "Golden",
+        "#231F20": "#CC7722",
+        "Base": "Open",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Carbon Black",
+        "Citadel": "Golden",
+        "#231F20": "#000000",
+        "Base": "High Flow",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Iridescent Gold",
+        "Citadel": "Golden",
+        "#231F20": "#DAA520",
+        "Base": "High Flow",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Phthalo Blue",
+        "Citadel": "Golden",
+        "#231F20": "#000F89",
+        "Base": "High Flow",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Quinacridone Magenta",
+        "Citadel": "Golden",
+        "#231F20": "#8C366C",
+        "Base": "High Flow",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Transparent Raw Sienna",
+        "Citadel": "Golden",
+        "#231F20": "#D68A59",
+        "Base": "High Flow",
+        "FALSE": "FALSE",
+        "Matte": "Transparent"
+    },
+    {
+        "Abaddon Black": "Ultramarine Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0437F2",
+        "Base": "High Flow",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Zinc White",
+        "Citadel": "Golden",
+        "#231F20": "#FFFFFB",
+        "Base": "High Flow",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burnt Sienna",
+        "Citadel": "Golden",
+        "#231F20": "#E97451",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Carbon Black",
+        "Citadel": "Golden",
+        "#231F20": "#000000",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Cobalt Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0047AB",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Emerald Green",
+        "Citadel": "Golden",
+        "#231F20": "#50C878",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ivory Black",
+        "Citadel": "Golden",
+        "#231F20": "#292421",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Magenta",
+        "Citadel": "Golden",
+        "#231F20": "#FF00FF",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mars Yellow",
+        "Citadel": "Golden",
+        "#231F20": "#EFC050",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Neutral Gray 2",
+        "Citadel": "Golden",
+        "#231F20": "#D3D3D3",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Neutral Gray 6",
+        "Citadel": "Golden",
+        "#231F20": "#808080",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Primary Cyan",
+        "Citadel": "Golden",
+        "#231F20": "#00B7EB",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Primary Yellow",
+        "Citadel": "Golden",
+        "#231F20": "#FFEB00",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Red Oxide",
+        "Citadel": "Golden",
+        "#231F20": "#A52A2A",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Titanium White",
+        "Citadel": "Golden",
+        "#231F20": "#FFFFFF",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ultramarine Blue",
+        "Citadel": "Golden",
+        "#231F20": "#0437F2",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Yellow Oxide",
+        "Citadel": "Golden",
+        "#231F20": "#FFBA00",
+        "Base": "SoFlat",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ancient Bronze",
+        "Citadel": "Reaper",
+        "#231F20": "#8B6B3D",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Aged Bone",
+        "Citadel": "Reaper",
+        "#231F20": "#DBD4C1",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ashen Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#4F7CAC",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Blood Red",
+        "Citadel": "Reaper",
+        "#231F20": "#8A0303",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Blade Steel",
+        "Citadel": "Reaper",
+        "#231F20": "#C0C0C0",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Breonne Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#1B4B8A",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burgundy Wine",
+        "Citadel": "Reaper",
+        "#231F20": "#722F37",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Carnage Red",
+        "Citadel": "Reaper",
+        "#231F20": "#BB0A1E",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Coal Black",
+        "Citadel": "Reaper",
+        "#231F20": "#222222",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dragon's Gold",
+        "Citadel": "Reaper",
+        "#231F20": "#E5B94B",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Dwarven Gold",
+        "Citadel": "Reaper",
+        "#231F20": "#CFB53B",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Elf Flesh",
+        "Citadel": "Reaper",
+        "#231F20": "#FFE5C4",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fair Highlight",
+        "Citadel": "Reaper",
+        "#231F20": "#FFF5E1",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fair Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#E8C59A",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Forest Green",
+        "Citadel": "Reaper",
+        "#231F20": "#225522",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Ghoul Skin",
+        "Citadel": "Reaper",
+        "#231F20": "#A8BD91",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Golden Highlight",
+        "Citadel": "Reaper",
+        "#231F20": "#FFE55B",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Golden Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#8B7355",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Honed Steel",
+        "Citadel": "Reaper",
+        "#231F20": "#A8A8A8",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Imperial Purple",
+        "Citadel": "Reaper",
+        "#231F20": "#4B0082",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Lava Orange",
+        "Citadel": "Reaper",
+        "#231F20": "#FF4500",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Leather Brown",
+        "Citadel": "Reaper",
+        "#231F20": "#8B4513",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Muddy Brown",
+        "Citadel": "Reaper",
+        "#231F20": "#654321",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Olive Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#3C341F",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Oiled Leather",
+        "Citadel": "Reaper",
+        "#231F20": "#8B4C39",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pure Black",
+        "Citadel": "Reaper",
+        "#231F20": "#000000",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Pure White",
+        "Citadel": "Reaper",
+        "#231F20": "#FFFFFF",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Rosy Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#CC9999",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Shadowed Steel",
+        "Citadel": "Reaper",
+        "#231F20": "#71797E",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Tanned Highlight",
+        "Citadel": "Reaper",
+        "#231F20": "#D4B894",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tanned Leather",
+        "Citadel": "Reaper",
+        "#231F20": "#855E42",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tanned Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#8B6B3D",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Terran Khaki",
+        "Citadel": "Reaper",
+        "#231F20": "#BDB76B",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "True Silver",
+        "Citadel": "Reaper",
+        "#231F20": "#C0C0C0",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Weathered Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#4A6F8A",
+        "Base": "MSP",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Ancient Bronze",
+        "Citadel": "Reaper",
+        "#231F20": "#8B6B3D",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "HD Blood Red",
+        "Citadel": "Reaper",
+        "#231F20": "#8A0303",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Blue Liner",
+        "Citadel": "Reaper",
+        "#231F20": "#000033",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Bright Gold",
+        "Citadel": "Reaper",
+        "#231F20": "#DAA520",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "HD Bright Silver",
+        "Citadel": "Reaper",
+        "#231F20": "#E6E8FA",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "HD Brown Liner",
+        "Citadel": "Reaper",
+        "#231F20": "#3B2F2F",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Copper",
+        "Citadel": "Reaper",
+        "#231F20": "#B87333",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "HD Core Skills White",
+        "Citadel": "Reaper",
+        "#231F20": "#FFFFFF",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Dragon Black",
+        "Citadel": "Reaper",
+        "#231F20": "#0C0C0C",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Dragon White",
+        "Citadel": "Reaper",
+        "#231F20": "#FAFAFA",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Forest Green",
+        "Citadel": "Reaper",
+        "#231F20": "#225522",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Golden Yellow",
+        "Citadel": "Reaper",
+        "#231F20": "#FFD700",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Grass Green",
+        "Citadel": "Reaper",
+        "#231F20": "#567D46",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Lava Orange",
+        "Citadel": "Reaper",
+        "#231F20": "#FF4500",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Marine Teal",
+        "Citadel": "Reaper",
+        "#231F20": "#008080",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Military Green",
+        "Citadel": "Reaper",
+        "#231F20": "#4B5320",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Monster Maw",
+        "Citadel": "Reaper",
+        "#231F20": "#DA2C43",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Pure Black",
+        "Citadel": "Reaper",
+        "#231F20": "#000000",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Sky Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#87CEEB",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Solid Black",
+        "Citadel": "Reaper",
+        "#231F20": "#0A0A0A",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Sunburn Yellow",
+        "Citadel": "Reaper",
+        "#231F20": "#FFB90F",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "HD Walnut Brown",
+        "Citadel": "Reaper",
+        "#231F20": "#5C4033",
+        "Base": "HD",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Adamantine Black",
+        "Citadel": "Reaper",
+        "#231F20": "#000000",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Amethyst Purple",
+        "Citadel": "Reaper",
+        "#231F20": "#9966CC",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Arctic Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#7CB9E8",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Auburn Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#7B3F00",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Blackened Steel",
+        "Citadel": "Reaper",
+        "#231F20": "#4A4E51",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Blood Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#7C0A02",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Blue Flame",
+        "Citadel": "Reaper",
+        "#231F20": "#4B53BC",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bone Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#CDC5B3",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Brick Red",
+        "Citadel": "Reaper",
+        "#231F20": "#8B2323",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Brilliant Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#0047AB",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Brilliant Green",
+        "Citadel": "Reaper",
+        "#231F20": "#00873E",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Brilliant Red",
+        "Citadel": "Reaper",
+        "#231F20": "#FF2400",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Bronzed Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#967117",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Burgundy Red",
+        "Citadel": "Reaper",
+        "#231F20": "#800020",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Burnished Bronze",
+        "Citadel": "Reaper",
+        "#231F20": "#CD7F32",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Chestnut Brown",
+        "Citadel": "Reaper",
+        "#231F20": "#954535",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Clear Purple",
+        "Citadel": "Reaper",
+        "#231F20": "#BF40BF",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Transparent"
+    },
+    {
+        "Abaddon Black": "Clear Red",
+        "Citadel": "Reaper",
+        "#231F20": "#FF0800",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Transparent"
+    },
+    {
+        "Abaddon Black": "Clear Yellow",
+        "Citadel": "Reaper",
+        "#231F20": "#FFD700",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Transparent"
+    },
+    {
+        "Abaddon Black": "Dark Elf Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#4A0404",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Highlight",
+        "Citadel": "Reaper",
+        "#231F20": "#CD853F",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dark Skin",
+        "Citadel": "Reaper",
+        "#231F20": "#8B4513",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Deep Red",
+        "Citadel": "Reaper",
+        "#231F20": "#800000",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Dusky Skin",
+        "Citadel": "Reaper",
+        "#231F20": "#FAD6A5",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Emerald Green",
+        "Citadel": "Reaper",
+        "#231F20": "#50C878",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Fair Skin",
+        "Citadel": "Reaper",
+        "#231F20": "#FFE5B4",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Frostbite White",
+        "Citadel": "Reaper",
+        "#231F20": "#FFFFFF",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Golden Glow",
+        "Citadel": "Reaper",
+        "#231F20": "#FDD017",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Golden Yellow",
+        "Citadel": "Reaper",
+        "#231F20": "#FFDF00",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Granite Grey",
+        "Citadel": "Reaper",
+        "#231F20": "#676767",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Holiday Green",
+        "Citadel": "Reaper",
+        "#231F20": "#00693E",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Imperial Purple",
+        "Citadel": "Reaper",
+        "#231F20": "#602F6B",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Intense Brown",
+        "Citadel": "Reaper",
+        "#231F20": "#714B23",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Jungle Green",
+        "Citadel": "Reaper",
+        "#231F20": "#29AB87",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Mahogany Brown",
+        "Citadel": "Reaper",
+        "#231F20": "#4A0404",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Marine Teal",
+        "Citadel": "Reaper",
+        "#231F20": "#008080",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Midnight Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#191970",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Military Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#384B77",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Olive Green",
+        "Citadel": "Reaper",
+        "#231F20": "#556B2F",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Palomino Gold",
+        "Citadel": "Reaper",
+        "#231F20": "#CFB53B",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Polished Silver",
+        "Citadel": "Reaper",
+        "#231F20": "#C0C0C0",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Rich Gold",
+        "Citadel": "Reaper",
+        "#231F20": "#DAA520",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Royal Purple",
+        "Citadel": "Reaper",
+        "#231F20": "#7851A9",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sapphire Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#0F52BA",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Scholar Grey",
+        "Citadel": "Reaper",
+        "#231F20": "#808080",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Shadowed Steel",
+        "Citadel": "Reaper",
+        "#231F20": "#71797E",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Spearmint Green",
+        "Citadel": "Reaper",
+        "#231F20": "#64BFB4",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Stormy Grey",
+        "Citadel": "Reaper",
+        "#231F20": "#4F666A",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Sunlight Yellow",
+        "Citadel": "Reaper",
+        "#231F20": "#FFD700",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Tanned Flesh",
+        "Citadel": "Reaper",
+        "#231F20": "#FFA07A",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Templar Blue",
+        "Citadel": "Reaper",
+        "#231F20": "#004B8D",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "True Copper",
+        "Citadel": "Reaper",
+        "#231F20": "#B87333",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Metallic"
+    },
+    {
+        "Abaddon Black": "Verdant Green",
+        "Citadel": "Reaper",
+        "#231F20": "#138808",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Violet Shadow",
+        "Citadel": "Reaper",
+        "#231F20": "#4C2882",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    },
+    {
+        "Abaddon Black": "Warm Grey",
+        "Citadel": "Reaper",
+        "#231F20": "#808A87",
+        "Base": "Master",
+        "FALSE": "FALSE",
+        "Matte": "Matte"
+    }
+]

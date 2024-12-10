@@ -14,7 +14,7 @@ datasource db {
 }
 
 model Paint {
-  id           Int              @id @default(autoincrement())
+  id           String           @id @default(cuid())
   name         String
   brand        String
   hexCode      String
@@ -68,7 +68,7 @@ model Project {
 model PaintOnProject {
   id        String  @id @default(cuid())
   projectId String
-  paintId   Int
+  paintId   String
   project   Project @relation(fields: [projectId], references: [id])
   paint     Paint   @relation(fields: [paintId], references: [id])
 }
@@ -77,7 +77,7 @@ model PaintOnProject {
 model UserPaint {
   id       String @id @default(cuid())
   userId   String
-  paintId  Int
+  paintId  String
   user     User   @relation(fields: [userId], references: [id])
   paint    Paint  @relation(fields: [paintId], references: [id])
   quantity Int    @default(1) // Antal burkar av färgen
@@ -87,7 +87,7 @@ model UserPaint {
 model WishlistPaint {
   id      String @id @default(cuid())
   userId  String
-  paintId Int
+  paintId String
   user    User   @relation(fields: [userId], references: [id])
   paint   Paint  @relation(fields: [paintId], references: [id])
 }
