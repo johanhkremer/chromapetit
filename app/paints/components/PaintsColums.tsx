@@ -131,7 +131,6 @@ export const paintColumns: ColumnDef<Paint>[] = [
         id: "actions",
         header: "Find similar paints",
         cell: ({ row, table }) => {
-            // Assuming the table context contains all paints
             const allPaints = table.getCoreRowModel().rows.map(r => r.original);
 
             return (

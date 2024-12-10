@@ -4,32 +4,41 @@ interface ColorCircleProps {
     hexCode: string;
     size?: 'sm' | 'md' | 'lg' | 'xl';
     finish?: string;
-    type?: string
+    type?: string;
 }
 
 const ColorCircle: React.FC<ColorCircleProps> = ({
     hexCode,
     size = 'md',
-    finish = null,
-    type = null
+    finish,
+    type
 }) => {
     const sizeClasses = {
         sm: 'w-8 h-8',
         md: 'w-12 h-12',
         lg: 'w-16 h-16',
         xl: 'w-24 h-24'
-    }
+    };
 
     const isMetallic = finish === 'Metallic';
     const isShade = type === 'Shade';
 
+    const isValidHex = /^#[0-9A-F]{6}$/i.test(hexCode);
+
+    if (!isValidHex) {
+        console.warn(`Invalid hexCode: ${hexCode}`);
+        hexCode = '#FFFFFF';
+    }
+
     return (
         <div
+            role="img"
+            aria-label={`Color swatch with ${finish || 'default'} finish and type ${type || 'default'}`}
             className={`
                 ${sizeClasses[size]} 
                 rounded-full 
                 border 
-                border-gray-200
+                ${isMetallic || isShade ? 'border-gray-300' : 'border-gray-200'}
             `}
             style={
                 isMetallic
@@ -39,12 +48,12 @@ const ColorCircle: React.FC<ColorCircleProps> = ({
                     }
                     : isShade
                         ? {
-                            backgroundImage: `linear-gradient(to bottom, ${hexCode}, #d3d3d3)`, // HexCode överst, ljusgrå längst ner
+                            backgroundImage: `linear-gradient(to bottom, ${hexCode}, #d3d3d3)`,
                         }
                         : { backgroundColor: hexCode }
             }
         />
     );
-}
+};
 
 export default ColorCircle;

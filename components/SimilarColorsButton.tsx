@@ -71,14 +71,16 @@ export const SimilarColorsButton: React.FC<SimilarColorsButtonProps> = ({ paint,
                         <span className='text-base font-light'>Similar Colors to</span>
                         <span className='text-lg'>{paint.name}</span>
                     </DialogTitle>
-                    <DialogDescription className='flex flex-col items-center'>
+                    <div className='flex flex-col items-center'>
                         <ColorCircle
                             hexCode={paint.hexCode}
                             size="sm"
                             finish={paint.finish}
                             type={paint.type}
                         />
-                        <p>{paint.brand}</p>
+                    </div>
+                    <DialogDescription className='flex flex-col items-center'>
+                        {paint.brand}
                     </DialogDescription>
                 </DialogHeader>
                 <div className="grid grid-cols-3 gap-4">
