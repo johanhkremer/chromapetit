@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed-colors": "ts-node scripts/seed.ts",
-    "update-colors": "ts-node scripts/updateColorsWithRgb.ts"
+    "update-colors": "ts-node scripts/updateColorsWithRgb.ts",
+    "db:seed": "prisma db seed"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.4",
@@ -25,6 +25,7 @@
     "@radix-ui/react-switch": "^1.1.1",
     "@radix-ui/react-tooltip": "^1.1.4",
     "@tanstack/react-table": "^8.20.5",
+    "@tsconfig/node20": "^20.1.4",
     "@types/lodash": "^4.17.13",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -51,5 +52,8 @@
     "prisma": "^6.0.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.7.2"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
