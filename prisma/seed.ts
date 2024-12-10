@@ -19,7 +19,7 @@ async function main() {
         });
     }
 
-    console.log('Färger har lagts till!');
+    console.log('Colors have been added!');
 }
 
 main()

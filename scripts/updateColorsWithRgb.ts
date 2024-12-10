@@ -1,11 +1,8 @@
-// /scripts/updateColorsWithRgb.ts
-
 import { PrismaClient } from "@prisma/client";
 
-// Initiera Prisma Client
 const prisma = new PrismaClient();
 
-// Funktion för att konvertera HEX till RGB
+// Funktion for converting HEX to RGB
 function hexToRgb(hex: string): { red: number; green: number; blue: number } {
     const parsedHex = hex.startsWith("#") ? hex.slice(1) : hex;
     const bigint = parseInt(parsedHex, 16);
@@ -20,10 +17,10 @@ function hexToRgb(hex: string): { red: number; green: number; blue: number } {
 async function updateColorsWithRgb() {
     console.log("Starting the update process...");
 
-    // Hämta alla färger från databasen
+    // Get all colors from DB
     const colors = await prisma.paint.findMany();
 
-    // Gå igenom alla färger och uppdatera med RGB-värden
+    // Go through all colors and update with RGB if HEX-coda available
     for (const color of colors) {
         if (!color.hexCode) {
             console.warn(`Color with ID ${color.id} has no hexCode, skipping.`);
@@ -48,7 +45,6 @@ async function updateColorsWithRgb() {
     await prisma.$disconnect();
 }
 
-// Kör scriptet
 updateColorsWithRgb().catch((error) => {
     console.error("An error occurred:", error);
     prisma.$disconnect();
