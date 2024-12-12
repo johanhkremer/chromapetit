@@ -1,17 +1,19 @@
-import { NextRequest, NextResponse } from "next/server";
+import { getToken } from "next-auth/jwt"
+import { NextRequest, NextResponse } from "next/server"
 
-// En enkel middleware som bara släpper igenom alla begärningar utan att kolla autentisering
 export async function middleware(req: NextRequest) {
-    const token = req.cookies.get("next-auth.session-token")
+    const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET })
 
-    if (req.nextUrl.pathname === "/projects" && !token) {
-        return NextResponse.redirect(new URL("/auth/login", req.url))
+    if (!token && req.nextUrl.pathname.startsWith("/projects")) {
+        const loginUrl = new URL("/auth/login", req.nextUrl.origin)
+        return NextResponse.redirect(loginUrl)
     }
 
-    return NextResponse.next(); // Släpper igenom alla förfrågningar
+    return NextResponse.next()
 }
 
-// Konfigurera vilka sidor som ska hanteras av middleware
 export const config = {
-    matcher: '/(.*)', // Detta betyder att alla sidor kommer att matchas
-};
+    matcher: [
+        "/projects/:path*",
+    ],
+}

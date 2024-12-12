@@ -20,8 +20,8 @@ export default function RootLayout({
         <SessionProvider>
           <SidebarProvider>
             <AppSidebar />
-            <SidebarTrigger />
-            <main className="pt-3 mx-auto">
+            <main className="all-none w-full h-screen p-0 m-0">
+              <SidebarTrigger />
               {children}
             </main>
           </SidebarProvider>

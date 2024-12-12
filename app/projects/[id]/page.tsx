@@ -1,9 +1,9 @@
 'use client'
 
-import { useParams } from 'next/navigation'; // Importera useParams från next/navigation
+import { useParams } from 'next/navigation';
 
 const ProjectPage = () => {
-    const { id } = useParams(); // Hämta parametern "id" från URL:en
+    const { id } = useParams();
 
     if (!id) {
         return <p>Loading...</p>;

@@ -30,6 +30,7 @@ import { ProjectData } from "@/schemas/CreateProjectSchema"
 
 export function NavProjects() {
     const { data: session } = useSession()
+    console.log(session)
     const { isMobile } = useSidebar()
     const [projects, setProjects] = useState<ProjectData[]>([])
     const [error, setError] = useState<string | null>(null)
@@ -39,6 +40,7 @@ export function NavProjects() {
             try {
                 const res = await fetch(`http://localhost:3000/api/projects`, {
                     cache: "no-cache",
+                    credentials: "include",
                 })
 
                 if (!res.ok) {

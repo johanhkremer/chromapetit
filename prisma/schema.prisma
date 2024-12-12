@@ -13,6 +13,65 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model User {
+  id             String          @id @default(cuid())
+  name           String?
+  username       String?         @unique
+  email          String?         @unique
+  emailVerified  DateTime?
+  password       String?
+  image          String?
+  accounts       Account[]
+  // Optional for WebAuthn support
+  Authenticator  Authenticator[]
+  projects       Project[]
+  ownedPaints    UserPaint[]
+  wishlistPaints WishlistPaint[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+//Account is for third party authentication
+model Account {
+  id                       String  @id @default(cuid())
+  userId                   String  @unique
+  type                     String
+  provider                 String
+  providerAccountId        String
+  refresh_token            String? @db.Text
+  access_token             String? @db.Text
+  expires_at               Int?
+  token_type               String?
+  scope                    String?
+  id_token                 String? @db.Text
+  session_state            String?
+  refresh_token_expires_in Int?
+  user                     User?   @relation(fields: [userId], references: [id])
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime? @updatedAt
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+// Optional for WebAuthn support
+model Authenticator {
+  credentialID         String  @unique
+  userId               String
+  providerAccountId    String
+  credentialPublicKey  String
+  counter              Int
+  credentialDeviceType String
+  credentialBackedUp   Boolean
+  transports           String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, credentialID])
+}
+
 model Paint {
   id           String           @id @default(cuid())
   name         String
@@ -32,23 +91,14 @@ model Paint {
   wishedBy     WishlistPaint[]
 }
 
-model User {
-  id             String          @id @default(cuid())
-  name           String?
-  username       String?         @unique
-  email          String?         @unique
-  emailVerified  DateTime?
-  image          String?
-  accounts       Account[]
-  sessions       Session[]
-  // Optional for WebAuthn support
-  Authenticator  Authenticator[]
-  projects       Project[]
-  ownedPaints    UserPaint[]
-  wishlistPaints WishlistPaint[]
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+/// Model to represent the colors owned by the user
+model UserPaint {
+  id       String @id @default(cuid())
+  userId   String
+  paintId  String
+  user     User   @relation(fields: [userId], references: [id])
+  paint    Paint  @relation(fields: [paintId], references: [id])
+  quantity Int    @default(1) // Antal burkar av färgen
 }
 
 //Users paint projects
@@ -73,16 +123,6 @@ model PaintOnProject {
   paint     Paint   @relation(fields: [paintId], references: [id])
 }
 
-/// Model to represent the colors owned by the user
-model UserPaint {
-  id       String @id @default(cuid())
-  userId   String
-  paintId  String
-  user     User   @relation(fields: [userId], references: [id])
-  paint    Paint  @relation(fields: [paintId], references: [id])
-  quantity Int    @default(1) // Antal burkar av färgen
-}
-
 /// Model for the user's wishlist
 model WishlistPaint {
   id      String @id @default(cuid())
@@ -98,65 +138,4 @@ model ProjectImage {
   project    Project  @relation(fields: [projectId], references: [id])
   imageUrl   String
   uploadedAt DateTime @default(now())
-}
-
-// Next-auth.js https://authjs.dev/getting-started/adapters/prisma
-model Account {
-  id                       String  @id @default(cuid())
-  userId                   String  @unique
-  type                     String
-  provider                 String
-  providerAccountId        String
-  refresh_token            String? @db.Text
-  access_token             String? @db.Text
-  expires_at               Int?
-  token_type               String?
-  scope                    String?
-  id_token                 String? @db.Text
-  session_state            String?
-  refresh_token_expires_in Int?
-  user                     User?   @relation(fields: [userId], references: [id])
-
-  createdAt DateTime  @default(now())
-  updatedAt DateTime? @updatedAt
-
-  @@unique([provider, providerAccountId])
-  @@index([userId])
-}
-
-model Session {
-  id           String   @id @default(cuid())
-  sessionToken String   @unique
-  userId       String
-  expires      DateTime
-  user         User     @relation(fields: [userId], references: [id])
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  @@index([userId])
-}
-
-model VerificationToken {
-  identifier String
-  token      String
-  expires    DateTime
-
-  @@unique([identifier, token])
-}
-
-// Optional for WebAuthn support
-model Authenticator {
-  credentialID         String  @unique
-  userId               String
-  providerAccountId    String
-  credentialPublicKey  String
-  counter              Int
-  credentialDeviceType String
-  credentialBackedUp   Boolean
-  transports           String?
-
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  @@id([userId, credentialID])
 }

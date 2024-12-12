@@ -1,5 +1,6 @@
-import type { NextAuthConfig } from "next-auth"
 import Google from "next-auth/providers/google"
+import Credentails from "next-auth/providers/credentials"
+import type { NextAuthConfig } from "next-auth"
 
 export default {
     providers: [
@@ -12,5 +13,6 @@ export default {
                 },
             },
         }),
+        Credentails({}),
     ],
 } satisfies NextAuthConfig
