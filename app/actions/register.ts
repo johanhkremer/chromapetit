@@ -3,7 +3,7 @@
 import * as z from 'zod'
 import { prisma } from '@/prisma'
 import bcrypt from 'bcrypt'
-import { RegisterSchema } from '@/schemas'
+import { RegisterSchema } from '@/schemas/AuthSchemas'
 
 export const register = async (data: z.infer<typeof RegisterSchema>) => {
     try {

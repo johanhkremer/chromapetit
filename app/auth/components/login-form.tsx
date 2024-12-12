@@ -11,33 +11,32 @@ import {
 } from "@/components/ui/form";
 import CardWrapper from "./card-wrapper";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { RegisterSchema } from "@/schemas";
+import { LoginSchema } from "@/schemas/AuthSchemas";
 import { Input } from "@/components/ui/input";
 import { z } from "zod";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { FormSuccess } from "./form-success";
 import { FormError } from "./form-error";
-import { register } from "@/app/actions/register/register";
+import { login } from "@/app/actions/login";
+import GoogleLogin from "./google-button";
 
-const RegisterForm = () => {
+const LoginForm = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     const [success, setSuccess] = useState("");
 
-    const form = useForm<z.infer<typeof RegisterSchema>>({
-        resolver: zodResolver(RegisterSchema),
+    const form = useForm<z.infer<typeof LoginSchema>>({
+        resolver: zodResolver(LoginSchema),
         defaultValues: {
             email: "",
-            name: "",
             password: "",
-            passwordConfirmation: "",
         },
     });
 
-    const onSubmit = async (data: z.infer<typeof RegisterSchema>) => {
+    const onSubmit = async (data: z.infer<typeof LoginSchema>) => {
         setLoading(true);
-        register(data).then((res) => {
+        login(data).then((res) => {
             if (res.error) {
                 setError(res.error);
                 setLoading(false);
@@ -53,7 +52,7 @@ const RegisterForm = () => {
     return (
         <CardWrapper
             headerLabel="Create an account"
-            title="Register"
+            title="Login"
             backButtonHref="/auth/login"
             backButtonLabel="Already have an account"
             showSocial
@@ -80,19 +79,6 @@ const RegisterForm = () => {
                         />
                         <FormField
                             control={form.control}
-                            name="name"
-                            render={({ field }) => (
-                                <FormItem>
-                                    <FormLabel>Name</FormLabel>
-                                    <FormControl>
-                                        <Input {...field} placeholder="John Doe" />
-                                    </FormControl>
-                                    <FormMessage />
-                                </FormItem>
-                            )}
-                        />
-                        <FormField
-                            control={form.control}
                             name="password"
                             render={({ field }) => (
                                 <FormItem>
@@ -104,30 +90,17 @@ const RegisterForm = () => {
                                 </FormItem>
                             )}
                         />
-                        <FormField
-                            control={form.control}
-                            name="passwordConfirmation"
-                            render={({ field }) => (
-                                <FormItem>
-                                    <FormLabel>Confirm Password</FormLabel>
-                                    <FormControl>
-                                        <Input {...field} placeholder="******" type="password" />
-                                    </FormControl>
-                                    <FormMessage />
-                                </FormItem>
-                            )}
-                        />
                     </div>
                     <FormSuccess message={success} />
                     <FormError message={error} />
                     <Button type="submit" className="w-full" disabled={loading}>
-                        {loading ? "Loading..." : "Register"}
+                        {loading ? "Loading..." : "Login"}
                     </Button>
                 </form>
             </Form>
-            {/* <GoogleLogin /> */}
+            <GoogleLogin />
         </CardWrapper>
     );
 };
 
-export default RegisterForm;
+export default LoginForm;
