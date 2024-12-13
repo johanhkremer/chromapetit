@@ -1,5 +1,5 @@
 import Google from "next-auth/providers/google"
-import Credentails from "next-auth/providers/credentials"
+import Credentials from "next-auth/providers/credentials"
 import type { NextAuthConfig } from "next-auth"
 import { LoginSchema } from "./schemas/AuthSchemas"
 import bcrypt from "bcrypt"
@@ -16,7 +16,7 @@ export default {
                 },
             },
         }),
-        Credentails({
+        Credentials({
             async authorize(credentials) {
                 const validatedData = LoginSchema.safeParse(credentials)
                 if (!validatedData.success) return null
@@ -35,4 +35,18 @@ export default {
             }
         }),
     ],
+    callbacks: {
+        async jwt({ token, user }) {
+            if (user) {
+                token.id = user.id
+            }
+            return token
+        },
+        async session({ session, token }) {
+            if (token.id) {
+                session.user.id = token.id as string
+            }
+            return session
+        },
+    },
 } satisfies NextAuthConfig

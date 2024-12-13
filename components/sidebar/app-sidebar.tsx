@@ -31,12 +31,8 @@ const data = {
             isActive: true,
             items: [
                 {
-                    title: "Find similar paints",
-                    url: "/paints",
-                },
-                {
                     title: "All paints",
-                    url: "/paints/all-paints",
+                    url: "/paints",
                 },
             ],
         },
