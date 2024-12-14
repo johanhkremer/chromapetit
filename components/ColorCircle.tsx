@@ -36,8 +36,9 @@ const ColorCircle: React.FC<ColorCircleProps> = ({
             aria-label={`Color swatch with ${finish || 'default'} finish and type ${type || 'default'}`}
             className={`
                 ${sizeClasses[size]} 
-                rounded-full 
-                border 
+                rounded-full
+                shadow-md
+                border
                 ${isMetallic || isShade ? 'border-gray-300' : 'border-gray-200'}
             `}
             style={
