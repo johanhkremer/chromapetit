@@ -18,7 +18,7 @@ const CreateProjectPage = async () => {
     if (!res.ok) {
         return (
             <div>
-                <h1>Create Project</h1>
+                <h1>All Paints Page</h1>
                 <p>Failed to fetch paints.</p>
             </div>
         );
@@ -30,7 +30,7 @@ const CreateProjectPage = async () => {
 
     return (
         <div className="container mt-7 pr-7 sm:w-4/5 md:w-7/10 lg:w-3/5 xl:w-1/2">
-            <h1 className="text-xl font-bold mb-4">Create Project</h1>
+            <h1>Create Project</h1>
             <CreateProjectForm allPaints={allPaints} />
         </div>
     );

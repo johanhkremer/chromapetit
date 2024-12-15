@@ -10,7 +10,7 @@ export const CreateProjectSchema = z.object({
     paints: z
         .array(z.object({
             paintId: z
-                .number().int()
+                .string()
         })).optional(),
     images: z
         .array(z.object({
@@ -30,15 +30,15 @@ export const ProjectSchema = CreateProjectSchema.extend({
 //Schema for GET project, with id included
 export type ProjectData = z.infer<typeof ProjectSchema>;
 
-export const CreatePaintSchema = z.object({
-    name: z.string().min(1, { message: "Paint name is required" }),
-    brand: z.string().min(1, { message: "Brand is required" }),
-    hexCode: z.string().regex(/^#[0-9A-Fa-f]{6}$/, { message: "Invalid hex color" }),
-    red: z.number().int().min(0).max(255).optional(),
-    green: z.number().int().min(0).max(255).optional(),
-    blue: z.number().int().min(0).max(255).optional(),
-    type: z.string().min(1, { message: "Type is required" }),
-    discontinued: z.boolean().default(false),
-    finish: z.string().optional(),
-    description: z.string().optional(),
+//Schema for Project with paints included
+export const ProjectWithPaintsSchema = ProjectSchema.extend({
+    paints: z.array(z.object({
+        id: z.string(),
+        name: z.string(),
+        hexCode: z.string(),
+        finish: z.string(),
+        type: z.string(),
+    })),
 });
+
+export type ProjectWithPaintsData = z.infer<typeof ProjectWithPaintsSchema>;

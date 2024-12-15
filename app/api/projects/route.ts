@@ -48,11 +48,11 @@ export const POST = async (req: NextRequest) => {
                 name: validation.name,
                 description: validation.description,
                 userId: session?.user?.id || "",
-                // paints: {
-                //     create: validation.paints?.map((paint) => ({
-                //         paintId: paint.paintId,
-                //     })) || [],
-                // },
+                paints: {
+                    create: validation.paints?.map((paint) => ({
+                        paintId: paint.paintId,
+                    })) || [],
+                },
                 // images: {
                 //     create: validation.images?.map((image) => ({
                 //         imageUrl: image.imageUrl,

@@ -7,16 +7,34 @@ export const GET = async (req: Request, { params }: { params: { id: string } }) 
     try {
         const project = await prisma.project.findUnique({
             where: { id: params.id },
+            include: {
+                paints: {
+                    include: {
+                        paint: true,
+                    },
+                },
+            },
         });
 
         if (!project) {
             return NextResponse.json(
-                { error: "Project not found" },
+                { error: 'Project not found' },
                 { status: 404 }
             );
         }
 
-        return NextResponse.json(project);
+        const paints = project.paints.map(paintOnProject => paintOnProject.paint);
+
+        const responseData = {
+            id: project.id,
+            name: project.name,
+            description: project.description,
+            createdAt: project.createdAt,
+            updatedAt: project.updatedAt,
+            paints: paints,
+        };
+
+        return NextResponse.json(responseData);
     } catch (error) {
         console.error(error);
         return NextResponse.json(

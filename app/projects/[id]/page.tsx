@@ -1,18 +1,33 @@
-'use client'
+import Project from './components/project';
 
-import { useParams } from 'next/navigation';
+const ProjectPage = async ({ params }: { params: { id: string } }) => {
 
-const ProjectPage = () => {
-    const { id } = useParams();
+    const { id } = await params;
 
-    if (!id) {
-        return <p>Loading...</p>;
+    const projectData = await fetch(`http://localhost:3000/api/projects/${id}`, {
+        cache: 'no-cache',
+    });
+
+    if (!projectData.ok) {
+        return (
+            <div>
+                <h1>Project Page</h1>
+                <p>Failed to fetch project.</p>
+            </div>
+        );
     }
+
+    const paintData = await fetch(`http://localhost:3000/api/paints`, {
+        cache: 'no-cache',
+    });
+
+    const data = await projectData.json();
 
     return (
         <div>
-            <h1>Project ID: {id}</h1>
+            <Project project={data} />
         </div>
+
     );
 };
 

@@ -8,9 +8,11 @@ import { ArrowUpDown } from "lucide-react"
 
 export const PaintColumnsProject = ({
     handleAddPaint,
+    handleRemovePaint,
     selectedPaints,
 }: {
     handleAddPaint: (paint: Paint) => void;
+    handleRemovePaint: (paintId: string) => void;
     selectedPaints: Paint[];
 }): ColumnDef<Paint>[] => [
         {
@@ -139,14 +141,20 @@ export const PaintColumnsProject = ({
                 const paint = row.original;
                 const isSelected = selectedPaints.some((p) => p.id === paint.id);
 
-                return (
+                return isSelected ? (
+                    <Button
+                        variant="destructive"
+                        onClick={() => handleRemovePaint(paint.id)}
+                    >
+                        Remove
+                    </Button>
+                ) : (
                     <Button
                         onClick={() => handleAddPaint(paint)}
-                        disabled={isSelected} // Inaktivera om redan vald
                     >
-                        {isSelected ? "Added" : "Add"}
+                        Add
                     </Button>
                 );
             },
-        },
+        }
     ];

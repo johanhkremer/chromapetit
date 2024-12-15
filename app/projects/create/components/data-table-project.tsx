@@ -61,21 +61,17 @@ export function DataTableProject<TData, TValue>({
         const handleResize = () => {
             const screenWidth = window.innerWidth;
 
-            // Anpassa kolumnsynligheten baserat på bredd
             setColumnVisibility((prev) => ({
                 ...prev,
-                brand: screenWidth > 640, // Dölj brand vid mindre än 640px
+                brand: screenWidth > 640,
             }));
         };
 
-        // Initial anrop
         handleResize();
 
-        // Lägg till eventlistener för att lyssna på resize
         window.addEventListener("resize", handleResize);
 
         return () => {
-            // Ta bort eventlistener vid unmount
             window.removeEventListener("resize", handleResize);
         };
     }, []);
