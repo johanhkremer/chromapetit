@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 
 type VisibilityState = Record<string, boolean>;
 
-export function useResponsiveColumnVisibility(initialVisibility: VisibilityState) {
+export function useResponsiveColumnVisibility(
+    initialVisibility: VisibilityState,
+) {
     const [columnVisibility, setColumnVisibility] = useState<VisibilityState>(initialVisibility);
 
     useEffect(() => {

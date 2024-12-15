@@ -9,11 +9,19 @@ import { useForm } from "react-hook-form";
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { PaintColumnsProject } from "./PaintsColumsProject";
+import { Paint } from "@/schemas/PaintSchema";
+import { DataTableProject } from "./data-table-project";
 
+interface CreateProjectFormProps {
+    allPaints: Paint[];
+}
 
-
-const CreateProjectForm: React.FC = () => {
+const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
     const router = useRouter()
+
+    const [selectedPaints, setSelectedPaints] = useState<Paint[]>([]);
 
     const {
         register,
@@ -34,7 +42,10 @@ const CreateProjectForm: React.FC = () => {
             const response = await fetch("/api/projects", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(data),
+                body: JSON.stringify({
+                    ...data,
+                    paints: selectedPaints
+                }),
             });
 
             if (!response.ok) {
@@ -46,6 +57,16 @@ const CreateProjectForm: React.FC = () => {
         } catch (error) {
             console.error("Error creating project:", error);
         }
+    };
+
+    const handleAddPaint = (paint: Paint) => {
+        setSelectedPaints((prev) =>
+            prev.some((p) => p.id === paint.id) ? prev : [...prev, paint]
+        );
+    };
+
+    const handleRemovePaint = (paintId: string) => {
+        setSelectedPaints((prev) => prev.filter((p) => p.id !== paintId));
     };
 
     return (
@@ -67,6 +88,36 @@ const CreateProjectForm: React.FC = () => {
                     {...register("description")}
                 />
                 {errors.description && (<p className="text-red-500">{errors.description.message}</p>)}
+            </div>
+
+            {/* Tabell för färger */}
+            <div>
+                <Label>Colors</Label>
+                <DataTableProject
+                    columns={PaintColumnsProject({
+                        handleAddPaint,
+                        selectedPaints,
+                    })}
+                    data={allPaints}
+                />
+            </div>
+
+            {/* Valda färger */}
+            <div>
+                <Label>Selected Colors</Label>
+                <ul>
+                    {selectedPaints.map((paint) => (
+                        <li key={paint.id}>
+                            {paint.name} - {paint.brand}{" "}
+                            <Button
+                                variant="destructive"
+                                onClick={() => handleRemovePaint(paint.id)}
+                            >
+                                Remove
+                            </Button>
+                        </li>
+                    ))}
+                </ul>
             </div>
             <Button type="submit">Submit new project</Button>
         </form>

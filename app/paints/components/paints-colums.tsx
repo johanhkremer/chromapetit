@@ -3,9 +3,9 @@
 import { ColumnDef } from "@tanstack/react-table"
 import ColorCircle from "@/components/ColorCircle"
 import { Button } from "@/components/ui/button"
-import { Paint } from "@/app/types/colors.types"
+import { Paint } from "@/schemas/PaintSchema"
 import { ArrowUpDown } from "lucide-react"
-import SimilarColorsButton from "@/components/SimilarColorsButton"
+import SimilarColorsButton from "@/app/paints/components/similar-colors-button"
 
 export const paintColumns: ColumnDef<Paint>[] = [
     {
@@ -40,7 +40,7 @@ export const paintColumns: ColumnDef<Paint>[] = [
             return (
                 <span>({red}, {green}, {blue})</span>
             );
-        }
+        },
     },
     {
         accessorKey: "name",

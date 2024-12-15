@@ -1,7 +1,7 @@
-import { Paint } from '@/app/types/colors.types';
+import { Paint } from '@/schemas/PaintSchema';
 import React from 'react'
-import { paintColumns } from './components/PaintsColums'
-import { DataTable } from '@/components/DataTable';
+import { paintColumns } from './components/paints-colums'
+import { DataTable } from '@/app/paints/components/data-table-paints';
 
 interface PaintResponse {
     paints: Paint[];

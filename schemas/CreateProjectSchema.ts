@@ -42,19 +42,3 @@ export const CreatePaintSchema = z.object({
     finish: z.string().optional(),
     description: z.string().optional(),
 });
-
-// const form = useForm<z.infer<typeof CreatePaintSchema>>({
-//     resolver: zodResolver(CreatePaintSchema),
-//     defaultValues: {
-//       name: "",
-//       brand: "",
-//       hexCode: "#000000",
-//       red: undefined,
-//       green: undefined,
-//       blue: undefined,
-//       type: "",
-//       discontinued: false,
-//       finish: "",
-//       description: "",
-//     },
-//   });

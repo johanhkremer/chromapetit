@@ -8,7 +8,7 @@ import {
     DialogTitle,
     DialogTrigger
 } from "@/components/ui/dialog";
-import { Paint } from "@/app/types/colors.types";
+import { Paint } from '@/schemas/PaintSchema';
 import ColorCircle from "@/components/ColorCircle";
 import { uniqBy } from 'lodash';
 

@@ -4,6 +4,7 @@ import {
     ColumnDef,
     ColumnFiltersState,
     SortingState,
+    VisibilityState,
     flexRender,
     getCoreRowModel,
     getFilteredRowModel,
@@ -30,10 +31,9 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-import { DataTablePagination } from "./DataTablePagination"
-import { useState } from "react"
-import { Button } from "./ui/button"
-import { useResponsiveColumnVisibility } from "@/hooks/useResponsiveColumnVisibility"
+import { DataTablePagination } from "../../../components/DataTablePagination"
+import { useEffect, useState } from "react"
+import { Button } from "../../../components/ui/button"
 
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[]
@@ -46,19 +46,40 @@ export function DataTable<TData, TValue>({
 }: DataTableProps<TData, TValue>) {
     const [sorting, setSorting] = useState<SortingState>([])
     const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([])
-
-    const initialVisibility = {
+    const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({
         hexCode: true,
         rgbValues: false,
         name: true,
         brand: true,
         type: true,
         finish: true,
-        updatedAt: true,
+        updatedAt: false,
         actions: true,
-    };
+    })
 
-    const { columnVisibility, setColumnVisibility } = useResponsiveColumnVisibility(initialVisibility);
+    useEffect(() => {
+        const handleResize = () => {
+            const screenWidth = window.innerWidth;
+
+            // Anpassa kolumnsynligheten baserat på bredd
+            setColumnVisibility((prev) => ({
+                ...prev,
+                brand: screenWidth > 640, // Visa Brand på större skärmar
+                updatedAt: screenWidth > 1024, // Visa UpdatedAt bara på mycket breda skärmar
+            }));
+        };
+
+        // Initial anrop
+        handleResize();
+
+        // Lägg till eventlistener för att lyssna på resize
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            // Ta bort eventlistener vid unmount
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     const table = useReactTable({
         data,
@@ -68,13 +89,13 @@ export function DataTable<TData, TValue>({
         getPaginationRowModel: getPaginationRowModel(),
         getSortedRowModel: getSortedRowModel(),
         onColumnFiltersChange: setColumnFilters,
+        onColumnVisibilityChange: setColumnVisibility,
         getFilteredRowModel: getFilteredRowModel(),
         state: {
             sorting,
             columnFilters,
             columnVisibility,
         },
-        onColumnVisibilityChange: (visibility) => setColumnVisibility(visibility),
     })
 
     return (
