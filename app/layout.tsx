@@ -3,6 +3,7 @@ import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/sidebar/app-sidebar";
 import { SessionProvider } from "next-auth/react"
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,6 +25,7 @@ export default function RootLayout({
             <main className="all-none w-full h-screen p-0 m-0">
               {children}
             </main>
+            <Toaster />
           </SidebarProvider>
         </SessionProvider>
       </body>

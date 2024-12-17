@@ -28,6 +28,7 @@ import Link from "next/link"
 import { useEffect, useState } from "react"
 import { ProjectData } from "@/schemas/CreateProjectSchema"
 import { LogIn, FilePlus } from "lucide-react"
+import LoadSpinner from "../load-spinner"
 
 export function NavProjects() {
     const { isMobile } = useSidebar()
@@ -75,7 +76,7 @@ export function NavProjects() {
                         </Link>
                     </SidebarMenuButton>
                 </SidebarMenuItem>)
-                    : isLoading ? ("Loading")
+                    : isLoading ? (<LoadSpinner />)
                         : error ? (<p className="text-red-500 text-sm">{error}</p>)
                             : (<>
 
@@ -89,7 +90,7 @@ export function NavProjects() {
                                 </SidebarMenuItem>
 
                                 {projects.map((project) => (
-                                    <SidebarMenuItem key={project.name}>
+                                    <SidebarMenuItem key={project.id}>
                                         <SidebarMenuButton asChild>
                                             <a href={`http://localhost:3000/projects/${project.id}`}>
                                                 <span>{project.name}</span>
