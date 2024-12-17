@@ -16,7 +16,7 @@ import { Paint } from "@/schemas/PaintSchema";
 import { DataTableProject } from "./data-table-project";
 import ColorCircle from "@/components/ColorCircle";
 import { useServerAction } from "zsa-react";
-import { CreateProject } from "@/app/actions/create-project";
+import { CreateProject } from "@/app/actions/projects/createProject";
 import LoadSpinner from "@/components/load-spinner";
 import Toast from "@/components/toast";
 

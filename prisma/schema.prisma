@@ -77,12 +77,12 @@ model Paint {
   name         String
   brand        String
   hexCode      String
-  red          Int?
-  green        Int?
-  blue         Int?
+  red          Int
+  green        Int
+  blue         Int
   type         String
   discontinued Boolean          @default(false)
-  finish       String?
+  finish       String
   description  String?
   createdAt    DateTime         @default(now())
   updatedAt    DateTime         @updatedAt

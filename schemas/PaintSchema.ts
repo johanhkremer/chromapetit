@@ -11,7 +11,7 @@ export const PaintSchema = z.object({
     blue: z.number(),
     type: z.string(),
     discontinued: z.boolean().default(false),
-    finish: z.string().optional(),
+    finish: z.string(),
     description: z.string().nullable(),
     createdAt: z.union([z.string(), z.date()]),
     updatedAt: z.union([z.string(), z.date()]).nullable(),

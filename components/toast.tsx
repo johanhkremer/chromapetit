@@ -9,12 +9,12 @@ interface ToastProps {
     variant?: "success" | "destructive" | "warning" | "default",
 }
 
-const Toast = ({ title, description }: ToastProps) => {
+const Toast = ({ title, description, variant }: ToastProps) => {
     const { toast } = useToast()
 
     useEffect(() => {
         toast({
-            variant: "success",
+            variant,
             title: `${title}`,
             description: `${description}`,
         })

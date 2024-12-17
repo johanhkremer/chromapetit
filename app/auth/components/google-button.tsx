@@ -1,6 +1,6 @@
 'use client'
 
-import { googleAutenticate } from "@/app/actions/google-login"
+import { googleAutenticate } from "@/app/actions/auth/google-login"
 import { Button } from "@/components/ui/button"
 import { useActionState } from "react"
 import { BsGoogle } from "react-icons/bs"

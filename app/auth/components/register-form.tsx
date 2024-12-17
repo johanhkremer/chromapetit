@@ -18,7 +18,7 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { FormSuccess } from "./form-success";
 import { FormError } from "./form-error";
-import { register } from "@/app/actions/register";
+import { register } from "@/app/actions/auth/register";
 import GoogleLogin from "./google-button";
 
 const RegisterForm = () => {

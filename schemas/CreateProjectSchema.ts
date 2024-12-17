@@ -18,7 +18,7 @@ export const CreateProjectSchema = z.object({
             blue: z.number(),
             discontinued: z.boolean(),
             createdAt: z.union([z.string(), z.date()]),
-            updatedAt: z.union([z.string(), z.date(), z.null()]),
+            updatedAt: z.union([z.string(), z.date()]).nullable(),
             type: z.string(),
             finish: z.string().optional(),
         }))
@@ -35,7 +35,7 @@ export const CreateProjectSchema = z.object({
 export type CreateProjectData = z.infer<typeof CreateProjectSchema>;
 
 export const ProjectSchema = CreateProjectSchema.extend({
-    id: z.number().int(),
+    id: z.string(),
 });
 
 //Schema for GET project, with id included
