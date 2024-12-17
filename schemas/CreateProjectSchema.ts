@@ -9,9 +9,20 @@ export const CreateProjectSchema = z.object({
         .optional(),
     paints: z
         .array(z.object({
-            paintId: z
-                .string()
-        })).optional(),
+            id: z.string(),
+            name: z.string(),
+            brand: z.string(),
+            hexCode: z.string(),
+            red: z.number(),
+            green: z.number(),
+            blue: z.number(),
+            discontinued: z.boolean(),
+            createdAt: z.union([z.string(), z.date()]),
+            updatedAt: z.union([z.string(), z.date(), z.null()]),
+            type: z.string(),
+            finish: z.string().optional(),
+        }))
+        .optional(),
     images: z
         .array(z.object({
             imageUrl: z

@@ -10,52 +10,23 @@ import { useForm } from "react-hook-form";
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { FormEvent, useActionState, useState } from "react";
 import { PaintColumnsProject } from "./PaintsColumsProject";
 import { Paint } from "@/schemas/PaintSchema";
 import { DataTableProject } from "./data-table-project";
 import ColorCircle from "@/components/ColorCircle";
+import { useServerAction } from "zsa-react";
+import { CreateProject } from "@/app/actions/create-project";
 
 interface CreateProjectFormProps {
     allPaints: Paint[];
 }
 
 const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
+    const { isPending, execute, data, reset } = useServerAction(CreateProject);
     const router = useRouter()
 
     const [selectedPaints, setSelectedPaints] = useState<Paint[]>([]);
-
-    const form = useForm<z.infer<typeof CreateProjectSchema>>({
-        resolver: zodResolver(CreateProjectSchema),
-        defaultValues: {
-            name: "",
-            description: undefined,
-            paints: [],
-            images: [],
-        },
-    });
-
-    const handleFormSubmit = async (data: CreateProjectData) => {
-        try {
-            const response = await fetch("/api/projects", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                    ...data,
-                    paints: selectedPaints.map((paint) => ({ paintId: paint.id })),
-                }),
-            });
-
-            if (!response.ok) {
-                throw new Error("Failed to create project");
-            }
-
-            console.log("Project created successfully!");
-            router.push("/projects");
-        } catch (error) {
-            console.error("Error creating project:", error);
-        }
-    };
 
     const handleAddPaint = (paint: Paint) => {
         setSelectedPaints((prev) =>
@@ -67,11 +38,48 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
         setSelectedPaints((prev) => prev.filter((p) => p.id !== paintId));
     };
 
+    // Initialize the form using `useForm`
+    const form = useForm<CreateProjectData>({
+        resolver: zodResolver(CreateProjectSchema),
+        defaultValues: {
+            name: "",
+            description: "",
+            paints: [],
+        },
+    });
+
+    const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
+        const formData = new FormData(e.target as HTMLFormElement);
+        const name = formData.get("name") as string;
+        const description = formData.get("description") as string;
+        const paints = JSON.parse(formData.get("paints") as string) as Paint[];
+
+        if (!name || !description || !paints) {
+            return;
+        }
+
+        const [data, error] = await execute({
+            name,
+            description,
+            paints,
+        });
+
+        if (error) {
+            console.error(error);
+        } else if (data) {
+            reset();
+            console.log(data);
+            router.push("/projects");
+        }
+    }
+
+
     return (
         <Form {...form}>
-            <form onSubmit={form.handleSubmit(handleFormSubmit)} className="space-y-6">
+            <form onSubmit={onSubmit} className="space-y-6">
                 <FormField
-                    control={form.control}
                     name="name"
                     render={({ field }) => (
                         <FormItem>
@@ -88,7 +96,6 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
                     )}
                 />
                 <FormField
-                    control={form.control}
                     name="description"
                     render={({ field }) => (
                         <FormItem>
@@ -105,7 +112,6 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
                     )}
                 />
                 <FormField
-                    control={form.control}
                     name="paints"
                     render={() => (
                         <FormItem>
@@ -142,6 +148,7 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
                         </FormItem>
                     )}
                 />
+                <input type="hidden" name="paints" value={JSON.stringify(selectedPaints)} />
                 <Button type="submit">Submit new project</Button>
             </form>
         </Form>

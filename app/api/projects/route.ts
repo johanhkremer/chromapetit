@@ -29,47 +29,47 @@ export const GET = async () => {
 };
 
 //Create a new project on current user
-export const POST = async (req: NextRequest) => {
-    const session = await auth();
+// export const POST = async (req: NextRequest) => {
+//     const session = await auth();
 
-    if (!session || !session.user || !session.user.id) {
-        return NextResponse.json(
-            { error: "User not authenticated" },
-            { status: 401 }
-        );
-    }
+//     if (!session || !session.user || !session.user.id) {
+//         return NextResponse.json(
+//             { error: "User not authenticated" },
+//             { status: 401 }
+//         );
+//     }
 
-    try {
-        const body = await req.json();
-        const validation = CreateProjectSchema.parse(body);
+//     try {
+//         const body = await req.json();
+//         const validation = CreateProjectSchema.parse(body);
 
-        const project = await prisma.project.create({
-            data: {
-                name: validation.name,
-                description: validation.description,
-                userId: session?.user?.id || "",
-                paints: {
-                    create: validation.paints?.map((paint) => ({
-                        paintId: paint.paintId,
-                    })) || [],
-                },
-                // images: {
-                //     create: validation.images?.map((image) => ({
-                //         imageUrl: image.imageUrl,
-                //     })) || [],
-                // },
-            },
-        });
+//         const project = await prisma.project.create({
+//             data: {
+//                 name: validation.name,
+//                 description: validation.description,
+//                 userId: session?.user?.id || "",
+//                 paints: {
+//                     create: validation.paints?.map((paint) => ({
+//                         paintId: paint.paintId,
+//                     })) || [],
+//                 },
+//                 // images: {
+//                 //     create: validation.images?.map((image) => ({
+//                 //         imageUrl: image.imageUrl,
+//                 //     })) || [],
+//                 // },
+//             },
+//         });
 
-        return NextResponse.json(project, { status: 201 });
-    } catch (error) {
-        if (error instanceof z.ZodError) {
-            return NextResponse.json(
-                { error: "Invalid input", details: error.errors },
-                { status: 400 }
-            );
-        }
+//         return NextResponse.json(project, { status: 201 });
+//     } catch (error) {
+//         if (error instanceof z.ZodError) {
+//             return NextResponse.json(
+//                 { error: "Invalid input", details: error.errors },
+//                 { status: 400 }
+//             );
+//         }
 
-        return NextResponse.json({ error: "Internal server error", details: (error as Error).message }, { status: 500 });
-    }
-};
+//         return NextResponse.json({ error: "Internal server error", details: (error as Error).message }, { status: 500 });
+//     }
+// };
