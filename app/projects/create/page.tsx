@@ -1,15 +1,7 @@
 import React from "react";
 import CreateProjectForm from "./components/CreateProjectForm";
-import { Paint } from '@/schemas/PaintSchema';
 import { getPaints } from "@/app/actions/paints/getPaints";
 import Toast from "@/components/toast";
-
-interface PaintResponse {
-    paints: Paint[];
-    totalPaints: number;
-    pageSize: number;
-    page: number;
-}
 
 const CreateProjectPage = async () => {
     try {

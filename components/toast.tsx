@@ -18,6 +18,8 @@ const Toast = ({ title, description, variant }: ToastProps) => {
             title: `${title}`,
             description: `${description}`,
         })
+        console.log({ variant, title, description })
+
     }, [title, description, toast])
 
     return null

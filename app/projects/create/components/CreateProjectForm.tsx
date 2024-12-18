@@ -1,7 +1,6 @@
 'use client';
 
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "@/components/ui/form";
@@ -10,7 +9,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useRouter } from "next/navigation";
-import { FormEvent, useActionState, useState } from "react";
+import { FormEvent, useState } from "react";
 import { PaintColumnsProject } from "./PaintsColumsProject";
 import { Paint } from "@/schemas/PaintSchema";
 import { DataTableProject } from "./data-table-project";
@@ -27,7 +26,6 @@ interface CreateProjectFormProps {
 const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
     const { isPending, execute, data, reset, error, isSuccess } = useServerAction(CreateProject);
     const router = useRouter()
-
     const [selectedPaints, setSelectedPaints] = useState<Paint[]>([]);
 
     const handleAddPaint = (paint: Paint) => {
@@ -82,7 +80,7 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
         ) : error ? (
             <Toast title="Error" description="There was an issue creating the project." />
         ) : isSuccess ? (
-            <Toast title="Success" description="Project created successfully." />
+            <Toast title="Success" description="Project created successfully." variant="success" />
         ) : (
             <Form {...form}>
                 <form onSubmit={onSubmit} className="space-y-6">
