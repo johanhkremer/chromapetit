@@ -1,25 +1,31 @@
+'use server'
+
 import { auth } from "@/auth";
 import { prisma } from "@/prisma";
-import { NextResponse } from "next/server";
 
 const deleteProject = async (projectId: string) => {
-    const session = await auth();
+    const session = await auth()
+
+    console.log("Session data:", session)
 
     if (!session || !session.user || !session.user.id) {
-        return NextResponse.json(
-            { error: "Not authenticated" },
-            { status: 401 });
+        return { success: false, error: "Not authenticated", status: 401 }
+    }
+
+    console.log("Deleting project:", projectId)
+
+    if (!projectId) {
+        return { success: false, error: "Invalid project ID", status: 400 }
     }
 
     try {
-        const project = await prisma.project.delete({
+        await prisma.project.delete({
             where: { id: projectId },
-        });
-        return NextResponse.json(project);
-    }
-    catch (error) {
-        console.error(error);
-        return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+        })
+        return { success: true, status: 200 }
+    } catch (error) {
+        console.error("Error deleting project:", error)
+        return { success: false, error: "Internal server error", status: 500 }
     }
 }
 
