@@ -33,6 +33,7 @@ import LoadSpinner from "../load-spinner"
 import deleteProject from "@/app/actions/projects/deleteProject"
 import getProjects from "@/app/actions/projects/getProjects"
 import { Project } from "@prisma/client"
+import AlertDialogProject from "../alert-dialog"
 
 export function NavProjects() {
     const { isMobile } = useSidebar()
@@ -40,6 +41,9 @@ export function NavProjects() {
     const isLoading = status === "loading"
     const [projects, setProjects] = useState<Project[]>([])
     const [error, setError] = useState<string | null>(null)
+    const [isDialogOpen, setIsDialogOpen] = useState(false)
+    const [projectId, setProjectId] = useState<string>("")
+    const [visibleProjects, setVisibleProjects] = useState(5)
 
     useEffect(() => {
         if (session) {
@@ -61,17 +65,14 @@ export function NavProjects() {
             return
         }
 
-        console.log("Deleting project:", projectId)
-
         try {
             const response = await deleteProject(projectId)
-            console.log('⭐️response:', response)
             if (!response.success) {
                 console.error("Delete error:", response.error)
                 setError(response.error || "Failed to delete project")
             } else if (response.success) {
-                console.log("Project deleted successfully")
                 setProjects((prev) => prev.filter((p) => p.id !== projectId))
+                setIsDialogOpen(false)
             }
         } catch (error) {
             console.error("Unexpected error:", error)
@@ -79,88 +80,116 @@ export function NavProjects() {
         }
     }
 
-    return (
-        <SidebarGroup className="group-data-[collapsible=icon]:hidden">
-            <Link href="/projects">
-                <SidebarGroupLabel>Projects</SidebarGroupLabel>
-            </Link>
-            <SidebarMenu>
-                {isLoading ? (
-                    <div className="flex justify-center">
-                        <LoadSpinner />
-                    </div>
-                ) : !session ? (
-                    <SidebarMenuItem>
-                        <SidebarMenuButton asChild className="text-sidebar-foreground/70">
-                            <Link href="/auth/login" className="flex items-center">
-                                <LogIn />
-                                <span>Login to view projects</span>
-                            </Link>
-                        </SidebarMenuButton>
-                    </SidebarMenuItem>
-                ) : error ? (
-                    <p className="text-red-500 text-sm">{error}</p>
-                ) : (
-                    <>
-                        <SidebarMenuItem>
-                            <SidebarMenuButton asChild>
-                                <Link href="/projects/create" className="flex items-center">
-                                    <FilePlus />
-                                    <span>Create new project</span>
-                                </Link>
-                            </SidebarMenuButton>
-                        </SidebarMenuItem>
+    const handleCancel = () => {
+        setIsDialogOpen(false)
+    }
 
-                        {projects.map((project) => (
-                            <SidebarMenuItem key={project.id}>
-                                <SidebarMenuButton asChild>
-                                    <a href={`http://localhost:3000/projects/${project.id}`}>
-                                        <span>{project.name}</span>
-                                    </a>
+    const handleLoadMore = () => {
+        setVisibleProjects((prev) => prev + 5)
+    }
+
+    return (
+        <div>
+            {isDialogOpen ? (
+                <AlertDialogProject
+                    title="Delete Project"
+                    description="Are you sure you want to delete this project?"
+                    onContinue={() => handleDelete(projectId)}
+                    onCancel={handleCancel}
+                    isOpen={isDialogOpen}
+                    setIsDialogOpen={setIsDialogOpen}
+                />
+            ) : !isDialogOpen && (
+                <SidebarGroup className="group-data-[collapsible=icon]:hidden">
+                    <Link href="/projects">
+                        <SidebarGroupLabel>Projects</SidebarGroupLabel>
+                    </Link>
+                    <SidebarMenu>
+                        {isLoading ? (
+                            <div className="flex justify-center">
+                                <LoadSpinner />
+                            </div>
+                        ) : !session ? (
+                            <SidebarMenuItem>
+                                <SidebarMenuButton asChild className="text-sidebar-foreground/70">
+                                    <Link href="/auth/login" className="flex items-center">
+                                        <LogIn />
+                                        <span>Login to view projects</span>
+                                    </Link>
                                 </SidebarMenuButton>
-                                <DropdownMenu>
-                                    <DropdownMenuTrigger asChild>
-                                        <SidebarMenuAction showOnHover>
-                                            <MoreHorizontal />
-                                            <span className="sr-only">More</span>
-                                        </SidebarMenuAction>
-                                    </DropdownMenuTrigger>
-                                    <DropdownMenuContent
-                                        className="w-48 rounded-lg"
-                                        side={isMobile ? "bottom" : "right"}
-                                        align={isMobile ? "end" : "start"}
-                                    >
-                                        <DropdownMenuItem>
-                                            <Folder className="text-muted-foreground" />
-                                            <span>View Project</span>
-                                        </DropdownMenuItem>
-                                        <DropdownMenuItem>
-                                            <Forward className="text-muted-foreground" />
-                                            <span>Share Project</span>
-                                        </DropdownMenuItem>
-                                        <DropdownMenuSeparator />
-                                        <DropdownMenuItem>
-                                            <SidebarMenuSubButton asChild onClick={() => handleDelete(project.id)}>
-                                                <div>
-                                                    <Trash2 className="text-muted-foreground" />
-                                                    <span>Delete Project</span>
-                                                </div>
-                                            </SidebarMenuSubButton>
-                                        </DropdownMenuItem>
-                                    </DropdownMenuContent>
-                                </DropdownMenu>
                             </SidebarMenuItem>
-                        ))}
-                        <SidebarMenuItem>
-                            <SidebarMenuButton className="text-sidebar-foreground/70">
-                                <MoreHorizontal className="text-sidebar-foreground/70" />
-                                <span>More</span>
-                            </SidebarMenuButton>
-                        </SidebarMenuItem>
-                    </>
-                )}
-            </SidebarMenu>
-        </SidebarGroup>
+                        ) : error ? (
+                            <p className="text-red-500 text-sm">{error}</p>
+                        ) : (
+                            <>
+                                <SidebarMenuItem>
+                                    <SidebarMenuButton asChild>
+                                        <Link href="/projects/create" className="flex items-center">
+                                            <FilePlus />
+                                            <span>Create new project</span>
+                                        </Link>
+                                    </SidebarMenuButton>
+                                </SidebarMenuItem>
+                                {projects.slice(0, visibleProjects).map((project) => (
+                                    <SidebarMenuItem key={project.id}>
+                                        <SidebarMenuButton asChild>
+                                            <a href={`http://localhost:3000/projects/${project.id}`}>
+                                                <span>{project.name}</span>
+                                            </a>
+                                        </SidebarMenuButton>
+                                        <DropdownMenu>
+                                            <DropdownMenuTrigger asChild>
+                                                <SidebarMenuAction showOnHover>
+                                                    <MoreHorizontal />
+                                                    <span className="sr-only">More</span>
+                                                </SidebarMenuAction>
+                                            </DropdownMenuTrigger>
+                                            <DropdownMenuContent
+                                                className="w-48 rounded-lg"
+                                                side={isMobile ? "bottom" : "right"}
+                                                align={isMobile ? "end" : "start"}
+                                            >
+                                                <DropdownMenuItem>
+                                                    <Folder className="text-muted-foreground" />
+                                                    <span>View Project</span>
+                                                </DropdownMenuItem>
+                                                <DropdownMenuItem>
+                                                    <Forward className="text-muted-foreground" />
+                                                    <span>Share Project</span>
+                                                </DropdownMenuItem>
+                                                <DropdownMenuSeparator />
+                                                <DropdownMenuItem>
+                                                    <SidebarMenuSubButton asChild onClick={() => {
+                                                        setIsDialogOpen(true)
+                                                        setProjectId(project.id)
+                                                    }}>
+                                                        <div>
+                                                            <Trash2 className="text-muted-foreground" />
+                                                            <span>Delete Project</span>
+                                                        </div>
+                                                    </SidebarMenuSubButton>
+                                                </DropdownMenuItem>
+                                            </DropdownMenuContent>
+                                        </DropdownMenu>
+                                    </SidebarMenuItem>
+                                ))}
+                                {visibleProjects < projects.length && (
+                                    <SidebarMenuItem>
+                                        <SidebarMenuButton
+                                            onClick={handleLoadMore}
+                                            className="text-sidebar-foreground/70 cursor-pointer"
+                                        >
+                                            <MoreHorizontal className="text-sidebar-foreground/70" />
+                                            <span>More</span>
+                                        </SidebarMenuButton>
+                                    </SidebarMenuItem>)}
+                            </>
+                        )}
+                    </SidebarMenu>
+                </SidebarGroup>
+            )
+            }
+        </div>
     )
 }
 
