@@ -3,31 +3,31 @@
 import { auth } from "@/auth";
 import { prisma } from "@/prisma";
 import { CreateProjectSchema } from "@/schemas/CreateProjectSchema";
-import { NextRequest, NextResponse } from "next/server";
-import { z } from "zod";
-import { createServerAction } from "zsa"
+import { createServerAction } from "zsa";
 
-export const CreateProject = createServerAction()
+export const createProject = createServerAction()
     .input(CreateProjectSchema)
     .handler(async (input) => {
+
+        console.log("Creating project", input);
         const session = await auth();
-        console.log(input);
 
         if (!session || !session.user || !session.user.id) {
-            return NextResponse.json(
-                { error: "User not authenticated" },
-                { status: 401 }
-            );
+            return { success: false, message: "User not found" };
         }
+
+        const projectData = input.input;
+
+        console.log(projectData);
 
         try {
             const project = await prisma.project.create({
                 data: {
-                    name: input.input.name,
-                    description: input.input.description,
-                    userId: session?.user?.id || "",
+                    name: projectData.name,
+                    description: projectData.description,
+                    userId: session.user.id,
                     paints: {
-                        create: input.input.paints?.map((paint) => ({
+                        create: projectData.paints?.map((paint) => ({
                             paintId: paint.id,
                         })) || [],
                     },
@@ -40,15 +40,9 @@ export const CreateProject = createServerAction()
             });
 
             console.log(project);
-            return { success: true };
+            return { success: true, message: "Project created successfully!" };
         } catch (error) {
-            if (error instanceof z.ZodError) {
-                return NextResponse.json(
-                    { error: "Invalid input", details: error.errors },
-                    { status: 400 }
-                );
-            }
-
-            return NextResponse.json({ error: "Internal server error", details: (error as Error).message }, { status: 500 });
+            console.error(error);
+            return { success: false, message: "Error creating project" };
         }
     });

@@ -9,18 +9,7 @@ export const CreateProjectSchema = z.object({
         .optional(),
     paints: z
         .array(z.object({
-            id: z.string(),
-            name: z.string(),
-            brand: z.string(),
-            hexCode: z.string(),
-            red: z.number(),
-            green: z.number(),
-            blue: z.number(),
-            discontinued: z.boolean(),
-            createdAt: z.union([z.string(), z.date()]),
-            updatedAt: z.union([z.string(), z.date()]).nullable(),
-            type: z.string(),
-            finish: z.string().optional(),
+            id: z.string()
         }))
         .optional(),
     images: z
