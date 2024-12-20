@@ -18,7 +18,7 @@ export const createProject = createServerAction()
 
         const projectData = input.input;
 
-        console.log(projectData);
+        console.log("Project data images:", projectData.images);
 
         try {
             const project = await prisma.project.create({
@@ -31,15 +31,16 @@ export const createProject = createServerAction()
                             paintId: paint.id,
                         })) || [],
                     },
-                    // images: {
-                    //     create: validation.images?.map((image) => ({
-                    //         imageUrl: image.imageUrl,
-                    //     })) || [],
-                    // },
+                    images: {
+                        create: projectData.images?.map((imageUrl) => ({
+                            imageUrl,
+                        })),
+                    },
                 },
             });
 
-            console.log(project);
+            console.log("Project created", project);
+
             return { success: true, message: "Project created successfully!" };
         } catch (error) {
             console.error(error);

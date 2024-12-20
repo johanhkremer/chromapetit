@@ -13,11 +13,8 @@ export const CreateProjectSchema = z.object({
         }))
         .optional(),
     images: z
-        .array(z.object({
-            imageUrl: z
-                .string()
-                .url()
-        })).optional()
+        .array(z.string().url()
+        ).optional()
 });
 
 //Schema for POST project

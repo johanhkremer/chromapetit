@@ -17,6 +17,7 @@ import { useServerAction } from "zsa-react";
 import { createProject } from "@/app/actions/projects/createProject";
 import LoadSpinner from "@/components/load-spinner";
 import Toast from "@/components/toast";
+import ImageUpload from "@/components/upload-image";
 
 interface CreateProjectFormProps {
     allPaints: Paint[];
@@ -26,6 +27,7 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
     const router = useRouter()
     const { isPending, execute, data, isSuccess, error, isError, reset } = useServerAction(createProject);
     const [selectedPaints, setSelectedPaints] = useState<Paint[]>([]);
+    const [uploadedImages, setUploadedImages] = useState<string[]>([]);
 
     const form = useForm<CreateProjectData>({
         resolver: zodResolver(CreateProjectSchema),
@@ -33,6 +35,7 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
             name: "",
             description: "",
             paints: [],
+            images: [],
         },
     });
 
@@ -47,6 +50,7 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
                 name: data.name,
                 description: data.description,
                 paints: paintIds.length > 0 ? paintIds : undefined,
+                images: uploadedImages.length > 0 ? uploadedImages : undefined,
             });
 
             if (resultError) {
@@ -68,6 +72,12 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
     const handleRemovePaint = (paintId: string) => {
         setSelectedPaints((prev) => prev.filter((p) => p.id !== paintId));
     };
+
+    const handleImageSubmit = (imageUrl: string) => {
+        setUploadedImages((prev) => [...prev, imageUrl]);
+    };
+
+
 
     return (
         isPending ? (
@@ -143,6 +153,20 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
                                         ))}
                                     </ul>
                                 </fieldset>
+                            </FormItem>
+                        )}
+                    />
+                    <FormField
+                        name="images"
+                        render={() => (
+                            <FormItem>
+                                <FormLabel htmlFor="images" className="text-sm font-semibold mb-2">
+                                    Upload images
+                                </FormLabel>
+                                <FormControl>
+                                    <ImageUpload onChange={handleImageSubmit} />
+                                </FormControl>
+                                <FormMessage />
                             </FormItem>
                         )}
                     />
