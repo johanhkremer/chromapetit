@@ -26,16 +26,3 @@ export const ProjectSchema = CreateProjectSchema.extend({
 
 //Schema for GET project, with id included
 export type ProjectData = z.infer<typeof ProjectSchema>;
-
-//Schema for Project with paints included
-export const ProjectWithPaintsSchema = ProjectSchema.extend({
-    paints: z.array(z.object({
-        id: z.string(),
-        name: z.string(),
-        hexCode: z.string(),
-        finish: z.string(),
-        type: z.string(),
-    })),
-});
-
-export type ProjectWithPaintsData = z.infer<typeof ProjectWithPaintsSchema>;

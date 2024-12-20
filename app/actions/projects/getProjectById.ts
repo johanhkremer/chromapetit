@@ -19,6 +19,7 @@ const getProjectById = async (projectId: string) => {
                         paint: true,
                     },
                 },
+                images: true,
             },
         });
 
@@ -26,18 +27,7 @@ const getProjectById = async (projectId: string) => {
             throw new Error('Project not found');
         }
 
-        const paints = project.paints.map(paintOnProject => paintOnProject.paint);
-
-        const responseData = {
-            id: project.id,
-            name: project.name,
-            description: project.description,
-            createdAt: project.createdAt,
-            updatedAt: project.updatedAt,
-            paints: paints,
-        };
-
-        return responseData;
+        return project;
     } catch (error) {
         console.error(error);
         throw new Error("Internal server error");

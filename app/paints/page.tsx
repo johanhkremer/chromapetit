@@ -14,13 +14,14 @@ const AllPaintsPage = async () => {
                 <DataTable columns={paintColumns} data={allPaints} />
             </div>
         );
-    } catch (error) {
+    } catch (error: unknown) {
+
         return (
             <div>
                 <h1 className="text-xl font-bold mb-4">All Paints Page</h1>
                 <Toast
                     title="Error"
-                    description="Unable to load paints at the moment. Please refresh the page or contact support if the problem persists."
+                    description={error instanceof Error ? error.message : "An unknown error occurred"}
                     variant="destructive"
                 />
             </div>

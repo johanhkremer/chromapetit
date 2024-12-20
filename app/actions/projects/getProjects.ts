@@ -13,6 +13,14 @@ const getProjects = async () => {
     try {
         const projectsData = await prisma.project.findMany({
             where: { userId: session.user.id },
+            include: {
+                paints: {
+                    include: {
+                        paint: true,
+                    },
+                },
+                images: true,
+            },
             orderBy: { createdAt: "desc" },
         });
         return { success: true, data: projectsData };

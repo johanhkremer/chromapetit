@@ -1,14 +1,17 @@
 'use client'
 
 import ColorCircle from '@/components/ColorCircle';
-import { ProjectData, ProjectWithPaintsData } from '@/schemas/CreateProjectSchema';
+import Image from 'next/image';
+import { Paint, PaintOnProject, Project, ProjectImage } from '@prisma/client'
 
 interface ProjectProps {
-    project: ProjectWithPaintsData;
+    project: Project & {
+        paints: (PaintOnProject & { paint: Paint })[];
+        images: ProjectImage[];
+    };
 }
 
-
-const Project = ({ project }: ProjectProps) => {
+const ProjectById = ({ project }: ProjectProps) => {
 
     return (
         <div>
@@ -20,8 +23,23 @@ const Project = ({ project }: ProjectProps) => {
                 <ul>
                     {project.paints.map((paint) => (
                         <li key={paint.id}>
-                            <ColorCircle hexCode={paint.hexCode} finish={paint.finish} type={paint.type} size="sm" />
-                            {paint.name}
+                            <ColorCircle hexCode={paint.paint.hexCode} finish={paint.paint.finish} type={paint.paint.type} size="sm" />
+                            {paint.paint.name}
+                        </li>
+                    ))}
+                </ul>
+            </div>
+            <div>
+                <h2>Images:</h2>
+                <ul>
+                    {project.images.map((image) => (
+                        <li key={image.id}>
+                            <Image
+                                src={image.imageUrl}
+                                alt="Project Image"
+                                width={500} // Ange en lämplig bredd
+                                height={300} // Ange en lämplig höjd
+                            />
                         </li>
                     ))}
                 </ul>
@@ -30,4 +48,4 @@ const Project = ({ project }: ProjectProps) => {
     );
 };
 
-export default Project;
+export default ProjectById;

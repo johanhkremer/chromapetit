@@ -41,7 +41,7 @@ export const createProject = createServerAction()
 
             console.log("Project created", project);
 
-            return { success: true, message: "Project created successfully!" };
+            return { success: true, message: "Project created successfully!", projectId: project.id };
         } catch (error) {
             console.error(error);
             return { success: false, message: "Error creating project" };

@@ -16,8 +16,8 @@ import ColorCircle from "@/components/ColorCircle";
 import { useServerAction } from "zsa-react";
 import { createProject } from "@/app/actions/projects/createProject";
 import LoadSpinner from "@/components/load-spinner";
-import Toast from "@/components/toast";
 import ImageUpload from "@/components/upload-image";
+import { toast } from "sonner"
 
 interface CreateProjectFormProps {
     allPaints: Paint[];
@@ -56,7 +56,8 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
             if (resultError) {
             } else if (resultData) {
                 reset();
-                router.push("/projects");
+                const projectId = resultData.projectId;
+                router.push(`/projects${projectId}`);
             }
         } catch (error) {
             console.error(error);
@@ -77,15 +78,13 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
         setUploadedImages((prev) => [...prev, imageUrl]);
     };
 
-
-
     return (
         isPending ? (
             <LoadSpinner />
         ) : isError ? (
-            <Toast title="Error" description={error.message} />
+            toast(`Error:, ${error.message}`)
         ) : isSuccess ? (
-            <Toast title="Success" description={data.message} variant="success" />
+            toast(`Success:, ${data.message}`)
         ) : (
             <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3 mb-3">

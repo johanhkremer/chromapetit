@@ -1,34 +1,18 @@
+import { get } from 'lodash';
 import Project from './components/project';
+import getProjectById from '@/app/actions/projects/getProjectById';
 
 const ProjectPage = async ({ params }: { params: { id: string } }) => {
 
     const { id } = await params;
+    try {
+        const project = await getProjectById(id);
+        return <Project project={project} />;
 
-    const projectData = await fetch(`http://localhost:3000/api/projects/${id}`, {
-        cache: 'no-cache',
-    });
+    } catch (error) {
+        return <div>{get(error, 'message', 'An unknown error occurred')}</div>;
 
-    if (!projectData.ok) {
-        return (
-            <div>
-                <h1>Project Page</h1>
-                <p>Failed to fetch project.</p>
-            </div>
-        );
     }
-
-    const paintData = await fetch(`http://localhost:3000/api/paints`, {
-        cache: 'no-cache',
-    });
-
-    const data = await projectData.json();
-
-    return (
-        <div>
-            <Project project={data} />
-        </div>
-
-    );
 };
 
 export default ProjectPage;
