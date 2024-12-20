@@ -14,11 +14,6 @@ const getProjects = async () => {
         const projectsData = await prisma.project.findMany({
             where: { userId: session.user.id },
             include: {
-                paints: {
-                    include: {
-                        paint: true,
-                    },
-                },
                 images: true,
             },
             orderBy: { createdAt: "desc" },

@@ -4,8 +4,6 @@ import { getPaints } from "@/app/actions/paints/getPaints";
 import Toast from "@/components/toast";
 
 const CreateProjectPage = async () => {
-    console.log("API key:", process.env.MY_API_KEY, "Auth domain", process.env.MY_AUTH_DOMAIN, "Project ID:", process.env.MY_PROJECT_ID, "Storage bucket:", process.env.MY_STORAGE_BUCKET, "Messaging sender ID:", process.env.MY_MESSAGING_SENDER_ID, "App ID:", process.env.MY_APP_ID, "Measurement ID:", process.env.MY_MEASUREMENT_ID);
-
     try {
         const allPaints = await getPaints();
 
