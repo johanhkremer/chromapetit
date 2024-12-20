@@ -37,8 +37,8 @@ const ProjectById = ({ project }: ProjectProps) => {
                             <Image
                                 src={image.imageUrl}
                                 alt="Project Image"
-                                width={500} // Ange en lämplig bredd
-                                height={300} // Ange en lämplig höjd
+                                width={500}
+                                height={300}
                             />
                         </li>
                     ))}

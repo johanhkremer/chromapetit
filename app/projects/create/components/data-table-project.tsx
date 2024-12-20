@@ -31,7 +31,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-import { DataTablePagination } from "@/components/DataTablePagination"
+import { DataTablePagination } from "@/components/data-table-pagination"
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 

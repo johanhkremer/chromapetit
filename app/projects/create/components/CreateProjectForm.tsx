@@ -42,7 +42,6 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
     const { formState } = form;
 
     const onSubmit = async (data: CreateProjectData) => {
-
         try {
             const paintIds = selectedPaints.map((paint) => ({ id: paint.id }));
 
@@ -55,9 +54,9 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
 
             if (resultError) {
             } else if (resultData) {
-                reset();
                 const projectId = resultData.projectId;
-                router.push(`/projects${projectId}`);
+                router.push(`/projects/${projectId}`);
+                reset();
             }
         } catch (error) {
             console.error(error);
