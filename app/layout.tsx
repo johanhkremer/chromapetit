@@ -4,6 +4,7 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/sidebar/app-sidebar";
 import { SessionProvider } from "next-auth/react"
 import { Toaster } from "@/components/ui/sonner";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,19 +16,26 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body>
-        <SessionProvider>
-          <SidebarProvider>
-            <AppSidebar />
-            <SidebarTrigger />
-            <main className="all-none w-full h-screen p-0 m-0">
-              {children}
-            </main>
-            <Toaster position="top-right" richColors />
-          </SidebarProvider>
-        </SessionProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem={true}            >
+          <SessionProvider>
+            <SidebarProvider>
+              <AppSidebar />
+              <SidebarTrigger />
+
+              <main className="all-none w-full h-screen p-0 m-0">
+                {children}
+              </main>
+              <Toaster position="top-right" richColors />
+            </SidebarProvider>
+          </SessionProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
