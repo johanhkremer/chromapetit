@@ -3,7 +3,14 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "@/components/ui/form";
+import {
+    Form,
+    FormField,
+    FormItem,
+    FormLabel,
+    FormControl,
+    FormMessage
+} from "@/components/ui/form";
 import { CreateProjectData, CreateProjectSchema } from "@/schemas/CreateProjectSchema";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -18,6 +25,12 @@ import { createProject } from "@/app/actions/projects/createProject";
 import LoadSpinner from "@/components/load-spinner";
 import ImageUpload from "@/components/upload-image";
 import { toast } from "sonner"
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion"
 
 interface CreateProjectFormProps {
     allPaints: Paint[];
@@ -81,10 +94,11 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
         isPending ? (
             <LoadSpinner />
         ) : isError ? (
-            toast(`Error:, ${error.message}`)
+            toast.error(`Error:, ${error.message}`)
         ) : isSuccess ? (
-            toast(`Success:, ${data.message}`)
+            toast.success(`Success:, ${data.message}`)
         ) : (
+
             <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3 mb-3">
                     <FormField
@@ -103,71 +117,88 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
                             </FormItem>
                         )}
                     />
-                    <FormField
-                        name="description"
-                        render={({ field }) => (
-                            <FormItem>
-                                <FormLabel htmlFor="description" className="text-sm font-semibold mb-2">Description</FormLabel>
-                                <FormControl>
-                                    <Textarea
-                                        id="description"
-                                        placeholder="Enter description"
-                                        {...field}
-                                    />
-                                </FormControl>
-                                <FormMessage />
-                            </FormItem>
-                        )}
-                    />
-                    <FormField
-                        name="paints"
-                        render={() => (
-                            <FormItem>
-                                <fieldset className="border border-gray-300 p-4 rounded-md">
-                                    <legend className="text-sm font-semibold mb-2">Select Colors</legend>
-                                    <FormLabel>Available Colors</FormLabel>
-                                    <DataTableProject
-                                        columns={PaintColumnsProject({
-                                            handleAddPaint,
-                                            handleRemovePaint,
-                                            selectedPaints,
-                                        })}
-                                        data={allPaints}
-                                    />
-                                    <FormLabel>Selected Colors</FormLabel>
-                                    <ul className="mt-2">
-                                        {selectedPaints.map((paint) => (
-                                            <li key={paint.id} className="flex justify-between mb-2">
-                                                <ColorCircle hexCode={paint.hexCode} size="sm" />
-                                                <span>{paint.name} - {paint.brand}</span>
-                                                <Button
-                                                    variant="destructive"
-                                                    size="sm"
-                                                    onClick={() => handleRemovePaint(paint.id)}
-                                                >
-                                                    Remove
-                                                </Button>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </fieldset>
-                            </FormItem>
-                        )}
-                    />
-                    <FormField
-                        name="images"
-                        render={() => (
-                            <FormItem>
-                                <FormLabel htmlFor="images" className="text-sm font-semibold mb-2">
-                                    Upload images
-                                </FormLabel>
-                                <FormControl>
-                                    <ImageUpload onChange={handleImageSubmit} />
-                                </FormControl>
-                                <FormMessage />
-                            </FormItem>
-                        )}
-                    />
+                    <Accordion type="multiple">
+                        <FormField
+                            name="description"
+                            render={({ field }) => (
+                                <FormItem>
+                                    <AccordionItem value="description">
+                                        <AccordionTrigger>
+                                            <FormLabel htmlFor="description" className="text-sm font-semibold mb-2">Description</FormLabel>
+                                        </AccordionTrigger>
+                                        <AccordionContent>
+                                            <FormControl>
+                                                <Textarea
+                                                    id="description"
+                                                    placeholder="Enter description"
+                                                    {...field}
+                                                />
+                                            </FormControl>
+                                            <FormMessage />
+
+                                        </AccordionContent>
+                                    </AccordionItem>
+                                </FormItem>
+                            )}
+                        />
+                        <FormField
+                            name="paints"
+                            render={() => (
+                                <FormItem>
+                                    <AccordionItem value="paints">
+                                        <AccordionTrigger>
+                                            <FormLabel htmlFor="description" className="text-sm font-semibold mb-2">Choose Paints</FormLabel>
+                                        </AccordionTrigger>
+                                        <AccordionContent>
+
+                                            <DataTableProject
+                                                columns={PaintColumnsProject({
+                                                    handleAddPaint,
+                                                    handleRemovePaint,
+                                                    selectedPaints,
+                                                })}
+                                                data={allPaints}
+                                            />
+                                            <FormLabel>Selected Paints</FormLabel>
+                                            <ul className="mt-2">
+                                                {selectedPaints.map((paint) => (
+                                                    <li key={paint.id} className="flex justify-between mb-2">
+                                                        <ColorCircle hexCode={paint.hexCode} size="sm" />
+                                                        <span>{paint.name} - {paint.brand}</span>
+                                                        <Button
+                                                            variant="destructive"
+                                                            size="sm"
+                                                            onClick={() => handleRemovePaint(paint.id)}
+                                                        >
+                                                            Remove
+                                                        </Button>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </AccordionContent>
+                                    </AccordionItem>
+                                </FormItem>
+                            )}
+                        />
+                        <FormField
+                            name="images"
+                            render={() => (
+                                <FormItem>
+                                    <AccordionItem value="images">
+                                        <AccordionTrigger>
+                                            <FormLabel htmlFor="images" className="text-sm font-semibold mb-2">Upload images</FormLabel>
+                                        </AccordionTrigger>
+                                        <AccordionContent>
+                                            <FormControl>
+                                                <ImageUpload onChange={handleImageSubmit} />
+                                            </FormControl>
+                                            <FormMessage />
+                                        </AccordionContent>
+                                    </AccordionItem>
+                                </FormItem>
+                            )}
+                        />
+                    </Accordion>
                     <div className="flex justify-end">
                         <Button
                             type="submit"
@@ -176,8 +207,9 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
                             {isPending ? "Creating Project..." : "Create Project"}
                         </Button>
                     </div>
+
                 </form>
-            </Form>
+            </Form >
         )
     );
 };

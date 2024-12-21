@@ -25,7 +25,7 @@ export default function RootLayout({
             <main className="all-none w-full h-screen p-0 m-0">
               {children}
             </main>
-            <Toaster />
+            <Toaster position="top-right" richColors />
           </SidebarProvider>
         </SessionProvider>
       </body>

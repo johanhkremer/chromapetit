@@ -40,8 +40,6 @@ const ProjectOverview: React.FC<ProjectOverviewProps> = ({ projects }) => {
                                         src={image.imageUrl}
                                         alt="Project image"
                                         className="w-20 h-20 object-cover rounded"
-                                        placeholder="blur"
-                                        blurDataURL={image.imageUrl}
                                         loading="lazy"
                                         width={40}
                                         height={40}
