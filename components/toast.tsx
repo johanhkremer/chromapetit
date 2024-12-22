@@ -20,7 +20,7 @@ const Toast = ({ title, description, variant }: ToastProps) => {
         })
         console.log({ variant, title, description })
 
-    }, [title, description, toast])
+    }, [title, description, variant, toast])
 
     return null
 }
