@@ -5,6 +5,7 @@ import ColorCircle from "@/components/ColorCircle"
 import { Button } from "@/components/ui/button"
 import { Paint } from "@/schemas/PaintSchema"
 import { ArrowUpDown } from "lucide-react"
+import TooltipComponent from "@/components/tooltip"
 
 export const PaintColumnsProject = ({
     handleAddPaint,
@@ -62,6 +63,11 @@ export const PaintColumnsProject = ({
                     </Button>
                 )
             },
+            cell: ({ row }) => (
+                <div className="w-32 truncate">
+                    <TooltipComponent trigger={row.original.name} content={row.original.name} />
+                </div>
+            ),
         },
         {
             accessorKey: "brand",
@@ -145,16 +151,19 @@ export const PaintColumnsProject = ({
                     <Button
                         variant="destructive"
                         onClick={() => handleRemovePaint(paint.id)}
+                        className="min-w-[6rem] flex justify-center"
                     >
                         Remove
                     </Button>
                 ) : (
                     <Button
                         onClick={() => handleAddPaint(paint)}
+                        className="min-w-[6rem] flex justify-center"
                     >
                         Add
                     </Button>
                 );
             },
+
         }
     ];

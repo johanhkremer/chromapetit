@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Paint } from "@/schemas/PaintSchema"
 import { ArrowUpDown } from "lucide-react"
 import SimilarColorsButton from "@/app/paints/components/similar-colors-button"
+import TooltipComponent from "@/components/tooltip"
 
 export const paintColumns: ColumnDef<Paint>[] = [
     {
@@ -55,6 +56,13 @@ export const paintColumns: ColumnDef<Paint>[] = [
                 </Button>
             )
         },
+        cell: ({ row }) => (
+            <div className="w-32 truncate">
+                <TooltipComponent
+                    trigger={row.original.name}
+                    content={row.original.name} />
+            </div>
+        ),
     },
     {
         accessorKey: "brand",
@@ -87,7 +95,7 @@ export const paintColumns: ColumnDef<Paint>[] = [
             )
         },
         cell: ({ row }) => (
-            <div className="text-center">{row.original.type}</div>
+            <div className="text-center w-20 truncate">{row.original.type}</div>
         ),
     },
     {
