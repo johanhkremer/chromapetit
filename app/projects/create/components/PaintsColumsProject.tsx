@@ -1,7 +1,7 @@
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table"
-import ColorCircle from "@/components/ColorCircle"
+import ColorCircle from "@/components/color-circle"
 import { Button } from "@/components/ui/button"
 import { Paint } from "@/schemas/PaintSchema"
 import { ArrowUpDown } from "lucide-react"

@@ -19,7 +19,7 @@ import { useState } from "react";
 import { PaintColumnsProject } from "./PaintsColumsProject";
 import { Paint } from "@/schemas/PaintSchema";
 import { DataTableProject } from "./data-table-project";
-import ColorCircle from "@/components/ColorCircle";
+import ColorCircle from "@/components/color-circle";
 import { useServerAction } from "zsa-react";
 import { createProject } from "@/app/actions/projects/createProject";
 import LoadSpinner from "@/components/load-spinner";
@@ -31,6 +31,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { Card } from "@/components/ui/card";
 
 interface CreateProjectFormProps {
     allPaints: Paint[];
@@ -162,16 +163,25 @@ const CreateProjectForm: React.FC<CreateProjectFormProps> = ({ allPaints }) => {
                                             <FormLabel>Selected Paints</FormLabel>
                                             <ul className="mt-2">
                                                 {selectedPaints.map((paint) => (
-                                                    <li key={paint.id} className="flex justify-between mb-2">
-                                                        <ColorCircle hexCode={paint.hexCode} size="sm" />
-                                                        <span>{paint.name} - {paint.brand}</span>
-                                                        <Button
-                                                            variant="destructive"
-                                                            size="sm"
-                                                            onClick={() => handleRemovePaint(paint.id)}
-                                                        >
-                                                            Remove
-                                                        </Button>
+                                                    <li key={paint.id} className="mb-2">
+                                                        <Card className="flex items-center w-full p-2 bg-gray-100">
+                                                            <div className="flex-shrink-0">
+                                                                <ColorCircle hexCode={paint.hexCode} size="sm" />
+                                                            </div>
+                                                            <div className="flex-1 text-center">
+                                                                <span>{paint.name} - {paint.brand}</span>
+                                                            </div>
+                                                            <div className="flex-shrink-0">
+                                                                <Button
+                                                                    variant="ghost"
+                                                                    size="sm"
+                                                                    onClick={() => handleRemovePaint(paint.id)}
+                                                                    className="hover:bg-transparent hover:text-red-700"
+                                                                >
+                                                                    Remove
+                                                                </Button>
+                                                            </div>
+                                                        </Card>
                                                     </li>
                                                 ))}
                                             </ul>

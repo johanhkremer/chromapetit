@@ -9,7 +9,7 @@ import {
     DialogTrigger
 } from "@/components/ui/dialog";
 import { Paint } from '@/schemas/PaintSchema';
-import ColorCircle from "@/components/ColorCircle";
+import ColorCircle from "@/components/color-circle";
 import { uniqBy } from 'lodash';
 
 // Helper method to calculate the distance between two colors based on RGB

@@ -1,6 +1,6 @@
 'use client'
 
-import ColorCircle from '@/components/ColorCircle';
+import ColorCircle from '@/components/color-circle';
 import Image from 'next/image';
 import { Paint, PaintOnProject, Project, ProjectImage } from '@prisma/client'
 
