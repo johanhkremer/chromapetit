@@ -1,31 +1,24 @@
 "use client"
 
 import Link from "next/link"
-import { useState } from "react"
+import { Brush } from "lucide-react"
 
-export function Logo({
-    teams,
-}: {
-    teams: {
-        name: string
-        logo: React.ElementType
-        plan: string
-    }[]
-}) {
-    //Removed setActiveTeam since only one team is active
-    const [activeTeam] = useState(teams[0])
-
+export function Logo() {
     return (
         <Link href='/'>
             <div className="flex">
-                <div className="flex mr-3 aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
-                    <activeTeam.logo className="size-4" />
+                <div className="flex mr-3 aspect-square size-8 items-center justify-center rounded-md  bg-argon-gradient p-0.5">
+                    <div className="flex h-full w-full items-center justify-center rounded-md bg-primary-foreground back">
+                        <Brush className="text-argon-gradient rounded-md" />
+                    </div>
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
                     <span className="truncate font-semibold">
-                        {activeTeam.name}
+                        ChromaPetit
                     </span>
-                    <span className="truncate text-xs">{activeTeam.plan}</span>
+                    <span className="truncate text-xs">
+                        Miniature painting
+                    </span>
                 </div>
             </div>
         </Link>

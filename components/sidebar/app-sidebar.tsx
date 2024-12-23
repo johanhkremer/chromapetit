@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Palette, Wrench, Brush } from "lucide-react"
+import { Palette, Wrench } from "lucide-react"
 import { NavMain } from "@/components/sidebar/nav-main"
 import { NavProjects } from "@/components/sidebar/nav-projects"
 import { NavUser } from "@/components/sidebar/nav-user"
@@ -16,13 +16,6 @@ import {
 import { useSession } from "next-auth/react"
 
 const data = {
-    teams: [
-        {
-            name: "ChromaPetit",
-            logo: Brush,
-            plan: "Miniature painting",
-        },
-    ],
     navMain: [
         {
             title: "Paints",
@@ -69,7 +62,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     return (
         <Sidebar collapsible="icon" {...props}>
             <SidebarHeader>
-                <Logo teams={data.teams} />
+                <Logo />
             </SidebarHeader>
             <SidebarContent>
                 <NavMain items={data.navMain} />
