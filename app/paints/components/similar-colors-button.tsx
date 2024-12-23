@@ -11,6 +11,7 @@ import {
 import { Paint } from '@/schemas/PaintSchema';
 import ColorCircle from "@/components/color-circle";
 import { uniqBy } from 'lodash';
+import { Card } from '@/components/ui/card';
 
 // Helper method to calculate the distance between two colors based on RGB
 const calculateRgbDistance = (color1: Paint, color2: { red: number; green: number; blue: number }) => {
@@ -58,57 +59,75 @@ export const SimilarColorsButton: React.FC<SimilarColorsButtonProps> = ({ paint,
         return uniqBy(filteredColors, 'name').slice(0, 6);
     }, [paint, allPaints]);
 
+    const getContrastColor = (hexColor: string) => {
+        const r = parseInt(hexColor.slice(1, 3), 16);
+        const g = parseInt(hexColor.slice(3, 5), 16);
+        const b = parseInt(hexColor.slice(5, 7), 16);
+
+        const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+
+        return luminance > 0.5 ? '#000000' : '#ffffff';
+    };
+
     return (
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogTrigger asChild>
-                <Button variant="outline" size="sm">
+                <Button size="sm">
                     Similar Paints
                 </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-md">
-                <DialogHeader>
-                    <DialogTitle className='flex flex-col items-center'>
-                        <span className='text-base font-light'>Similar Colors to</span>
-                        <span className='text-lg'>{paint.name}</span>
+            <DialogContent className="max-w-md p-0 border-0 rounded-lg">
+                <DialogHeader
+                    className="w-full p-2 owerflow-hidden rounded-t-lg"
+                    style={{
+                        backgroundColor: paint.hexCode,
+                        color: getContrastColor(paint.hexCode)
+                    }}
+                >
+                    <DialogTitle className="flex flex-col items-center gap-2">
+                        <span className="text-sm font-light">Colors Similar to</span>
+                        <span className="text-lg font-bold drop-shadow-lg">{paint.name}</span>
                     </DialogTitle>
-                    <div className='flex flex-col items-center'>
-                        <ColorCircle
-                            hexCode={paint.hexCode}
-                            size="sm"
-                            finish={paint.finish}
-                            type={paint.type}
-                        />
-                    </div>
-                    <DialogDescription className='flex flex-col items-center'>
+                    <DialogDescription
+                        className="flex flex-col items-center mt-1 text-sm font-light"
+                        style={{
+                            color: getContrastColor(paint.hexCode)
+                        }}
+                    >
                         {paint.brand}
                     </DialogDescription>
                 </DialogHeader>
-                <div className="grid grid-cols-3 gap-4">
+                <div className="flex flex-col gap-2 p-3">
                     {similarColors.map((similarPaint) => (
-                        <div
+                        <Card
                             key={similarPaint.id}
-                            className="flex flex-col items-center space-y-2"
+                            className="flex items-center px-5 py-1"
                         >
-                            <ColorCircle
-                                hexCode={similarPaint.hexCode}
-                                size="lg"
-                                finish={similarPaint.finish}
-                                type={similarPaint.type}
-                            />
-                            <span className="flex flex-col text-xs text-center">
-                                <p className='font-bold'>{similarPaint.name}</p>
+                            <div className='flex-shrink-0'>
+                                <ColorCircle
+                                    hexCode={similarPaint.hexCode}
+                                    size="sm"
+                                    finish={similarPaint.finish}
+                                    type={similarPaint.type}
+                                />
+                            </div>
+                            <div className='flex-1 text-center'>
+                                <p>{similarPaint.name}</p>
+                            </div>
+                            <div className='flex-shrink-0'>
                                 <p>{similarPaint.brand}</p>
-                            </span>
-                        </div>
+                            </div>
+
+                        </Card>
                     ))}
+                    {similarColors.length === 0 && (
+                        <p className="text-center text-muted-foreground">
+                            No similar colors found
+                        </p>
+                    )}
                 </div>
-                {similarColors.length === 0 && (
-                    <p className="text-center text-muted-foreground">
-                        No similar colors found
-                    </p>
-                )}
             </DialogContent>
-        </Dialog>
+        </Dialog >
     );
 };
 

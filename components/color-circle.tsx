@@ -38,9 +38,7 @@ const ColorCircle: React.FC<ColorCircleProps> = ({
                 ${sizeClasses[size]} 
                 rounded-full
                 shadow-md
-                border
-                ${isMetallic || isShade ? 'border-gray-300' : 'border-gray-200'}
-            `}
+                `}
             style={
                 isMetallic
                     ? {
