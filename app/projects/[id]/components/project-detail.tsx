@@ -11,7 +11,7 @@ interface ProjectProps {
     };
 }
 
-const ProjectById = ({ project }: ProjectProps) => {
+const ProjectDetail = ({ project }: ProjectProps) => {
 
     return (
         <div>
@@ -48,4 +48,4 @@ const ProjectById = ({ project }: ProjectProps) => {
     );
 };
 
-export default ProjectById;
+export default ProjectDetail;

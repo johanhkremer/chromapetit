@@ -1,35 +1,50 @@
-import Project from './components/project';
-import getProjectById from '@/app/actions/projects/getProjectById';
-import { toast } from 'sonner';
-import Link from 'next/link';
 import { FC } from 'react';
+import { GetServerSideProps } from 'next';
+import getProjectById from '@/app/actions/projects/getProjectById';
+import ProjectDetail from './components/project-detail';
+import Link from 'next/link';
+import { Paint, PaintOnProject, Project, ProjectImage } from '@prisma/client'
 
 interface PageProps {
-    params: { id: string };
+    project: Project & {
+        paints: (PaintOnProject & { paint: Paint })[];
+        images: ProjectImage[];
+    };
 }
 
-const ProjectPage: FC<PageProps> = async ({ params }) => {
-    const { id } = params;
-
-    try {
-        const project = await getProjectById(id);  // Hämtar projektet med id:t
-        return (
-            <article>
-                <Project project={project} />
-            </article>
-        );
-    } catch (error) {
-        toast.error(`Something went wrong: ${(error as Error).message}`);
-
+const ProjectPage: FC<PageProps> = ({ project }) => {
+    if (!project) {
         return (
             <section>
-                <h1>Project</h1>
-                <p>Something went wrong. Please try again later.</p>
-                <Link href="/projects" className="hover:text-opacity-50">
-                    Back to projects
-                </Link>
+                <h1>Project not found</h1>
+                <Link href="/projects">Back to projects</Link>
             </section>
         );
+    }
+
+    return (
+        <article>
+            <ProjectDetail project={project} />
+        </article>
+    );
+};
+
+export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+    try {
+        if (!params || !params.id) {
+            return {
+                notFound: true,
+            };
+        }
+        const project = await getProjectById(params.id as string);
+        return {
+            props: { project },
+        };
+    } catch (error) {
+        console.error('Error fetching project:', error);
+        return {
+            notFound: true,
+        };
     }
 };
 
