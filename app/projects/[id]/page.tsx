@@ -9,8 +9,10 @@ interface PageProps {
 }
 
 const ProjectPage: FC<PageProps> = async ({ params }) => {
+    const { id } = params;
+
     try {
-        const project = await getProjectById(params.id);
+        const project = await getProjectById(id);  // Hämtar projektet med id:t
         return (
             <article>
                 <Project project={project} />

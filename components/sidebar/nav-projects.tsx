@@ -132,9 +132,9 @@ export function NavProjects() {
                                 {projects.slice(0, visibleProjects).map((project) => (
                                     <SidebarMenuItem key={project.id}>
                                         <SidebarMenuButton asChild>
-                                            <a href={`http://localhost:3000/projects/${project.id}`}>
+                                            <Link href={`/projects/${project.id}`}>
                                                 <span>{project.name}</span>
-                                            </a>
+                                            </Link>
                                         </SidebarMenuButton>
                                         <DropdownMenu>
                                             <DropdownMenuTrigger asChild>
