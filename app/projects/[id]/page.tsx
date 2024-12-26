@@ -2,10 +2,17 @@ import Project from './components/project';
 import getProjectById from '@/app/actions/projects/getProjectById';
 import { toast } from 'sonner';
 import Link from 'next/link';
+import { FC } from 'react';
 
-const ProjectPage = async ({ params }: { params: { id: string } }) => {
+interface PageProps {
+    params: { id: string };
+}
+
+const ProjectPage: FC<PageProps> = async ({ params }) => {
     try {
-        const project = await getProjectById(params.id);
+        const { id } = await params;
+
+        const project = await getProjectById(id);
         return (
             <article>
                 <Project project={project} />
