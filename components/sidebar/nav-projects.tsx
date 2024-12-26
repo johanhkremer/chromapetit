@@ -4,7 +4,6 @@ import {
     Folder,
     Forward,
     MoreHorizontal,
-    Sidebar,
     Trash2,
 } from "lucide-react"
 
