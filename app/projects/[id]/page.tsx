@@ -10,9 +10,7 @@ interface PageProps {
 
 const ProjectPage: FC<PageProps> = async ({ params }) => {
     try {
-        const { id } = await params;
-
-        const project = await getProjectById(id);
+        const project = await getProjectById(params.id);
         return (
             <article>
                 <Project project={project} />
