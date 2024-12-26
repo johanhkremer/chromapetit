@@ -1,23 +1,26 @@
 import { FC } from 'react';
-import { GetServerSideProps } from 'next';
-import getProjectById from '@/app/actions/projects/getProjectById';
+import { toast } from 'sonner';
 import ProjectDetail from './components/project-detail';
+import getProjectById from '@/app/actions/projects/getProjectById';
 import Link from 'next/link';
-import { Paint, PaintOnProject, Project, ProjectImage } from '@prisma/client'
 
 interface PageProps {
-    project: Project & {
-        paints: (PaintOnProject & { paint: Paint })[];
-        images: ProjectImage[];
-    };
+    params: { id: string };
 }
 
-const ProjectPage: FC<PageProps> = ({ project }) => {
-    if (!project) {
+const ProjectPage: FC<PageProps> = async ({ params }) => {
+    let project;
+    try {
+        project = await getProjectById(params.id);
+    } catch (error) {
+        toast.error(`Something went wrong: ${(error as Error).message}`);
         return (
             <section>
-                <h1>Project not found</h1>
-                <Link href="/projects">Back to projects</Link>
+                <h1>Project</h1>
+                <p>Something went wrong. Please try again later.</p>
+                <Link href="/projects" className="hover:text-opacity-50">
+                    Back to projects
+                </Link>
             </section>
         );
     }
@@ -27,25 +30,6 @@ const ProjectPage: FC<PageProps> = ({ project }) => {
             <ProjectDetail project={project} />
         </article>
     );
-};
-
-export const getServerSideProps: GetServerSideProps = async ({ params }) => {
-    try {
-        if (!params || !params.id) {
-            return {
-                notFound: true,
-            };
-        }
-        const project = await getProjectById(params.id as string);
-        return {
-            props: { project },
-        };
-    } catch (error) {
-        console.error('Error fetching project:', error);
-        return {
-            notFound: true,
-        };
-    }
 };
 
 export default ProjectPage;
