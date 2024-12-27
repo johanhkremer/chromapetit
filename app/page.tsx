@@ -6,10 +6,6 @@ export default async function Home() {
   const session = await auth()
 
   console.log('DATABASE_URL:', process.env.DATABASE_URL)
-  console.log('NEXTAUTH_URL:', process.env.NEXTAUTH_URL)
-  console.log('NEXT_PUBLIC_DATABASE_URL:', process.env.NEXT_PUBLIC_DATABASE_URL)
-  console.log('NEXT_PUBLIC_NEXTAUTH_URL:', process.env.NEXT_PUBLIC_NEXTAUTH_URL)
-  console.log('NEXT_PUBLIC_API_URL:', process.env.NEXT_PUBLIC_API_URL)
 
   return (
     <>
