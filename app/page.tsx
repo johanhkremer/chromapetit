@@ -6,6 +6,8 @@ export default async function Home() {
   const session = await auth()
 
   console.log('DATABASE_URL:', process.env.DATABASE_URL)
+  console.log('AUTH_GOOLE_ID:', process.env.AUTH_GOOGLE_ID)
+  console.log('AUTH_GOOGLE_SECRET:', process.env.AUTH_GOOGLE_SECRET)
 
   return (
     <>
