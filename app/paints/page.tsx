@@ -6,6 +6,8 @@ const AllPaintsPage = async () => {
     try {
         const allPaints = await getPaints();
 
+        console.log("All Paints:", allPaints);
+
         return (
             <section className="container pr-7 light">
                 <h1>All Paints</h1>
