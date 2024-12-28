@@ -1,9 +1,6 @@
-import { auth } from "@/auth"
-import { ModeToggle } from "@/components/dark-mode-switch";
-import LoadSpinner from "@/components/load-spinner";
+import { Link } from "lucide-react";
 
 export default async function Home() {
-  const session = await auth()
 
   console.log('DATABASE_URL:', process.env.DATABASE_URL)
   console.log('AUTH_GOOLE_ID:', process.env.AUTH_GOOGLE_ID)
@@ -12,10 +9,8 @@ export default async function Home() {
   return (
     <>
       <div>
-        <h1>Welcome</h1>
-        <p>{session?.user?.name}</p>
-        <LoadSpinner />
-        <ModeToggle />
+        <h1>Welcome to ChromaPetit</h1>
+        <Link href="/paints">View Paints</Link>
       </div>
     </>
   );
