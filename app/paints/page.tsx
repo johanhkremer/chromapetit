@@ -1,7 +1,7 @@
 import { getPaints } from "@/app/actions/paints/getPaints";
 import { paintColumns } from "./components/paints-colums";
 import { DataTable } from "@/app/paints/components/data-table-paints";
-import Toast from "@/components/toast";
+import { toast } from "sonner"
 
 const AllPaintsPage = async () => {
     try {
@@ -16,14 +16,12 @@ const AllPaintsPage = async () => {
     } catch (error: unknown) {
 
         return (
-            <section className="light">
-                <h1>All Paints Page</h1>
-                <Toast
-                    title="Error"
-                    description={error instanceof Error ? error.message : "An unknown error occurred"}
-                    variant="destructive"
-                />
-            </section>
+            <>
+                {toast.error(`Something went wrong: ${(error as Error).message}`)}
+                <section className="light">
+                    <h1>All Paints Page</h1>
+                </section>
+            </>
         );
     }
 };
