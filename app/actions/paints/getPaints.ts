@@ -1,19 +1,13 @@
-"use server";
+'useServer'
 
 import { prisma } from "@/prisma";
+import { Paint } from "@prisma/client";
 
-export const getPaints = async () => {
+export const getPaints = async (): Promise<Paint[]> => {
     try {
-        const paints = await prisma.paint.findMany();
-        if (!paints.length) {
-            return new Response(JSON.stringify({ message: "No paints found" }), {
-                status: 404,
-                headers: { "Content-Type": "application/json" },
-            });
-        }
-        return new Response(JSON.stringify(paints), {
-            headers: { "Content-Type": "application/json" },
-        });
+        const paints = await prisma.paint.findMany({ take: 10 });
+        console.log("Paints fetched:", paints);
+        return paints;
     } catch (error: unknown) {
         if (error instanceof Error) {
             console.error("Error fetching paints:", error.message);

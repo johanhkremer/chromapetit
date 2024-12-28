@@ -16,18 +16,18 @@ const CreateProjectPage = async () => {
 
     } catch (error) {
         console.error(error);
-    }
 
-    return (
-        <div>
-            <h1 className="text-xl font-bold mb-4">Create Project</h1>
-            <Toast
-                title="Error"
-                description="Unable to load paints at the moment. Please refresh the page or contact support if the problem persists."
-                variant="destructive"
-            />
-        </div>
-    );
+        return (
+            <div>
+                <h1 className="text-xl font-bold mb-4">Create Project</h1>
+                <Toast
+                    title="Error"
+                    description="Unable to load paints at the moment. Please refresh the page or contact support if the problem persists."
+                    variant="destructive"
+                />
+            </div>
+        );
+    }
 };
 
 export default CreateProjectPage;
