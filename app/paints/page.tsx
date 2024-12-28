@@ -14,12 +14,12 @@ const AllPaintsPage = async () => {
             </section>
         );
     } catch (error: unknown) {
+        toast.error(`Something went wrong: ${(error as Error).message}`);
 
         return (
             <>
-                {toast.error(`Something went wrong: ${(error as Error).message}`)}
                 <section className="light">
-                    <h1>All Paints Page</h1>
+                    <h1>Unable to load paints</h1>
                 </section>
             </>
         );
