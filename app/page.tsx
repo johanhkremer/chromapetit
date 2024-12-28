@@ -1,5 +1,3 @@
-import { Link } from "lucide-react";
-
 export default async function Home() {
 
   console.log('DATABASE_URL:', process.env.DATABASE_URL)
@@ -8,9 +6,8 @@ export default async function Home() {
 
   return (
     <>
-      <div>
+      <div className="flex flex-col items-center justify-center min-h-screen py-2">
         <h1>Welcome to ChromaPetit</h1>
-        <Link href="/paints">View Paints</Link>
       </div>
     </>
   );
