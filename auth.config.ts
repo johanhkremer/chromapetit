@@ -13,6 +13,8 @@ export default {
             authorization: {
                 params: {
                     prompt: "select_account",
+                    access_type: "offline",
+                    redirect_uri: `${process.env.AUTH_URL}/api/auth/callback/google`,
                 },
             },
         }),
