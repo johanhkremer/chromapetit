@@ -71,9 +71,9 @@ model Paint {
   description  String?
   createdAt    DateTime         @default(now())
   updatedAt    DateTime         @updatedAt
-  blue         Int?
-  green        Int?
-  red          Int?
+  blue         Int
+  green        Int
+  red          Int
   projects     PaintOnProject[]
   ownedBy      UserPaint[]
   wishedBy     WishlistPaint[]
