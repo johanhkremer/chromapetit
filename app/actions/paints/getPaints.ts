@@ -5,7 +5,7 @@ import { Paint } from "@prisma/client";
 
 export const getPaints = async (): Promise<Paint[]> => {
     try {
-        const paints = await prisma.paint.findMany({ take: 10 });
+        const paints = await prisma.paint.findMany();
         console.log("Paints fetched:", paints);
         return paints;
     } catch (error: unknown) {
