@@ -4,7 +4,8 @@ import { DataTable } from "@/app/paints/components/data-table-paints";
 
 const AllPaintsPage = async () => {
     try {
-        const allPaints = await getPaints();
+        const response = await getPaints();
+        const allPaints = await response.json();
 
         console.log("All Paints:", allPaints);
 
