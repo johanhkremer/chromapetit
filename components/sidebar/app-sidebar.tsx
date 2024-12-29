@@ -15,7 +15,6 @@ import {
 } from "@/components/ui/sidebar"
 import { useSession } from "next-auth/react"
 import LoadSpinner from "../load-spinner"
-import { DarkMode } from "../dark-mode-switch"
 
 const data = {
     navMain: [
@@ -63,9 +62,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 
     return (
         <Sidebar collapsible="icon" {...props}>
-            <SidebarHeader className="flex flex-row items-center justify-between">
+            <SidebarHeader>
                 <Logo />
-                <DarkMode />
             </SidebarHeader>
             <SidebarContent>
                 <NavMain items={data.navMain} />
