@@ -49,6 +49,10 @@ export function NavProjects() {
     console.log("user:", session?.user)
 
     useEffect(() => {
+        console.log("Session Status:", status)
+        if (status === "authenticated") {
+            console.log("User is authenticated", session)
+        }
         if (session) {
             getProjects().then((response) => {
                 if (!response.success) {
@@ -61,7 +65,7 @@ export function NavProjects() {
                 }
             })
         }
-    }, [session])
+    }, [session, status])
 
     const handleDelete = async (projectId: string) => {
         if (!session) {
