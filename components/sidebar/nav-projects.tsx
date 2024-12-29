@@ -47,9 +47,10 @@ export function NavProjects() {
     console.log("Projects:", projects)
     console.log("session:", session)
     console.log("user:", session?.user)
+    console.log("status:", status)
 
     useEffect(() => {
-        if (session) {
+        if (session && status === "authenticated") {
             getProjects().then((response) => {
                 if (!response.success) {
                     console.error("Fetch error:", response.error)
@@ -61,7 +62,7 @@ export function NavProjects() {
                 }
             })
         }
-    }, [session])
+    }, [session, status])
 
     const handleDelete = async (projectId: string) => {
         if (!session) {
