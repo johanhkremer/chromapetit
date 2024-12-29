@@ -25,7 +25,7 @@ import {
 } from "@/components/ui/form";
 import LoadSpinner from "@/components/load-spinner";
 import { Paint } from "@/schemas/PaintSchema";
-import { PaintColumnsProject } from "./PaintsColumsProject";
+import { PaintColumnsProject } from "./paints-colums-project";
 import { toast } from "sonner"
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";

@@ -6,7 +6,7 @@ import {
     LogOut,
     LogIn,
 } from "lucide-react"
-
+import Link from "next/link"
 import {
     Avatar,
     AvatarFallback,
@@ -27,7 +27,7 @@ import {
     SidebarMenuItem,
     useSidebar,
 } from "@/components/ui/sidebar"
-import { signIn, signOut } from "next-auth/react"
+import { signOut } from "next-auth/react"
 
 interface User {
     name: string
@@ -102,9 +102,13 @@ export function NavUser({ user, }: { user?: User }) {
                                 </DropdownMenuItem>
                             </>
                         ) : (
-                            <DropdownMenuItem onClick={() => signIn("google", { prompt: "select_account" })}>
-                                <LogIn />
-                                Sign in
+                            <DropdownMenuItem>
+                                <SidebarMenuButton asChild>
+                                    <Link href="/auth/login" className="flex items-center">
+                                        <LogIn />
+                                        <span>Sign in</span>
+                                    </Link>
+                                </SidebarMenuButton>
                             </DropdownMenuItem>
                         )}
                     </DropdownMenuContent>

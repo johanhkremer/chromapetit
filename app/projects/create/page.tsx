@@ -1,5 +1,5 @@
 import React from "react";
-import CreateProjectForm from "./components/CreateProjectForm";
+import CreateProjectForm from "./components/create-project-form";
 import { getPaints } from "@/app/actions/paints/getPaints";
 import Toast from "@/components/toast";
 

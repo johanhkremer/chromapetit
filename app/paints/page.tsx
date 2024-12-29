@@ -9,7 +9,7 @@ const AllPaintsPage = async () => {
         console.log("All Paints:", allPaints);
 
         return (
-            <section className="container pr-7 light">
+            <section className="container light lg:pr-7">
                 <h1>All Paints</h1>
                 <DataTable columns={paintColumns} data={allPaints} />
             </section>
