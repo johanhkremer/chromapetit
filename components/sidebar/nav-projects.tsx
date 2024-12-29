@@ -50,7 +50,7 @@ export function NavProjects() {
     console.log("status:", status)
 
     useEffect(() => {
-        if (session && status === "authenticated") {
+        if (session) {
             getProjects().then((response) => {
                 if (!response.success) {
                     console.error("Fetch error:", response.error)
@@ -62,7 +62,7 @@ export function NavProjects() {
                 }
             })
         }
-    }, [session, status])
+    }, [session])
 
     const handleDelete = async (projectId: string) => {
         if (!session) {
@@ -113,7 +113,7 @@ export function NavProjects() {
                             <div className="flex justify-center">
                                 <LoadSpinner />
                             </div>
-                        ) : !session?.user ? (
+                        ) : !session?.user?.id ? (
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild className="text-sidebar-foreground/70">
                                     <Link href="/auth/login" className="flex items-center">
