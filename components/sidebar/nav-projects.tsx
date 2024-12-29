@@ -28,7 +28,6 @@ import { useSession } from "next-auth/react"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { LogIn, FilePlus } from "lucide-react"
-import LoadSpinner from "../load-spinner"
 import deleteProject from "@/app/actions/projects/deleteProject"
 import getProjects from "@/app/actions/projects/getProjects"
 import { Project } from "@prisma/client"
@@ -36,8 +35,7 @@ import AlertDialogProject from "../alert-dialog"
 
 export function NavProjects() {
     const { isMobile } = useSidebar()
-    const { data: session, status } = useSession()
-    const isLoading = status === "loading"
+    const { data: session } = useSession()
     const [projects, setProjects] = useState<Project[]>([])
     const [error, setError] = useState<string | null>(null)
     const [isDialogOpen, setIsDialogOpen] = useState(false)
@@ -108,11 +106,7 @@ export function NavProjects() {
                         <SidebarGroupLabel>Projects</SidebarGroupLabel>
                     </Link>
                     <SidebarMenu>
-                        {isLoading ? (
-                            <div className="flex justify-center">
-                                <LoadSpinner />
-                            </div>
-                        ) : !session?.user ? (
+                        {!session?.user ? (
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild className="text-sidebar-foreground/70">
                                     <Link href="/auth/login" className="flex items-center">

@@ -14,7 +14,6 @@ export default {
                 params: {
                     prompt: "select_account",
                     access_type: "offline",
-                    redirect_uri: `${process.env.AUTH_URL}/api/auth/callback/google`,
                 },
             },
         }),
@@ -51,16 +50,4 @@ export default {
             return session
         }
     },
-    // cookies: {
-    //     sessionToken: {
-    //         name: `__Secure-next-auth.session-token`,
-    //         options: {
-    //             httpOnly: true,
-    //             sameSite: "lax",
-    //             path: "/",
-    //             secure: process.env.NODE_ENV === "production",
-    //         },
-    //     },
-    // },
-    // secret: process.env.AUTH_SECRET,
 } satisfies NextAuthConfig
