@@ -44,9 +44,6 @@ export function NavProjects() {
     const [projectId, setProjectId] = useState<string>("")
     const [visibleProjects, setVisibleProjects] = useState(5)
 
-    console.log("Projects:", projects)
-    console.log("session:", session)
-
     useEffect(() => {
         if (session) {
             getProjects().then((response) => {
@@ -111,7 +108,7 @@ export function NavProjects() {
                             <div className="flex justify-center">
                                 <LoadSpinner />
                             </div>
-                        ) : !session?.user ? (
+                        ) : !session ? (
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild className="text-sidebar-foreground/70">
                                     <Link href="/auth/login" className="flex items-center">
