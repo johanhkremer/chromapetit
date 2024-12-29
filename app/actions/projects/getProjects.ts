@@ -6,6 +6,8 @@ import { prisma } from "@/prisma";
 const getProjects = async () => {
     const session = await auth();
 
+    console.log("Session:", session);
+
     if (!session || !session.user || !session.user.id) {
         return { success: false, error: "Not authenticated" };
     }

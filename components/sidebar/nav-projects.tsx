@@ -44,6 +44,9 @@ export function NavProjects() {
     const [projectId, setProjectId] = useState<string>("")
     const [visibleProjects, setVisibleProjects] = useState(5)
 
+    console.log("Projects:", projects)
+    console.log("session:", session)
+
     useEffect(() => {
         if (session) {
             getProjects().then((response) => {
