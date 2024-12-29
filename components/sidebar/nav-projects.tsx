@@ -46,6 +46,7 @@ export function NavProjects() {
 
     console.log("Projects:", projects)
     console.log("session:", session)
+    console.log("user:", session?.user)
 
     useEffect(() => {
         if (session) {
@@ -111,7 +112,7 @@ export function NavProjects() {
                             <div className="flex justify-center">
                                 <LoadSpinner />
                             </div>
-                        ) : !session ? (
+                        ) : !session?.user ? (
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild className="text-sidebar-foreground/70">
                                     <Link href="/auth/login" className="flex items-center">
