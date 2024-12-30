@@ -51,5 +51,4 @@ export default {
             return session
         }
     },
-    trustHost: process.env.AUTH_TRUST_HOST === "true",
 } satisfies NextAuthConfig

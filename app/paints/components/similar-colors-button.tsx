@@ -72,7 +72,10 @@ export const SimilarColorsButton: React.FC<SimilarColorsButtonProps> = ({ paint,
     return (
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogTrigger asChild>
-                <Button size="sm">
+                <Button
+                    size="sm"
+                    aria-label='Show similar colors'
+                >
                     Similar Paints
                 </Button>
             </DialogTrigger>
