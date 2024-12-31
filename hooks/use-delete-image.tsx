@@ -8,12 +8,10 @@ interface DeleteImageProps {
 }
 
 const useDeleteImage = ({ imageId }: DeleteImageProps) => {
-    const [isDeleting, setIsDeleting] = useState(false);
-    const [error, setError] = useState<string | null>(null);
+    const [isPending, setIsPending] = useState(false);
 
     const deleteImage = async (imageUrl: string) => {
-        setIsDeleting(true);
-        setError(null);
+        setIsPending(true);
 
         try {
             const filePath = imageUrl.split('/o/')[1]?.split('?')[0];
@@ -39,23 +37,22 @@ const useDeleteImage = ({ imageId }: DeleteImageProps) => {
                 }
             }
 
-            setIsDeleting(false);
+            setIsPending(false);
             return { success: true };
+
         } catch (err: unknown) {
-            setIsDeleting(false);
+            setIsPending(false);
             if (err instanceof Error) {
-                setError(err.message);
+                return { success: false, error: err.message };
             } else {
-                setError('An error occurred while deleting the image.');
+                return { success: false, error: 'An unknown error occurred.' };
             }
-            return { success: false, error: (err as Error).message };
         }
     };
 
     return {
         deleteImage,
-        isDeleting,
-        error,
+        isPending,
     };
 };
 

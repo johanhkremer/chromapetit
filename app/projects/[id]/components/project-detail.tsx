@@ -4,6 +4,8 @@ import ColorCircle from '@/components/color-circle';
 import Image from 'next/image';
 import { Paint, PaintOnProject, Project, ProjectImage } from '@prisma/client'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import DeleteImageButton from '@/components/delete-image-button';
+import { useState } from 'react';
 
 interface ProjectProps {
     project: Project & {
@@ -13,6 +15,11 @@ interface ProjectProps {
 }
 
 const ProjectDetail = ({ project }: ProjectProps) => {
+    const [images, setImages] = useState<ProjectImage[]>(project.images);
+
+    const handleDelete = (deletedImageId: string) => {
+        setImages(prevImages => prevImages.filter(image => image.id !== deletedImageId));
+    };
 
     return (
         <section className='mt-4'>
@@ -43,14 +50,22 @@ const ProjectDetail = ({ project }: ProjectProps) => {
                     <div>
                         <h3>Images:</h3>
                         <ul>
-                            {project.images.map((image) => (
-                                <li key={image.id}>
+                            {images.map((image) => (
+                                <li key={image.id} className="relative group w-fit">
                                     <Image
                                         src={image.imageUrl}
                                         alt="Project Image"
-                                        width={500}
+                                        width={300}
                                         height={300}
+                                        className="w-full rounded-md border border-gray-300"
                                     />
+                                    <div className='absolute top-0 right-0'>
+                                        <DeleteImageButton
+                                            onDelete={() => handleDelete(image.id)}
+                                            imageUrl={image.imageUrl}
+                                            imageId={image.id}
+                                        />
+                                    </div>
                                 </li>
                             ))}
                         </ul>

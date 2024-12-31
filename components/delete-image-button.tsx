@@ -1,33 +1,34 @@
+'use client'
+
 import useDeleteImage from "@/hooks/use-delete-image";
+import { toast } from 'sonner';
 
 interface DeleteImageButtonProps {
     imageUrl: string;
     imageId?: string;
+    onDelete: () => void;
 }
 
-const DeleteImageButton = ({ imageUrl, imageId }: DeleteImageButtonProps) => {
-    const { deleteImage, isDeleting, error } = useDeleteImage({ imageId });
+const DeleteImageButton = ({ imageUrl, imageId, onDelete }: DeleteImageButtonProps) => {
+    const { deleteImage, isPending } = useDeleteImage({ imageId });
 
     const handleDelete = async () => {
 
         const result = await deleteImage(imageUrl);
         if (result.success) {
-            alert('Image deleted successfully!');
+            toast.success('Image deleted successfully!');
+            onDelete();
         } else {
-            alert(`Error: ${result.error}`);
+            toast.error(`Error: ${result.error}`);
         }
     };
 
     return (
-        <div>
-            <button onClick={handleDelete} disabled={isDeleting}>
-                {isDeleting ? 'Deleting...' : 'Delete Image'}
-            </button>
-            {error && <p>{error}</p>}
-        </div>
+
+        <button onClick={handleDelete} disabled={isPending}>
+            {isPending ? 'Deleting...' : 'Delete Image'}
+        </button>
     )
 }
 
 export default DeleteImageButton
-
-
