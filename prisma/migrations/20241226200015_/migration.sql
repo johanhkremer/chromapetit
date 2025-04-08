@@ -1,4 +1,0 @@
--- AlterTable
-ALTER TABLE `Paint` MODIFY `blue` INTEGER NULL,
-    MODIFY `green` INTEGER NULL,
-    MODIFY `red` INTEGER NULL;

@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -12,11 +12,9 @@ model User {
   name           String?
   username       String?         @unique
   email          String?         @unique
-  emailVerified  DateTime?
   image          String?
   createdAt      DateTime        @default(now())
   updatedAt      DateTime        @updatedAt
-  password       String?
   accounts       Account?
   Authenticator  Authenticator[]
   projects       Project[]
@@ -30,12 +28,12 @@ model Account {
   type                     String
   provider                 String
   providerAccountId        String
-  refresh_token            String?   @db.Text
-  access_token             String?   @db.Text
+  refresh_token            String?
+  access_token             String?
   expires_at               Int?
   token_type               String?
   scope                    String?
-  id_token                 String?   @db.Text
+  id_token                 String?
   session_state            String?
   refresh_token_expires_in Int?
   createdAt                DateTime  @default(now())
@@ -65,9 +63,12 @@ model Paint {
   name         String
   brand        String
   hexCode      String
-  type         String
+  opacity      Float?
+  // Example: "base", "layer", "contrast", "technical", "wash", "dry", "air", "ink"
+  category     String
+  // Example: "Matte", "Glossy", "Satin", "Metallic", "Fluorescent", "Pearlescent"
+  tags         String[]
   discontinued Boolean          @default(false)
-  finish       String
   description  String?
   createdAt    DateTime         @default(now())
   updatedAt    DateTime         @updatedAt
@@ -77,6 +78,10 @@ model Paint {
   projects     PaintOnProject[]
   ownedBy      UserPaint[]
   wishedBy     WishlistPaint[]
+
+  @@unique([name, brand])
+  @@index([name])
+  @@index([brand])
 }
 
 /// Model to represent the colors owned by the user
@@ -88,8 +93,8 @@ model UserPaint {
   paint    Paint  @relation(fields: [paintId], references: [id])
   user     User   @relation(fields: [userId], references: [id])
 
-  @@index([paintId], map: "UserPaint_paintId_fkey")
-  @@index([userId], map: "UserPaint_userId_fkey")
+  @@index([paintId])
+  @@index([userId])
 }
 
 model Project {
@@ -103,7 +108,7 @@ model Project {
   user        User             @relation(fields: [userId], references: [id])
   images      ProjectImage[]
 
-  @@index([userId], map: "Project_userId_fkey")
+  @@index([userId])
 }
 
 /// Intermediate model for colors in projects
@@ -114,8 +119,8 @@ model PaintOnProject {
   paint     Paint   @relation(fields: [paintId], references: [id])
   project   Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
 
-  @@index([paintId], map: "PaintOnProject_paintId_fkey")
-  @@index([projectId], map: "PaintOnProject_projectId_fkey")
+  @@index([paintId])
+  @@index([projectId])
 }
 
 /// Model for the user's wishlist
@@ -126,8 +131,8 @@ model WishlistPaint {
   paint   Paint  @relation(fields: [paintId], references: [id])
   user    User   @relation(fields: [userId], references: [id])
 
-  @@index([paintId], map: "WishlistPaint_paintId_fkey")
-  @@index([userId], map: "WishlistPaint_userId_fkey")
+  @@index([paintId])
+  @@index([userId])
 }
 
 model ProjectImage {
@@ -137,5 +142,5 @@ model ProjectImage {
   uploadedAt DateTime @default(now())
   project    Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
 
-  @@index([projectId], map: "ProjectImage_projectId_fkey")
+  @@index([projectId])
 }

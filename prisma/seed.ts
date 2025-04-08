@@ -1,32 +1,40 @@
-// import { PrismaClient } from '@prisma/client';
-// import fs from 'fs';
+import { PrismaClient } from '@prisma/client';
+import fs from 'fs';
 
-// const prisma = new PrismaClient();
+const prisma = new PrismaClient();
 
-// async function main() {
-//     const paintsData = JSON.parse(fs.readFileSync('paintsData.json', 'utf8'));
+async function main() {
+    const paintsData = JSON.parse(fs.readFileSync('paintsData.json', 'utf8'));
 
-//     for (const paint of paintsData) {
-//         await prisma.paint.create({
-//             data: {
-//                 name: paint.name,
-//                 brand: paint.brand,
-//                 hexCode: paint.hexCode,
-//                 type: paint.type,
-//                 discontinued: paint.discontinued,
-//                 finish: paint.finish,
-//             },
-//         });
-//     }
+    // Rensa gamla färger
+    await prisma.paint.deleteMany();
 
-//     console.log('Colors have been added!');
-// }
+    for (const paint of paintsData) {
+        await prisma.paint.create({
+            data: {
+                name: paint.name,
+                brand: paint.brand,
+                hexCode: paint.hexCode,
+                opacity: paint.opacity ?? null,
+                category: paint.category,
+                tags: paint.tags ?? [],
+                discontinued: paint.discontinued ?? false,
+                description: paint.description ?? null,
+                blue: paint.blue,
+                green: paint.green,
+                red: paint.red,
+            },
+        });
+    }
 
-// main()
-//     .catch(e => {
-//         console.error(e);
-//         process.exit(1);
-//     })
-//     .finally(async () => {
-//         await prisma.$disconnect();
-//     });
+    console.log('Colors have been added!');
+}
+
+main()
+    .catch(e => {
+        console.error(e);
+        process.exit(1);
+    })
+    .finally(async () => {
+        await prisma.$disconnect();
+    });

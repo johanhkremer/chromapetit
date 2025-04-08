@@ -1,0 +1,6226 @@
+[
+    {
+        "name": "Abaddon Black",
+        "brand": "Citadel",
+        "hexCode": "#231F20",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Averland Sunset",
+        "brand": "Citadel",
+        "hexCode": "#FED71B",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Balthasar Gold",
+        "brand": "Citadel",
+        "hexCode": "#B47355",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bugman’s Glow",
+        "brand": "Citadel",
+        "hexCode": "#9B5541",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Caledor Sky",
+        "brand": "Citadel",
+        "hexCode": "#346E9C",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Castellan Green",
+        "brand": "Citadel",
+        "hexCode": "#2B4C2C",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Celestra Grey",
+        "brand": "Citadel",
+        "hexCode": "#91A1AC",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Corax White",
+        "brand": "Citadel",
+        "hexCode": "#FFFFFF",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Death Guard Green",
+        "brand": "Citadel",
+        "hexCode": "#849A6E",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dryad Bark",
+        "brand": "Citadel",
+        "hexCode": "#54392D",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Incubi Darkness",
+        "brand": "Citadel",
+        "hexCode": "#1A4042",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Iron Warriors",
+        "brand": "Citadel",
+        "hexCode": "#454545",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Jokaero Orange",
+        "brand": "Citadel",
+        "hexCode": "#FF4D00",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Kantor Blue",
+        "brand": "Citadel",
+        "hexCode": "#001B48",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Khorne Red",
+        "brand": "Citadel",
+        "hexCode": "#6B0F11",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Leadbelcher",
+        "brand": "Citadel",
+        "hexCode": "#888888",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Macragge Blue",
+        "brand": "Citadel",
+        "hexCode": "#0F4C81",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mechanicus Standard Grey",
+        "brand": "Citadel",
+        "hexCode": "#3E4B4D",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mephiston Red",
+        "brand": "Citadel",
+        "hexCode": "#960C0C",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Morghast Bone",
+        "brand": "Citadel",
+        "hexCode": "#B9A85B",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Naggaroth Night",
+        "brand": "Citadel",
+        "hexCode": "#3C2647",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Rakarth Flesh",
+        "brand": "Citadel",
+        "hexCode": "#B7B29D",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Retributor Armour",
+        "brand": "Citadel",
+        "hexCode": "#B4975A",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Rhinox Hide",
+        "brand": "Citadel",
+        "hexCode": "#4A332F",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Screaming Bell",
+        "brand": "Citadel",
+        "hexCode": "#B43A2D",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Screamer Pink",
+        "brand": "Citadel",
+        "hexCode": "#821034",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Steel Legion Drab",
+        "brand": "Citadel",
+        "hexCode": "#6B5B3D",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Stegadon Scale Green",
+        "brand": "Citadel",
+        "hexCode": "#064650",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "The Fang",
+        "brand": "Citadel",
+        "hexCode": "#436176",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Thousand Sons Blue",
+        "brand": "Citadel",
+        "hexCode": "#01A2C7",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Waaagh! Flesh",
+        "brand": "Citadel",
+        "hexCode": "#1A441E",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "XV88",
+        "brand": "Citadel",
+        "hexCode": "#6C4715",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Zandri Dust",
+        "brand": "Citadel",
+        "hexCode": "#988F6C",
+        "type": "Base",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Administratum Grey",
+        "brand": "Citadel",
+        "hexCode": "#959DA0",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ahriman Blue",
+        "brand": "Citadel",
+        "hexCode": "#019FBD",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Alaitoc Blue",
+        "brand": "Citadel",
+        "hexCode": "#2B6491",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Altdorf Guard Blue",
+        "brand": "Citadel",
+        "hexCode": "#1F5B9E",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Arhkan Grey",
+        "brand": "Citadel",
+        "hexCode": "#6C7174",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Auric Armour Gold",
+        "brand": "Citadel",
+        "hexCode": "#DBA639",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Baharroth Blue",
+        "brand": "Citadel",
+        "hexCode": "#53C8DE",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Balor Brown",
+        "brand": "Citadel",
+        "hexCode": "#954F21",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bestigor Flesh",
+        "brand": "Citadel",
+        "hexCode": "#D47D62",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cadian Fleshtone",
+        "brand": "Citadel",
+        "hexCode": "#D9A76A",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Calgar Blue",
+        "brand": "Citadel",
+        "hexCode": "#2B548C",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dawnstone",
+        "brand": "Citadel",
+        "hexCode": "#697068",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Deathclaw Brown",
+        "brand": "Citadel",
+        "hexCode": "#C66A4E",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dryad Bark",
+        "brand": "Citadel",
+        "hexCode": "#3E3126",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Elysian Green",
+        "brand": "Citadel",
+        "hexCode": "#78934D",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Emperor's Children Pink",
+        "brand": "Citadel",
+        "hexCode": "#D85998",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Eshin Grey",
+        "brand": "Citadel",
+        "hexCode": "#4B4E51",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Evil Sunz Scarlet",
+        "brand": "Citadel",
+        "hexCode": "#FF4D4D",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fenrisian Grey",
+        "brand": "Citadel",
+        "hexCode": "#729EB8",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fire Dragon Bright",
+        "brand": "Citadel",
+        "hexCode": "#FF6200",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Flash Gitz Yellow",
+        "brand": "Citadel",
+        "hexCode": "#FFF700",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fulgurite Copper",
+        "brand": "Citadel",
+        "hexCode": "#B96F49",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gal Vorbak Red",
+        "brand": "Citadel",
+        "hexCode": "#640311",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Genestealer Purple",
+        "brand": "Citadel",
+        "hexCode": "#7453A5",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hashut Copper",
+        "brand": "Citadel",
+        "hexCode": "#B96F49",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hoeth Blue",
+        "brand": "Citadel",
+        "hexCode": "#4B7BE5",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ice Blue",
+        "brand": "Citadel",
+        "hexCode": "#5CB4E5",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ironbreaker",
+        "brand": "Citadel",
+        "hexCode": "#999999",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Kabalite Green",
+        "brand": "Citadel",
+        "hexCode": "#008068",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Kislev Flesh",
+        "brand": "Citadel",
+        "hexCode": "#D9B39C",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Lothern Blue",
+        "brand": "Citadel",
+        "hexCode": "#2B9DDE",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mournfang Brown",
+        "brand": "Citadel",
+        "hexCode": "#8B3F24",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ogryn Camo",
+        "brand": "Citadel",
+        "hexCode": "#99AC5D",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pallid Wych Flesh",
+        "brand": "Citadel",
+        "hexCode": "#DBDAC0",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pink Horror",
+        "brand": "Citadel",
+        "hexCode": "#A54A76",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ratskin Flesh",
+        "brand": "Citadel",
+        "hexCode": "#B36A50",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Runefang Steel",
+        "brand": "Citadel",
+        "hexCode": "#C0C0C0",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Screaming Skull",
+        "brand": "Citadel",
+        "hexCode": "#DBD5C5",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Skarsnik Green",
+        "brand": "Citadel",
+        "hexCode": "#72A88B",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Skrag Brown",
+        "brand": "Citadel",
+        "hexCode": "#9B4A1E",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Skullcrusher Brass",
+        "brand": "Citadel",
+        "hexCode": "#B96F49",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Soot Black",
+        "brand": "Citadel",
+        "hexCode": "#1A1A1A",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Squig Orange",
+        "brand": "Citadel",
+        "hexCode": "#FF4415",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Stormhost Silver",
+        "brand": "Citadel",
+        "hexCode": "#E6E6E6",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sybarite Green",
+        "brand": "Citadel",
+        "hexCode": "#25A56B",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tallarn Sand",
+        "brand": "Citadel",
+        "hexCode": "#B69760",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tau Light Ochre",
+        "brand": "Citadel",
+        "hexCode": "#C88C31",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Temple Guard Blue",
+        "brand": "Citadel",
+        "hexCode": "#1B8C95",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Thunderhawk Blue",
+        "brand": "Citadel",
+        "hexCode": "#375865",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Troll Slayer Orange",
+        "brand": "Citadel",
+        "hexCode": "#FF5416",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tuskgor Fur",
+        "brand": "Citadel",
+        "hexCode": "#863A2F",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ungor Flesh",
+        "brand": "Citadel",
+        "hexCode": "#C37B55",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ushabti Bone",
+        "brand": "Citadel",
+        "hexCode": "#BBB599",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Wazdakka Red",
+        "brand": "Citadel",
+        "hexCode": "#880012",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "White Scar",
+        "brand": "Citadel",
+        "hexCode": "#FFFFFF",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Word Bearers Red",
+        "brand": "Citadel",
+        "hexCode": "#640311",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Xereus Purple",
+        "brand": "Citadel",
+        "hexCode": "#4B2B5C",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yriel Yellow",
+        "brand": "Citadel",
+        "hexCode": "#FFF200",
+        "type": "Layer",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Agrax Earthshade",
+        "brand": "Citadel",
+        "hexCode": "#50443C",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Athonian Camoshade",
+        "brand": "Citadel",
+        "hexCode": "#4B5444",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Biel-Tan Green",
+        "brand": "Citadel",
+        "hexCode": "#1A4D40",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Carroburg Crimson",
+        "brand": "Citadel",
+        "hexCode": "#940D36",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Coelia Greenshade",
+        "brand": "Citadel",
+        "hexCode": "#1E4D4C",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Drakenhof Nightshade",
+        "brand": "Citadel",
+        "hexCode": "#243C5A",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Druchii Violet",
+        "brand": "Citadel",
+        "hexCode": "#4A2A4A",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fuegan Orange",
+        "brand": "Citadel",
+        "hexCode": "#AF3D0E",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Nuln Oil",
+        "brand": "Citadel",
+        "hexCode": "#1A1A1A",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Reikland Fleshshade",
+        "brand": "Citadel",
+        "hexCode": "#AF6D4C",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Seraphim Sepia",
+        "brand": "Citadel",
+        "hexCode": "#B88D4A",
+        "type": "Shade",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Astorath Red",
+        "brand": "Citadel",
+        "hexCode": "#9E1519",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Changeling Pink",
+        "brand": "Citadel",
+        "hexCode": "#FF99CC",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Chronus Blue",
+        "brand": "Citadel",
+        "hexCode": "#4B7BE5",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dawnstone",
+        "brand": "Citadel",
+        "hexCode": "#697068",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Eldar Flesh",
+        "brand": "Citadel",
+        "hexCode": "#E8C59F",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Etherium Blue",
+        "brand": "Citadel",
+        "hexCode": "#90C5DE",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hellion Green",
+        "brand": "Citadel",
+        "hexCode": "#00CC66",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hoeth Blue",
+        "brand": "Citadel",
+        "hexCode": "#4B7BE5",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Imrik Blue",
+        "brand": "Citadel",
+        "hexCode": "#2B9DDE",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Longbeard Grey",
+        "brand": "Citadel",
+        "hexCode": "#B8C1C8",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Lucius Lilac",
+        "brand": "Citadel",
+        "hexCode": "#9966CC",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Necron Compound",
+        "brand": "Citadel",
+        "hexCode": "#888888",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Praxeti White",
+        "brand": "Citadel",
+        "hexCode": "#FFFFFF",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ryza Rust",
+        "brand": "Citadel",
+        "hexCode": "#FF4415",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sigmarite",
+        "brand": "Citadel",
+        "hexCode": "#DBA639",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Slaanesh Grey",
+        "brand": "Citadel",
+        "hexCode": "#7A6C7E",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Stormfang",
+        "brand": "Citadel",
+        "hexCode": "#729EB8",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sylvaneth Bark",
+        "brand": "Citadel",
+        "hexCode": "#4D3326",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Terminatus Stone",
+        "brand": "Citadel",
+        "hexCode": "#C4BFB5",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Thunderhawk Blue",
+        "brand": "Citadel",
+        "hexCode": "#375865",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tyrant Skull",
+        "brand": "Citadel",
+        "hexCode": "#C4BFB5",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Verminlord Hide",
+        "brand": "Citadel",
+        "hexCode": "#4D3326",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Wrack White",
+        "brand": "Citadel",
+        "hexCode": "#FFFFFF",
+        "type": "Dry",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bad Moon Yellow",
+        "brand": "Citadel",
+        "hexCode": "#F7EA00",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Imperial Fist",
+        "brand": "Citadel",
+        "hexCode": "#E5A12D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ironjawz Yellow",
+        "brand": "Citadel",
+        "hexCode": "#F9D33A",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Iyanden Yellow",
+        "brand": "Citadel",
+        "hexCode": "#D5C68A",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Nazdreg Yellow",
+        "brand": "Citadel",
+        "hexCode": "#B4A700",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Magmadroth Flame",
+        "brand": "Citadel",
+        "hexCode": "#FF4F00",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gryph-Hound Orange",
+        "brand": "Citadel",
+        "hexCode": "#FF6E27",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Baal Red",
+        "brand": "Citadel",
+        "hexCode": "#AE1A31",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Blood Angels Red",
+        "brand": "Citadel",
+        "hexCode": "#C30D29",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Flesh Tearers Red",
+        "brand": "Citadel",
+        "hexCode": "#C12A2A",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Doomfire Magenta",
+        "brand": "Citadel",
+        "hexCode": "#A10F3D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Volupus Pink",
+        "brand": "Citadel",
+        "hexCode": "#FF6F9F",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sigvald Burgundy",
+        "brand": "Citadel",
+        "hexCode": "#9A1723",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Magos Purple",
+        "brand": "Citadel",
+        "hexCode": "#5D3546",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Luxion Purple",
+        "brand": "Citadel",
+        "hexCode": "#6D4B93",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Leviathan Purple",
+        "brand": "Citadel",
+        "hexCode": "#AA4E8D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Shyish Purple",
+        "brand": "Citadel",
+        "hexCode": "#4B2C4C",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pylar Glacier",
+        "brand": "Citadel",
+        "hexCode": "#7DDAE6",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Frostheart",
+        "brand": "Citadel",
+        "hexCode": "#A7E8E4",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Talassar Blue",
+        "brand": "Citadel",
+        "hexCode": "#1E4C78",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Asurmen Blue",
+        "brand": "Citadel",
+        "hexCode": "#2E7EB4",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Celestium Blue",
+        "brand": "Citadel",
+        "hexCode": "#5DA6DB",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ultramarines Blue",
+        "brand": "Citadel",
+        "hexCode": "#005AA3",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Leviadon Blue",
+        "brand": "Citadel",
+        "hexCode": "#B0D4EA",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Stormfiend",
+        "brand": "Citadel",
+        "hexCode": "#7E9EB8",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Karandras Green",
+        "brand": "Citadel",
+        "hexCode": "#4D7A8C",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Striking Scorpion Green",
+        "brand": "Citadel",
+        "hexCode": "#3A9A4C",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mantis Warriors Green",
+        "brand": "Citadel",
+        "hexCode": "#5EAA5D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Plaguebearer Flesh",
+        "brand": "Citadel",
+        "hexCode": "#C9B7A4",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gutrippa Flesh",
+        "brand": "Citadel",
+        "hexCode": "#D8C9A4",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Militarum Green",
+        "brand": "Citadel",
+        "hexCode": "#6D7B5D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Creed Camo",
+        "brand": "Citadel",
+        "hexCode": "#4D6D4F",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Angels Green",
+        "brand": "Citadel",
+        "hexCode": "#3B3C31",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hexwraith Flame",
+        "brand": "Citadel",
+        "hexCode": "#6B6D84",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Briar Queen Chill",
+        "brand": "Citadel",
+        "hexCode": "#BEC0C6",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Nighthaunt Gloom",
+        "brand": "Citadel",
+        "hexCode": "#7B8B92",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gryph-Charger Grey",
+        "brand": "Citadel",
+        "hexCode": "#B1B6B4",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Space Wolves Grey",
+        "brand": "Citadel",
+        "hexCode": "#7E838E",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Skeleton Horde",
+        "brand": "Citadel",
+        "hexCode": "#D6D5D3",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Aggaros Dunes",
+        "brand": "Citadel",
+        "hexCode": "#D7B99D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Garaghak's Sewer",
+        "brand": "Citadel",
+        "hexCode": "#5B4A3E",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Snakebite Leather",
+        "brand": "Citadel",
+        "hexCode": "#D26B40",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gore-Grunta Fur",
+        "brand": "Citadel",
+        "hexCode": "#B83D23",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Aethermatic Blue",
+        "brand": "Citadel",
+        "hexCode": "#A4D8E1",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Kroxigor Scales",
+        "brand": "Citadel",
+        "hexCode": "#A3C7B5",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Akhelian Green",
+        "brand": "Citadel",
+        "hexCode": "#2F4B3D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Terradon Turquoise",
+        "brand": "Citadel",
+        "hexCode": "#0083B0",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Aeldari Emerald",
+        "brand": "Citadel",
+        "hexCode": "#8DAE5E",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ork Flesh",
+        "brand": "Citadel",
+        "hexCode": "#3C3A31",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Warp Lightning",
+        "brand": "Citadel",
+        "hexCode": "#E0E4A7",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ratling Grime",
+        "brand": "Citadel",
+        "hexCode": "#3A3B2D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Wyldwood",
+        "brand": "Citadel",
+        "hexCode": "#A6B1A6",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cygor Brown",
+        "brand": "Citadel",
+        "hexCode": "#5A4E4D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Guilliman Flesh",
+        "brand": "Citadel",
+        "hexCode": "#D6B9A4",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fyreslayer Flesh",
+        "brand": "Citadel",
+        "hexCode": "#EFB682",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Darkoath Flesh",
+        "brand": "Citadel",
+        "hexCode": "#7A542A",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dreadful Visage",
+        "brand": "Citadel",
+        "hexCode": "#6A484D",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Apothecary White",
+        "brand": "Citadel",
+        "hexCode": "#D0D0D0",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Basilicanum Grey",
+        "brand": "Citadel",
+        "hexCode": "#A49C91",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Black Templar",
+        "brand": "Citadel",
+        "hexCode": "#2E2D2B",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Black Legion",
+        "brand": "Citadel",
+        "hexCode": "#1D1D1B",
+        "type": "Contrast",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Balthasar Gold",
+        "brand": "Citadel",
+        "hexCode": "#A08A39",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Canoptek Alloy",
+        "brand": "Citadel",
+        "hexCode": "#C0C0C0",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Castellax Bronze",
+        "brand": "Citadel",
+        "hexCode": "#CD7F32",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Forgecraft Metal",
+        "brand": "Citadel",
+        "hexCode": "#A8A8A8",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Gehenna's Gold",
+        "brand": "Citadel",
+        "hexCode": "#FFD700",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Grey Knights Steel",
+        "brand": "Citadel",
+        "hexCode": "#B1B6B8",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Iron Hands Steel",
+        "brand": "Citadel",
+        "hexCode": "#71797E",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Leadbelcher",
+        "brand": "Citadel",
+        "hexCode": "#B6B6B6",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Necron Compound",
+        "brand": "Citadel",
+        "hexCode": "#888888",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Retributor Armour",
+        "brand": "Citadel",
+        "hexCode": "#C5B54D",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Runelord Brass",
+        "brand": "Citadel",
+        "hexCode": "#8B6A3A",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Screaming Bell",
+        "brand": "Citadel",
+        "hexCode": "#DA4C2A",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Sycorax Bronze",
+        "brand": "Citadel",
+        "hexCode": "#CD7F32",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Warplock Bronze",
+        "brand": "Citadel",
+        "hexCode": "#8B8A71",
+        "type": "Metallic",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Dead White",
+        "brand": "Vallejo",
+        "hexCode": "#FFFFFF",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Skull White",
+        "brand": "Vallejo",
+        "hexCode": "#FFF5ED",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ghost Grey",
+        "brand": "Vallejo",
+        "hexCode": "#C6D1D3",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Wolf Grey",
+        "brand": "Vallejo",
+        "hexCode": "#8FA4B3",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sombre Grey",
+        "brand": "Vallejo",
+        "hexCode": "#4C5B66",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Blue",
+        "brand": "Vallejo",
+        "hexCode": "#014875",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Night Blue",
+        "brand": "Vallejo",
+        "hexCode": "#003153",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Magic Blue",
+        "brand": "Vallejo",
+        "hexCode": "#0080FF",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Electric Blue",
+        "brand": "Vallejo",
+        "hexCode": "#0099FF",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ultramarine Blue",
+        "brand": "Vallejo",
+        "hexCode": "#1E4B8E",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Royal Blue",
+        "brand": "Vallejo",
+        "hexCode": "#244B8B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Deep Sky Blue",
+        "brand": "Vallejo",
+        "hexCode": "#00BFFF",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Turquoise",
+        "brand": "Vallejo",
+        "hexCode": "#40E0D0",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Jade Green",
+        "brand": "Vallejo",
+        "hexCode": "#00A86B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scorpion Green",
+        "brand": "Vallejo",
+        "hexCode": "#3F704D",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sick Green",
+        "brand": "Vallejo",
+        "hexCode": "#8DC73F",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Escorpena Green",
+        "brand": "Vallejo",
+        "hexCode": "#175732",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Goblin Green",
+        "brand": "Vallejo",
+        "hexCode": "#236E2B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Green",
+        "brand": "Vallejo",
+        "hexCode": "#004D26",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scurvy Green",
+        "brand": "Vallejo",
+        "hexCode": "#009F6B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Camouflage Green",
+        "brand": "Vallejo",
+        "hexCode": "#4B5320",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yellow Olive",
+        "brand": "Vallejo",
+        "hexCode": "#C7B446",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bronze Fleshtone",
+        "brand": "Vallejo",
+        "hexCode": "#CD853F",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Elf Skintone",
+        "brand": "Vallejo",
+        "hexCode": "#FFD39B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dwarf Skin",
+        "brand": "Vallejo",
+        "hexCode": "#D39B7C",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Barbarian Flesh",
+        "brand": "Vallejo",
+        "hexCode": "#F4C097",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Moon Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#FFF200",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sun Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#FFD700",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gold Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#FFB90F",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scrofulous Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Plague Brown",
+        "brand": "Vallejo",
+        "hexCode": "#796743",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Beasty Brown",
+        "brand": "Vallejo",
+        "hexCode": "#754C24",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Charred Brown",
+        "brand": "Vallejo",
+        "hexCode": "#3B2417",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Earth Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Orange Fire",
+        "brand": "Vallejo",
+        "hexCode": "#FF4500",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hot Orange",
+        "brand": "Vallejo",
+        "hexCode": "#FF4D00",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bloody Red",
+        "brand": "Vallejo",
+        "hexCode": "#B01B1B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gory Red",
+        "brand": "Vallejo",
+        "hexCode": "#8B0000",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scarlet Red",
+        "brand": "Vallejo",
+        "hexCode": "#FF2400",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Terracotta",
+        "brand": "Vallejo",
+        "hexCode": "#E2725B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hexed Lichen",
+        "brand": "Vallejo",
+        "hexCode": "#5D3954",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Royal Purple",
+        "brand": "Vallejo",
+        "hexCode": "#602F6B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Warlord Purple",
+        "brand": "Vallejo",
+        "hexCode": "#4B0082",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Squid Pink",
+        "brand": "Vallejo",
+        "hexCode": "#FFB6C1",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Black",
+        "brand": "Vallejo",
+        "hexCode": "#000000",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Imperial Purple",
+        "brand": "Vallejo",
+        "hexCode": "#4B0082",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Flesh",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tan",
+        "brand": "Vallejo",
+        "hexCode": "#D2B48C",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Skintone",
+        "brand": "Vallejo",
+        "hexCode": "#F4C097",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Elf Flesh",
+        "brand": "Vallejo",
+        "hexCode": "#FFE4C4",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Rosy Flesh",
+        "brand": "Vallejo",
+        "hexCode": "#F4C2C2",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Warmgrey",
+        "brand": "Vallejo",
+        "hexCode": "#A9A9A9",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Bluegrey",
+        "brand": "Vallejo",
+        "hexCode": "#4A6B8A",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Grey",
+        "brand": "Vallejo",
+        "hexCode": "#696969",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Charcoal",
+        "brand": "Vallejo",
+        "hexCode": "#36454F",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Black Green",
+        "brand": "Vallejo",
+        "hexCode": "#1B1B19",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Brown",
+        "brand": "Vallejo",
+        "hexCode": "#654321",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Red",
+        "brand": "Vallejo",
+        "hexCode": "#8B0000",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Violet",
+        "brand": "Vallejo",
+        "hexCode": "#4B0082",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Blue",
+        "brand": "Vallejo",
+        "hexCode": "#00008B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Green",
+        "brand": "Vallejo",
+        "hexCode": "#006400",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Ochre",
+        "brand": "Vallejo",
+        "hexCode": "#CC7722",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Gold Brown",
+        "brand": "Vallejo",
+        "hexCode": "#B8860B",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Orange",
+        "brand": "Vallejo",
+        "hexCode": "#FF4500",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Witch Purple",
+        "brand": "Vallejo",
+        "hexCode": "#660066",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Glistening Blood",
+        "brand": "Vallejo",
+        "hexCode": "#800000",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Desert Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#EDC9AF",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Parasite Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Filthy Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Leather Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heavy Sienna",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Khaki",
+        "brand": "Vallejo",
+        "hexCode": "#C3B091",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Combat Green",
+        "brand": "Vallejo",
+        "hexCode": "#4B5320",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cayman Green",
+        "brand": "Vallejo",
+        "hexCode": "#4B5320",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mutation Green",
+        "brand": "Vallejo",
+        "hexCode": "#50C878",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Poisonous Cloud",
+        "brand": "Vallejo",
+        "hexCode": "#98FF98",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Foul Green",
+        "brand": "Vallejo",
+        "hexCode": "#228B22",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Art Blue",
+        "brand": "Vallejo",
+        "hexCode": "#000080",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Stormy Blue",
+        "brand": "Vallejo",
+        "hexCode": "#4A6B8A",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Toxic Green",
+        "brand": "Vallejo",
+        "hexCode": "#00FF00",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bone White",
+        "brand": "Vallejo",
+        "hexCode": "#FFF8DC",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Stonewall Grey",
+        "brand": "Vallejo",
+        "hexCode": "#808080",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Undead Flesh",
+        "brand": "Vallejo",
+        "hexCode": "#E3DCC4",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cold Grey",
+        "brand": "Vallejo",
+        "hexCode": "#778899",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Wolf Grey",
+        "brand": "Vallejo",
+        "hexCode": "#8FA4B3",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Magic Blue",
+        "brand": "Vallejo",
+        "hexCode": "#0067A5",
+        "type": "Game Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "White",
+        "brand": "Vallejo",
+        "hexCode": "#FFFFFF",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ivory",
+        "brand": "Vallejo",
+        "hexCode": "#FFFFF0",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Light Grey",
+        "brand": "Vallejo",
+        "hexCode": "#D3D3D3",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Medium Grey",
+        "brand": "Vallejo",
+        "hexCode": "#808080",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Grey",
+        "brand": "Vallejo",
+        "hexCode": "#404040",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Black Grey",
+        "brand": "Vallejo",
+        "hexCode": "#1A1A1A",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Black",
+        "brand": "Vallejo",
+        "hexCode": "#000000",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pale Sand",
+        "brand": "Vallejo",
+        "hexCode": "#EAE0C8",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Desert Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#EDC9AF",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Beige",
+        "brand": "Vallejo",
+        "hexCode": "#BFB8A5",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cork Brown",
+        "brand": "Vallejo",
+        "hexCode": "#AB8F76",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "German Cam. Beige",
+        "brand": "Vallejo",
+        "hexCode": "#BDB76B",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Khaki",
+        "brand": "Vallejo",
+        "hexCode": "#C3B091",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "US Field Drab",
+        "brand": "Vallejo",
+        "hexCode": "#6B4423",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "English Uniform",
+        "brand": "Vallejo",
+        "hexCode": "#8B7355",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Brown Sand",
+        "brand": "Vallejo",
+        "hexCode": "#997C52",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Flat Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Chocolate Brown",
+        "brand": "Vallejo",
+        "hexCode": "#5C4033",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mahogany Brown",
+        "brand": "Vallejo",
+        "hexCode": "#4A2511",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Saddle Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burnt Umber",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yellow Ochre",
+        "brand": "Vallejo",
+        "hexCode": "#DAA520",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gold Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#FFC926",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Deep Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#FFB200",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Lemon Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#FFF44F",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#8B8000",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "German Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#DAA520",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Orange",
+        "brand": "Vallejo",
+        "hexCode": "#FFA500",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Clear Orange",
+        "brand": "Vallejo",
+        "hexCode": "#FF7F00",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scarlet",
+        "brand": "Vallejo",
+        "hexCode": "#FF2400",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Vermillion",
+        "brand": "Vallejo",
+        "hexCode": "#FF4D00",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Flat Red",
+        "brand": "Vallejo",
+        "hexCode": "#CD0000",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Carmine Red",
+        "brand": "Vallejo",
+        "hexCode": "#960018",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hull Red",
+        "brand": "Vallejo",
+        "hexCode": "#7C0A02",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "German Red Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Green Sky",
+        "brand": "Vallejo",
+        "hexCode": "#00FF7F",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Light Green",
+        "brand": "Vallejo",
+        "hexCode": "#90EE90",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Intermediate Green",
+        "brand": "Vallejo",
+        "hexCode": "#3CB371",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Medium Olive",
+        "brand": "Vallejo",
+        "hexCode": "#808000",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Russian Green",
+        "brand": "Vallejo",
+        "hexCode": "#355E3B",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "German Cam. Dark Green",
+        "brand": "Vallejo",
+        "hexCode": "#004225",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Green",
+        "brand": "Vallejo",
+        "hexCode": "#006400",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Deep Green",
+        "brand": "Vallejo",
+        "hexCode": "#004D40",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Black Green",
+        "brand": "Vallejo",
+        "hexCode": "#002D15",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Azure",
+        "brand": "Vallejo",
+        "hexCode": "#007FFF",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sky Blue",
+        "brand": "Vallejo",
+        "hexCode": "#87CEEB",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Medium Blue",
+        "brand": "Vallejo",
+        "hexCode": "#0000CD",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Blue",
+        "brand": "Vallejo",
+        "hexCode": "#00008B",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Prussian Blue",
+        "brand": "Vallejo",
+        "hexCode": "#003153",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Royal Blue",
+        "brand": "Vallejo",
+        "hexCode": "#4169E1",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Oxford Blue",
+        "brand": "Vallejo",
+        "hexCode": "#002147",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Light Sea Grey",
+        "brand": "Vallejo",
+        "hexCode": "#B0C4DE",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Intermediate Blue",
+        "brand": "Vallejo",
+        "hexCode": "#4682B4",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Sea Blue",
+        "brand": "Vallejo",
+        "hexCode": "#000080",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Olive Grey",
+        "brand": "Vallejo",
+        "hexCode": "#4D4D3D",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Green Grey",
+        "brand": "Vallejo",
+        "hexCode": "#4D5645",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Brown Violet",
+        "brand": "Vallejo",
+        "hexCode": "#4A4843",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "US Olive Drab",
+        "brand": "Vallejo",
+        "hexCode": "#3B3C36",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yellow Green",
+        "brand": "Vallejo",
+        "hexCode": "#9BB668",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cam. Olive Green",
+        "brand": "Vallejo",
+        "hexCode": "#4B5320",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Reflective Green",
+        "brand": "Vallejo",
+        "hexCode": "#008000",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bronze Green",
+        "brand": "Vallejo",
+        "hexCode": "#4A5D23",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pastel Green",
+        "brand": "Vallejo",
+        "hexCode": "#77DD77",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Light Olive",
+        "brand": "Vallejo",
+        "hexCode": "#6B8E23",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yellow Olive",
+        "brand": "Vallejo",
+        "hexCode": "#C7B446",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Golden Olive",
+        "brand": "Vallejo",
+        "hexCode": "#8B8B2C",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Lime Green",
+        "brand": "Vallejo",
+        "hexCode": "#32CD32",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Uniform Green",
+        "brand": "Vallejo",
+        "hexCode": "#4B5320",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gunship Green",
+        "brand": "Vallejo",
+        "hexCode": "#1A4C1A",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Interior Green",
+        "brand": "Vallejo",
+        "hexCode": "#556B2F",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Violet",
+        "brand": "Vallejo",
+        "hexCode": "#8B00FF",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Royal Purple",
+        "brand": "Vallejo",
+        "hexCode": "#602F6B",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Purple",
+        "brand": "Vallejo",
+        "hexCode": "#800080",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Magenta",
+        "brand": "Vallejo",
+        "hexCode": "#FF00FF",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burgundy Red",
+        "brand": "Vallejo",
+        "hexCode": "#800020",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Red Leather",
+        "brand": "Vallejo",
+        "hexCode": "#A52A2A",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cavalry Brown",
+        "brand": "Vallejo",
+        "hexCode": "#8B4513",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Smoke",
+        "brand": "Vallejo",
+        "hexCode": "#848884",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "German Cam. Orange Ochre",
+        "brand": "Vallejo",
+        "hexCode": "#CC7722",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Salmon Rose",
+        "brand": "Vallejo",
+        "hexCode": "#FF8C69",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Basic Skintone",
+        "brand": "Vallejo",
+        "hexCode": "#FFD39B",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sunny Skintone",
+        "brand": "Vallejo",
+        "hexCode": "#FFE4C4",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Light Flesh",
+        "brand": "Vallejo",
+        "hexCode": "#FFE4C4",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Medium Fleshtone",
+        "brand": "Vallejo",
+        "hexCode": "#F4C097",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Brown Rose",
+        "brand": "Vallejo",
+        "hexCode": "#D8A0A6",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tan",
+        "brand": "Vallejo",
+        "hexCode": "#D2B48C",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sand",
+        "brand": "Vallejo",
+        "hexCode": "#F4A460",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Sand",
+        "brand": "Vallejo",
+        "hexCode": "#967117",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Green Ochre",
+        "brand": "Vallejo",
+        "hexCode": "#CAAF76",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Buff",
+        "brand": "Vallejo",
+        "hexCode": "#F0DC82",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ice Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#FFF68F",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Deck Tan",
+        "brand": "Vallejo",
+        "hexCode": "#E8DCC4",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pale Yellow",
+        "brand": "Vallejo",
+        "hexCode": "#FFEF96",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Japanese Uniform WWII",
+        "brand": "Vallejo",
+        "hexCode": "#B8860B",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Stone Grey",
+        "brand": "Vallejo",
+        "hexCode": "#808080",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Basalt Grey",
+        "brand": "Vallejo",
+        "hexCode": "#4A4A4A",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "London Grey",
+        "brand": "Vallejo",
+        "hexCode": "#808080",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "German Grey",
+        "brand": "Vallejo",
+        "hexCode": "#3D3D3D",
+        "type": "Model Color",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Arcane Blue",
+        "brand": "P3",
+        "hexCode": "#4B7F98",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Battlefield Brown",
+        "brand": "P3",
+        "hexCode": "#594539",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Beaten Purple",
+        "brand": "P3",
+        "hexCode": "#4A3158",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bloodstone",
+        "brand": "P3",
+        "hexCode": "#6E3836",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Coal Black",
+        "brand": "P3",
+        "hexCode": "#1F3338",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cryx Bane Base",
+        "brand": "P3",
+        "hexCode": "#2B3C35",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cygnar Blue Base",
+        "brand": "P3",
+        "hexCode": "#25487C",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cygnar Blue Highlight",
+        "brand": "P3",
+        "hexCode": "#3E6AA3",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Exile Blue",
+        "brand": "P3",
+        "hexCode": "#375C81",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Frostbite",
+        "brand": "P3",
+        "hexCode": "#FFFFFF",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Greatcoat Grey",
+        "brand": "P3",
+        "hexCode": "#5B6066",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Gun Corps Brown",
+        "brand": "P3",
+        "hexCode": "#8B5C3F",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Heartfire",
+        "brand": "P3",
+        "hexCode": "#B90B0B",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Idrian Flesh",
+        "brand": "P3",
+        "hexCode": "#D5A787",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ironhull Grey",
+        "brand": "P3",
+        "hexCode": "#7A7F83",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Jack Bone",
+        "brand": "P3",
+        "hexCode": "#D5C4A1",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Khador Red Base",
+        "brand": "P3",
+        "hexCode": "#A32E2B",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Khador Red Highlight",
+        "brand": "P3",
+        "hexCode": "#C64642",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Menoth White Base",
+        "brand": "P3",
+        "hexCode": "#D6C7A4",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Menoth White Highlight",
+        "brand": "P3",
+        "hexCode": "#F0E5C6",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Midlund Flesh",
+        "brand": "P3",
+        "hexCode": "#BC8A6A",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Morrow White",
+        "brand": "P3",
+        "hexCode": "#FFFFFF",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Murderous Magenta",
+        "brand": "P3",
+        "hexCode": "#91216F",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Necrotite Green",
+        "brand": "P3",
+        "hexCode": "#497B4D",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ordic Olive",
+        "brand": "P3",
+        "hexCode": "#4E563B",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pig Iron",
+        "brand": "P3",
+        "hexCode": "#53534F",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Rucksack Tan",
+        "brand": "P3",
+        "hexCode": "#897860",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sanguine Base",
+        "brand": "P3",
+        "hexCode": "#640C0B",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sanguine Highlight",
+        "brand": "P3",
+        "hexCode": "#8B2422",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Skorne Red",
+        "brand": "P3",
+        "hexCode": "#B43A36",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sulfuric Yellow",
+        "brand": "P3",
+        "hexCode": "#FFF200",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tenebrous Grey",
+        "brand": "P3",
+        "hexCode": "#414144",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Thornwood Green",
+        "brand": "P3",
+        "hexCode": "#314D36",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Trollblood Base",
+        "brand": "P3",
+        "hexCode": "#3D7C9B",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Trollblood Highlight",
+        "brand": "P3",
+        "hexCode": "#5599BB",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Umbral Umber",
+        "brand": "P3",
+        "hexCode": "#3C3431",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Wintergreen",
+        "brand": "P3",
+        "hexCode": "#00A499",
+        "type": "Standard",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Clay",
+        "brand": "Scale75",
+        "hexCode": "#8B4513",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Kobalt Blue",
+        "brand": "Scale75",
+        "hexCode": "#0047AB",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Burnt Sienna",
+        "brand": "Scale75",
+        "hexCode": "#E97451",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Burnt Umber",
+        "brand": "Scale75",
+        "hexCode": "#8A3324",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Cadmium Red",
+        "brand": "Scale75",
+        "hexCode": "#E30022",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Cadmium Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FFF600",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Carbon Black",
+        "brand": "Scale75",
+        "hexCode": "#130F10",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Cerulean Blue",
+        "brand": "Scale75",
+        "hexCode": "#2A52BE",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Indian Red",
+        "brand": "Scale75",
+        "hexCode": "#CD5C5C",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Naples Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FADA5E",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Permanent Rose",
+        "brand": "Scale75",
+        "hexCode": "#FF33CC",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Raw Sienna",
+        "brand": "Scale75",
+        "hexCode": "#D68A59",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Raw Umber",
+        "brand": "Scale75",
+        "hexCode": "#826644",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Titanium White",
+        "brand": "Scale75",
+        "hexCode": "#FFFFFF",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Ultramarine Blue",
+        "brand": "Scale75",
+        "hexCode": "#0437F2",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Viridian Green",
+        "brand": "Scale75",
+        "hexCode": "#40826D",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Burnt Sienna",
+        "brand": "Scale75",
+        "hexCode": "#E97451",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Burnt Umber",
+        "brand": "Scale75",
+        "hexCode": "#8A3324",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Cadmium Red",
+        "brand": "Scale75",
+        "hexCode": "#E30022",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Cadmium Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FFF600",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Carbon Black",
+        "brand": "Scale75",
+        "hexCode": "#130F10",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Cerulean Blue",
+        "brand": "Scale75",
+        "hexCode": "#2A52BE",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Indian Red",
+        "brand": "Scale75",
+        "hexCode": "#CD5C5C",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Naples Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FADA5E",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Permanent Rose",
+        "brand": "Scale75",
+        "hexCode": "#FF33CC",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Raw Sienna",
+        "brand": "Scale75",
+        "hexCode": "#D68A59",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Raw Umber",
+        "brand": "Scale75",
+        "hexCode": "#826644",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Titanium White",
+        "brand": "Scale75",
+        "hexCode": "#FFFFFF",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Ultramarine Blue",
+        "brand": "Scale75",
+        "hexCode": "#0437F2",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Artist Viridian Green",
+        "brand": "Scale75",
+        "hexCode": "#40826D",
+        "type": "Artist",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "African Shadow",
+        "brand": "Scale75",
+        "hexCode": "#3E2819",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Aldebaran Red",
+        "brand": "Scale75",
+        "hexCode": "#C41E3A",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Arabian Shadow",
+        "brand": "Scale75",
+        "hexCode": "#CC9066",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Arctic Blue",
+        "brand": "Scale75",
+        "hexCode": "#6CA0C4",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Black",
+        "brand": "Scale75",
+        "hexCode": "#000000",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Blood Red",
+        "brand": "Scale75",
+        "hexCode": "#AA0114",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Brown Leather",
+        "brand": "Scale75",
+        "hexCode": "#8B4513",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burnt Flesh",
+        "brand": "Scale75",
+        "hexCode": "#CC7F66",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Caribbean Blue",
+        "brand": "Scale75",
+        "hexCode": "#00B2CA",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Caspian Blue",
+        "brand": "Scale75",
+        "hexCode": "#007BA7",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Deep Blue",
+        "brand": "Scale75",
+        "hexCode": "#000080",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Deep Red",
+        "brand": "Scale75",
+        "hexCode": "#800000",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dubai Brown",
+        "brand": "Scale75",
+        "hexCode": "#967969",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Eclipse Grey",
+        "brand": "Scale75",
+        "hexCode": "#4A4A4A",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fall Green",
+        "brand": "Scale75",
+        "hexCode": "#4F7942",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fuchsia",
+        "brand": "Scale75",
+        "hexCode": "#FF00FF",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hyperion Purple",
+        "brand": "Scale75",
+        "hexCode": "#9370DB",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Lilac",
+        "brand": "Scale75",
+        "hexCode": "#C8A2C8",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mars Orange",
+        "brand": "Scale75",
+        "hexCode": "#FF4500",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mediterranean Blue",
+        "brand": "Scale75",
+        "hexCode": "#1974D2",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Naboo Orange",
+        "brand": "Scale75",
+        "hexCode": "#FFA500",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Petroleum Grey",
+        "brand": "Scale75",
+        "hexCode": "#2F4F4F",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sunset Purple",
+        "brand": "Scale75",
+        "hexCode": "#8B008B",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "White",
+        "brand": "Scale75",
+        "hexCode": "#FFFFFF",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Abyssal Blue",
+        "brand": "Scale75",
+        "hexCode": "#000033",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Antares Red",
+        "brand": "Scale75",
+        "hexCode": "#960018",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bering Blue",
+        "brand": "Scale75",
+        "hexCode": "#4F84C4",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Black Forest Green",
+        "brand": "Scale75",
+        "hexCode": "#004225",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Boreal Green",
+        "brand": "Scale75",
+        "hexCode": "#2E5D4B",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cantabric Blue",
+        "brand": "Scale75",
+        "hexCode": "#0047AB",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Elf Green",
+        "brand": "Scale75",
+        "hexCode": "#229944",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Indian Shadow",
+        "brand": "Scale75",
+        "hexCode": "#CD853F",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Iroko",
+        "brand": "Scale75",
+        "hexCode": "#432616",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Light Flesh",
+        "brand": "Scale75",
+        "hexCode": "#FFE5B4",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Nacar White",
+        "brand": "Scale75",
+        "hexCode": "#FFFAFA",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "New Wood",
+        "brand": "Scale75",
+        "hexCode": "#8B4513",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Orc Blood",
+        "brand": "Scale75",
+        "hexCode": "#7C0A02",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pale Flesh",
+        "brand": "Scale75",
+        "hexCode": "#FFE4C4",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pale Skin",
+        "brand": "Scale75",
+        "hexCode": "#FFE4B5",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Rainy Grey",
+        "brand": "Scale75",
+        "hexCode": "#708090",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sandalwood",
+        "brand": "Scale75",
+        "hexCode": "#8B4513",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Spring Green",
+        "brand": "Scale75",
+        "hexCode": "#00FF7F",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Surfer Orc Flesh",
+        "brand": "Scale75",
+        "hexCode": "#8FBC8F",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tenere Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FFD700",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tribal Blue",
+        "brand": "Scale75",
+        "hexCode": "#4169E1",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Violet",
+        "brand": "Scale75",
+        "hexCode": "#8B00FF",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "War Front Green",
+        "brand": "Scale75",
+        "hexCode": "#355E3B",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yellow Bone",
+        "brand": "Scale75",
+        "hexCode": "#FFF68F",
+        "type": "Fantasy & Games",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "FX Fluor Blue",
+        "brand": "Scale75",
+        "hexCode": "#00FFFF",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Green",
+        "brand": "Scale75",
+        "hexCode": "#39FF14",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Orange",
+        "brand": "Scale75",
+        "hexCode": "#FF6700",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Pink",
+        "brand": "Scale75",
+        "hexCode": "#FF69B4",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Red",
+        "brand": "Scale75",
+        "hexCode": "#FF3131",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FFFF00",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Blue",
+        "brand": "Scale75",
+        "hexCode": "#00FFFF",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Green",
+        "brand": "Scale75",
+        "hexCode": "#39FF14",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Orange",
+        "brand": "Scale75",
+        "hexCode": "#FF6700",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Pink",
+        "brand": "Scale75",
+        "hexCode": "#FF69B4",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Red",
+        "brand": "Scale75",
+        "hexCode": "#FF3131",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "FX Fluor Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FFFF00",
+        "type": "FX Fluor",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "Inktense Blue",
+        "brand": "Scale75",
+        "hexCode": "#0000FF",
+        "type": "Inktensity",
+        "discontinued": false,
+        "finish": "Ink"
+    },
+    {
+        "name": "Inktense Violet",
+        "brand": "Scale75",
+        "hexCode": "#9400D3",
+        "type": "Inktensity",
+        "discontinued": false,
+        "finish": "Ink"
+    },
+    {
+        "name": "Inktense Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FFD700",
+        "type": "Inktensity",
+        "discontinued": false,
+        "finish": "Ink"
+    },
+    {
+        "name": "Inktense Black",
+        "brand": "Scale75",
+        "hexCode": "#000000",
+        "type": "Inktensity",
+        "discontinued": false,
+        "finish": "Ink"
+    },
+    {
+        "name": "Inktense Green",
+        "brand": "Scale75",
+        "hexCode": "#008000",
+        "type": "Inktensity",
+        "discontinued": false,
+        "finish": "Ink"
+    },
+    {
+        "name": "Inktense Red",
+        "brand": "Scale75",
+        "hexCode": "#FF0000",
+        "type": "Inktensity",
+        "discontinued": false,
+        "finish": "Ink"
+    },
+    {
+        "name": "Instant Blood",
+        "brand": "Scale75",
+        "hexCode": "#8B0000",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Bone",
+        "brand": "Scale75",
+        "hexCode": "#E3DAC9",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Brown",
+        "brand": "Scale75",
+        "hexCode": "#964B00",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Dirt",
+        "brand": "Scale75",
+        "hexCode": "#9B7653",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Leather",
+        "brand": "Scale75",
+        "hexCode": "#8B4513",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Metal",
+        "brand": "Scale75",
+        "hexCode": "#C0C0C0",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Mud",
+        "brand": "Scale75",
+        "hexCode": "#70543E",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Rust",
+        "brand": "Scale75",
+        "hexCode": "#B7410E",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Skin",
+        "brand": "Scale75",
+        "hexCode": "#FFE5B4",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Wood",
+        "brand": "Scale75",
+        "hexCode": "#DEB887",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Blood",
+        "brand": "Scale75",
+        "hexCode": "#8B0000",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Bone",
+        "brand": "Scale75",
+        "hexCode": "#E3DAC9",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Brown",
+        "brand": "Scale75",
+        "hexCode": "#964B00",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Dirt",
+        "brand": "Scale75",
+        "hexCode": "#9B7653",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Leather",
+        "brand": "Scale75",
+        "hexCode": "#8B4513",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Metal",
+        "brand": "Scale75",
+        "hexCode": "#C0C0C0",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Mud",
+        "brand": "Scale75",
+        "hexCode": "#70543E",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Rust",
+        "brand": "Scale75",
+        "hexCode": "#B7410E",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Skin",
+        "brand": "Scale75",
+        "hexCode": "#FFE5B4",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Instant Wood",
+        "brand": "Scale75",
+        "hexCode": "#DEB887",
+        "type": "Instant Colors",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Decayed Metal",
+        "brand": "Scale75",
+        "hexCode": "#6E7B8B",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Elven Gold",
+        "brand": "Scale75",
+        "hexCode": "#CFB53B",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Emerald Alchemy",
+        "brand": "Scale75",
+        "hexCode": "#50C878",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Golden Metal",
+        "brand": "Scale75",
+        "hexCode": "#FFD700",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Graphene",
+        "brand": "Scale75",
+        "hexCode": "#1C1C1C",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Heavy Metal",
+        "brand": "Scale75",
+        "hexCode": "#C0C0C0",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Moonstone Alchemy",
+        "brand": "Scale75",
+        "hexCode": "#7B68EE",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Necro Gold",
+        "brand": "Scale75",
+        "hexCode": "#CFB53B",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Old Copper",
+        "brand": "Scale75",
+        "hexCode": "#B87333",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Oro Metal",
+        "brand": "Scale75",
+        "hexCode": "#FFD700",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Tesla Blue",
+        "brand": "Scale75",
+        "hexCode": "#4169E1",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Trash Metal",
+        "brand": "Scale75",
+        "hexCode": "#708090",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Victorian Brass",
+        "brand": "Scale75",
+        "hexCode": "#B8860B",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Citrine Alchemy",
+        "brand": "Scale75",
+        "hexCode": "#E4D00A",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Dwarven Gold",
+        "brand": "Scale75",
+        "hexCode": "#CFB53B",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Graphite",
+        "brand": "Scale75",
+        "hexCode": "#383838",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Mecha Metal",
+        "brand": "Scale75",
+        "hexCode": "#C0C0C0",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Ruby Alchemy",
+        "brand": "Scale75",
+        "hexCode": "#E0115F",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Speed Metal",
+        "brand": "Scale75",
+        "hexCode": "#808080",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Thrash Metal",
+        "brand": "Scale75",
+        "hexCode": "#4A4A4A",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Viking Gold",
+        "brand": "Scale75",
+        "hexCode": "#DAA520",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "White Alchemy",
+        "brand": "Scale75",
+        "hexCode": "#FFFFFF",
+        "type": "Metal & Alchemy",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Scale Black",
+        "brand": "Scale75",
+        "hexCode": "#000000",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Blue",
+        "brand": "Scale75",
+        "hexCode": "#0000FF",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Brown",
+        "brand": "Scale75",
+        "hexCode": "#964B00",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Green",
+        "brand": "Scale75",
+        "hexCode": "#008000",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Grey",
+        "brand": "Scale75",
+        "hexCode": "#808080",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Magenta",
+        "brand": "Scale75",
+        "hexCode": "#FF00FF",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Orange",
+        "brand": "Scale75",
+        "hexCode": "#FFA500",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Pink",
+        "brand": "Scale75",
+        "hexCode": "#FFC0CB",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Purple",
+        "brand": "Scale75",
+        "hexCode": "#800080",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Red",
+        "brand": "Scale75",
+        "hexCode": "#FF0000",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale White",
+        "brand": "Scale75",
+        "hexCode": "#FFFFFF",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FFFF00",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Black",
+        "brand": "Scale75",
+        "hexCode": "#000000",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Blue",
+        "brand": "Scale75",
+        "hexCode": "#0000FF",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Brown",
+        "brand": "Scale75",
+        "hexCode": "#964B00",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Green",
+        "brand": "Scale75",
+        "hexCode": "#008000",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Grey",
+        "brand": "Scale75",
+        "hexCode": "#808080",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Magenta",
+        "brand": "Scale75",
+        "hexCode": "#FF00FF",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Orange",
+        "brand": "Scale75",
+        "hexCode": "#FFA500",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Pink",
+        "brand": "Scale75",
+        "hexCode": "#FFC0CB",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Purple",
+        "brand": "Scale75",
+        "hexCode": "#800080",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Red",
+        "brand": "Scale75",
+        "hexCode": "#FF0000",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale White",
+        "brand": "Scale75",
+        "hexCode": "#FFFFFF",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scale Yellow",
+        "brand": "Scale75",
+        "hexCode": "#FFFF00",
+        "type": "Scale Artist Colour",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Anthraquinone Blue",
+        "brand": "Golden",
+        "hexCode": "#0B1C48",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Benzimidazolone Yellow Light",
+        "brand": "Golden",
+        "hexCode": "#FFE075",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burnt Sienna",
+        "brand": "Golden",
+        "hexCode": "#E97451",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burnt Umber",
+        "brand": "Golden",
+        "hexCode": "#8A3324",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Carbon Black",
+        "brand": "Golden",
+        "hexCode": "#000000",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cerulean Blue Chromium",
+        "brand": "Golden",
+        "hexCode": "#2A52BE",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cobalt Blue",
+        "brand": "Golden",
+        "hexCode": "#0047AB",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cobalt Teal",
+        "brand": "Golden",
+        "hexCode": "#0099BC",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Diarylide Yellow",
+        "brand": "Golden",
+        "hexCode": "#FFA812",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Green Gold",
+        "brand": "Golden",
+        "hexCode": "#8B8B3B",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hansa Yellow Light",
+        "brand": "Golden",
+        "hexCode": "#FFF44F",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Hansa Yellow Medium",
+        "brand": "Golden",
+        "hexCode": "#FFE87C",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Indian Yellow Hue",
+        "brand": "Golden",
+        "hexCode": "#FFB300",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Interference Blue",
+        "brand": "Golden",
+        "hexCode": "#0047AB",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Interference Gold",
+        "brand": "Golden",
+        "hexCode": "#CFB53B",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Interference Green",
+        "brand": "Golden",
+        "hexCode": "#00A550",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Interference Orange",
+        "brand": "Golden",
+        "hexCode": "#FF4500",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Interference Red",
+        "brand": "Golden",
+        "hexCode": "#DC143C",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Interference Violet",
+        "brand": "Golden",
+        "hexCode": "#8B00FF",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Iridescent Bronze",
+        "brand": "Golden",
+        "hexCode": "#CD7F32",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Iridescent Gold",
+        "brand": "Golden",
+        "hexCode": "#DAA520",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Iridescent Pearl",
+        "brand": "Golden",
+        "hexCode": "#E6E6FA",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Iridescent Silver",
+        "brand": "Golden",
+        "hexCode": "#C0C0C0",
+        "type": "Iridescent",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Light Ultramarine Blue",
+        "brand": "Golden",
+        "hexCode": "#4166F5",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Manganese Blue Hue",
+        "brand": "Golden",
+        "hexCode": "#03A89E",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Naphthol Red Light",
+        "brand": "Golden",
+        "hexCode": "#FF4433",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Neutral Gray N5",
+        "brand": "Golden",
+        "hexCode": "#808080",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Paynes Gray",
+        "brand": "Golden",
+        "hexCode": "#536878",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Phthalo Blue (Green Shade)",
+        "brand": "Golden",
+        "hexCode": "#000F89",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Phthalo Green (Blue Shade)",
+        "brand": "Golden",
+        "hexCode": "#123524",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Primary Magenta",
+        "brand": "Golden",
+        "hexCode": "#FF0090",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Prussian Blue Hue",
+        "brand": "Golden",
+        "hexCode": "#003153",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Quinacridone Magenta",
+        "brand": "Golden",
+        "hexCode": "#8C366C",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Quinacridone Red",
+        "brand": "Golden",
+        "hexCode": "#8E3A59",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Raw Sienna",
+        "brand": "Golden",
+        "hexCode": "#D68A59",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Raw Umber",
+        "brand": "Golden",
+        "hexCode": "#826644",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Titanium White",
+        "brand": "Golden",
+        "hexCode": "#FFFFFF",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Transparent Red Iron Oxide",
+        "brand": "Golden",
+        "hexCode": "#853C32",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Transparent"
+    },
+    {
+        "name": "Transparent Yellow Iron Oxide",
+        "brand": "Golden",
+        "hexCode": "#CD9B1D",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Transparent"
+    },
+    {
+        "name": "Ultramarine Blue",
+        "brand": "Golden",
+        "hexCode": "#0437F2",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Van Dyke Brown",
+        "brand": "Golden",
+        "hexCode": "#664228",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yellow Ochre",
+        "brand": "Golden",
+        "hexCode": "#CC7722",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Zinc White",
+        "brand": "Golden",
+        "hexCode": "#FFFFFB",
+        "type": "Heavy Body",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Anthraquinone Blue",
+        "brand": "Golden",
+        "hexCode": "#0B1C48",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Satin"
+    },
+    {
+        "name": "Burnt Sienna",
+        "brand": "Golden",
+        "hexCode": "#E97451",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Satin"
+    },
+    {
+        "name": "Cobalt Blue",
+        "brand": "Golden",
+        "hexCode": "#0047AB",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Satin"
+    },
+    {
+        "name": "Dioxazine Purple",
+        "brand": "Golden",
+        "hexCode": "#431C53",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Satin"
+    },
+    {
+        "name": "Fluorescent Pink",
+        "brand": "Golden",
+        "hexCode": "#FF69B4",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "Fluorescent Yellow",
+        "brand": "Golden",
+        "hexCode": "#FFFF00",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Fluorescent"
+    },
+    {
+        "name": "Micaceous Iron Oxide",
+        "brand": "Golden",
+        "hexCode": "#4A4244",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Phthalo Green",
+        "brand": "Golden",
+        "hexCode": "#123524",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Satin"
+    },
+    {
+        "name": "Quinacridone Violet",
+        "brand": "Golden",
+        "hexCode": "#8B008B",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Satin"
+    },
+    {
+        "name": "Titanium White",
+        "brand": "Golden",
+        "hexCode": "#FFFFFF",
+        "type": "Fluid",
+        "discontinued": false,
+        "finish": "Satin"
+    },
+    {
+        "name": "Bone Black",
+        "brand": "Golden",
+        "hexCode": "#1B1B1B",
+        "type": "Open",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burnt Umber",
+        "brand": "Golden",
+        "hexCode": "#8A3324",
+        "type": "Open",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cobalt Teal",
+        "brand": "Golden",
+        "hexCode": "#0099BC",
+        "type": "Open",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Green Gold",
+        "brand": "Golden",
+        "hexCode": "#8B8B3B",
+        "type": "Open",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Quinacridone Red",
+        "brand": "Golden",
+        "hexCode": "#8E3A59",
+        "type": "Open",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sap Green",
+        "brand": "Golden",
+        "hexCode": "#507D2A",
+        "type": "Open",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Titanium White",
+        "brand": "Golden",
+        "hexCode": "#FFFFFF",
+        "type": "Open",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yellow Ochre",
+        "brand": "Golden",
+        "hexCode": "#CC7722",
+        "type": "Open",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Carbon Black",
+        "brand": "Golden",
+        "hexCode": "#000000",
+        "type": "High Flow",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Iridescent Gold",
+        "brand": "Golden",
+        "hexCode": "#DAA520",
+        "type": "High Flow",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Phthalo Blue",
+        "brand": "Golden",
+        "hexCode": "#000F89",
+        "type": "High Flow",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Quinacridone Magenta",
+        "brand": "Golden",
+        "hexCode": "#8C366C",
+        "type": "High Flow",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Transparent Raw Sienna",
+        "brand": "Golden",
+        "hexCode": "#D68A59",
+        "type": "High Flow",
+        "discontinued": false,
+        "finish": "Transparent"
+    },
+    {
+        "name": "Ultramarine Blue",
+        "brand": "Golden",
+        "hexCode": "#0437F2",
+        "type": "High Flow",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Zinc White",
+        "brand": "Golden",
+        "hexCode": "#FFFFFB",
+        "type": "High Flow",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burnt Sienna",
+        "brand": "Golden",
+        "hexCode": "#E97451",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Carbon Black",
+        "brand": "Golden",
+        "hexCode": "#000000",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Cobalt Blue",
+        "brand": "Golden",
+        "hexCode": "#0047AB",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Emerald Green",
+        "brand": "Golden",
+        "hexCode": "#50C878",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ivory Black",
+        "brand": "Golden",
+        "hexCode": "#292421",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Magenta",
+        "brand": "Golden",
+        "hexCode": "#FF00FF",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mars Yellow",
+        "brand": "Golden",
+        "hexCode": "#EFC050",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Neutral Gray 2",
+        "brand": "Golden",
+        "hexCode": "#D3D3D3",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Neutral Gray 6",
+        "brand": "Golden",
+        "hexCode": "#808080",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Primary Cyan",
+        "brand": "Golden",
+        "hexCode": "#00B7EB",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Primary Yellow",
+        "brand": "Golden",
+        "hexCode": "#FFEB00",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Red Oxide",
+        "brand": "Golden",
+        "hexCode": "#A52A2A",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Titanium White",
+        "brand": "Golden",
+        "hexCode": "#FFFFFF",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ultramarine Blue",
+        "brand": "Golden",
+        "hexCode": "#0437F2",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Yellow Oxide",
+        "brand": "Golden",
+        "hexCode": "#FFBA00",
+        "type": "SoFlat",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ancient Bronze",
+        "brand": "Reaper",
+        "hexCode": "#8B6B3D",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Aged Bone",
+        "brand": "Reaper",
+        "hexCode": "#DBD4C1",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ashen Blue",
+        "brand": "Reaper",
+        "hexCode": "#4F7CAC",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Blood Red",
+        "brand": "Reaper",
+        "hexCode": "#8A0303",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Blade Steel",
+        "brand": "Reaper",
+        "hexCode": "#C0C0C0",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Breonne Blue",
+        "brand": "Reaper",
+        "hexCode": "#1B4B8A",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burgundy Wine",
+        "brand": "Reaper",
+        "hexCode": "#722F37",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Carnage Red",
+        "brand": "Reaper",
+        "hexCode": "#BB0A1E",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Coal Black",
+        "brand": "Reaper",
+        "hexCode": "#222222",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dragon's Gold",
+        "brand": "Reaper",
+        "hexCode": "#E5B94B",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Dwarven Gold",
+        "brand": "Reaper",
+        "hexCode": "#CFB53B",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Elf Flesh",
+        "brand": "Reaper",
+        "hexCode": "#FFE5C4",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fair Highlight",
+        "brand": "Reaper",
+        "hexCode": "#FFF5E1",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fair Shadow",
+        "brand": "Reaper",
+        "hexCode": "#E8C59A",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Forest Green",
+        "brand": "Reaper",
+        "hexCode": "#225522",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Ghoul Skin",
+        "brand": "Reaper",
+        "hexCode": "#A8BD91",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Golden Highlight",
+        "brand": "Reaper",
+        "hexCode": "#FFE55B",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Golden Shadow",
+        "brand": "Reaper",
+        "hexCode": "#8B7355",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Honed Steel",
+        "brand": "Reaper",
+        "hexCode": "#A8A8A8",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Imperial Purple",
+        "brand": "Reaper",
+        "hexCode": "#4B0082",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Lava Orange",
+        "brand": "Reaper",
+        "hexCode": "#FF4500",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Leather Brown",
+        "brand": "Reaper",
+        "hexCode": "#8B4513",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Muddy Brown",
+        "brand": "Reaper",
+        "hexCode": "#654321",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Olive Shadow",
+        "brand": "Reaper",
+        "hexCode": "#3C341F",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Oiled Leather",
+        "brand": "Reaper",
+        "hexCode": "#8B4C39",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pure Black",
+        "brand": "Reaper",
+        "hexCode": "#000000",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Pure White",
+        "brand": "Reaper",
+        "hexCode": "#FFFFFF",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Rosy Shadow",
+        "brand": "Reaper",
+        "hexCode": "#CC9999",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Shadowed Steel",
+        "brand": "Reaper",
+        "hexCode": "#71797E",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Tanned Highlight",
+        "brand": "Reaper",
+        "hexCode": "#D4B894",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tanned Leather",
+        "brand": "Reaper",
+        "hexCode": "#855E42",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tanned Shadow",
+        "brand": "Reaper",
+        "hexCode": "#8B6B3D",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Terran Khaki",
+        "brand": "Reaper",
+        "hexCode": "#BDB76B",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "True Silver",
+        "brand": "Reaper",
+        "hexCode": "#C0C0C0",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Weathered Blue",
+        "brand": "Reaper",
+        "hexCode": "#4A6F8A",
+        "type": "MSP",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Ancient Bronze",
+        "brand": "Reaper",
+        "hexCode": "#8B6B3D",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "HD Blood Red",
+        "brand": "Reaper",
+        "hexCode": "#8A0303",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Blue Liner",
+        "brand": "Reaper",
+        "hexCode": "#000033",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Bright Gold",
+        "brand": "Reaper",
+        "hexCode": "#DAA520",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "HD Bright Silver",
+        "brand": "Reaper",
+        "hexCode": "#E6E8FA",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "HD Brown Liner",
+        "brand": "Reaper",
+        "hexCode": "#3B2F2F",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Copper",
+        "brand": "Reaper",
+        "hexCode": "#B87333",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "HD Core Skills White",
+        "brand": "Reaper",
+        "hexCode": "#FFFFFF",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Dragon Black",
+        "brand": "Reaper",
+        "hexCode": "#0C0C0C",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Dragon White",
+        "brand": "Reaper",
+        "hexCode": "#FAFAFA",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Forest Green",
+        "brand": "Reaper",
+        "hexCode": "#225522",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Golden Yellow",
+        "brand": "Reaper",
+        "hexCode": "#FFD700",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Grass Green",
+        "brand": "Reaper",
+        "hexCode": "#567D46",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Lava Orange",
+        "brand": "Reaper",
+        "hexCode": "#FF4500",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Marine Teal",
+        "brand": "Reaper",
+        "hexCode": "#008080",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Military Green",
+        "brand": "Reaper",
+        "hexCode": "#4B5320",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Monster Maw",
+        "brand": "Reaper",
+        "hexCode": "#DA2C43",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Pure Black",
+        "brand": "Reaper",
+        "hexCode": "#000000",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Sky Blue",
+        "brand": "Reaper",
+        "hexCode": "#87CEEB",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Solid Black",
+        "brand": "Reaper",
+        "hexCode": "#0A0A0A",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Sunburn Yellow",
+        "brand": "Reaper",
+        "hexCode": "#FFB90F",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "HD Walnut Brown",
+        "brand": "Reaper",
+        "hexCode": "#5C4033",
+        "type": "HD",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Adamantine Black",
+        "brand": "Reaper",
+        "hexCode": "#000000",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Amethyst Purple",
+        "brand": "Reaper",
+        "hexCode": "#9966CC",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Arctic Blue",
+        "brand": "Reaper",
+        "hexCode": "#7CB9E8",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Auburn Shadow",
+        "brand": "Reaper",
+        "hexCode": "#7B3F00",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Blackened Steel",
+        "brand": "Reaper",
+        "hexCode": "#4A4E51",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Blood Shadow",
+        "brand": "Reaper",
+        "hexCode": "#7C0A02",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Blue Flame",
+        "brand": "Reaper",
+        "hexCode": "#4B53BC",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bone Shadow",
+        "brand": "Reaper",
+        "hexCode": "#CDC5B3",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Brick Red",
+        "brand": "Reaper",
+        "hexCode": "#8B2323",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Brilliant Blue",
+        "brand": "Reaper",
+        "hexCode": "#0047AB",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Brilliant Green",
+        "brand": "Reaper",
+        "hexCode": "#00873E",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Brilliant Red",
+        "brand": "Reaper",
+        "hexCode": "#FF2400",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Bronzed Shadow",
+        "brand": "Reaper",
+        "hexCode": "#967117",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Burgundy Red",
+        "brand": "Reaper",
+        "hexCode": "#800020",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Burnished Bronze",
+        "brand": "Reaper",
+        "hexCode": "#CD7F32",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Chestnut Brown",
+        "brand": "Reaper",
+        "hexCode": "#954535",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Clear Purple",
+        "brand": "Reaper",
+        "hexCode": "#BF40BF",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Transparent"
+    },
+    {
+        "name": "Clear Red",
+        "brand": "Reaper",
+        "hexCode": "#FF0800",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Transparent"
+    },
+    {
+        "name": "Clear Yellow",
+        "brand": "Reaper",
+        "hexCode": "#FFD700",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Transparent"
+    },
+    {
+        "name": "Dark Elf Shadow",
+        "brand": "Reaper",
+        "hexCode": "#4A0404",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Highlight",
+        "brand": "Reaper",
+        "hexCode": "#CD853F",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dark Skin",
+        "brand": "Reaper",
+        "hexCode": "#8B4513",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Deep Red",
+        "brand": "Reaper",
+        "hexCode": "#800000",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Dusky Skin",
+        "brand": "Reaper",
+        "hexCode": "#FAD6A5",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Emerald Green",
+        "brand": "Reaper",
+        "hexCode": "#50C878",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Fair Skin",
+        "brand": "Reaper",
+        "hexCode": "#FFE5B4",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Frostbite White",
+        "brand": "Reaper",
+        "hexCode": "#FFFFFF",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Golden Glow",
+        "brand": "Reaper",
+        "hexCode": "#FDD017",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Golden Yellow",
+        "brand": "Reaper",
+        "hexCode": "#FFDF00",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Granite Grey",
+        "brand": "Reaper",
+        "hexCode": "#676767",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Holiday Green",
+        "brand": "Reaper",
+        "hexCode": "#00693E",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Imperial Purple",
+        "brand": "Reaper",
+        "hexCode": "#602F6B",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Intense Brown",
+        "brand": "Reaper",
+        "hexCode": "#714B23",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Jungle Green",
+        "brand": "Reaper",
+        "hexCode": "#29AB87",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Mahogany Brown",
+        "brand": "Reaper",
+        "hexCode": "#4A0404",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Marine Teal",
+        "brand": "Reaper",
+        "hexCode": "#008080",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Midnight Blue",
+        "brand": "Reaper",
+        "hexCode": "#191970",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Military Blue",
+        "brand": "Reaper",
+        "hexCode": "#384B77",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Olive Green",
+        "brand": "Reaper",
+        "hexCode": "#556B2F",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Palomino Gold",
+        "brand": "Reaper",
+        "hexCode": "#CFB53B",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Polished Silver",
+        "brand": "Reaper",
+        "hexCode": "#C0C0C0",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Rich Gold",
+        "brand": "Reaper",
+        "hexCode": "#DAA520",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Royal Purple",
+        "brand": "Reaper",
+        "hexCode": "#7851A9",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sapphire Blue",
+        "brand": "Reaper",
+        "hexCode": "#0F52BA",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Scholar Grey",
+        "brand": "Reaper",
+        "hexCode": "#808080",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Shadowed Steel",
+        "brand": "Reaper",
+        "hexCode": "#71797E",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Spearmint Green",
+        "brand": "Reaper",
+        "hexCode": "#64BFB4",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Stormy Grey",
+        "brand": "Reaper",
+        "hexCode": "#4F666A",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Sunlight Yellow",
+        "brand": "Reaper",
+        "hexCode": "#FFD700",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Tanned Flesh",
+        "brand": "Reaper",
+        "hexCode": "#FFA07A",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Templar Blue",
+        "brand": "Reaper",
+        "hexCode": "#004B8D",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "True Copper",
+        "brand": "Reaper",
+        "hexCode": "#B87333",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Metallic"
+    },
+    {
+        "name": "Verdant Green",
+        "brand": "Reaper",
+        "hexCode": "#138808",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Violet Shadow",
+        "brand": "Reaper",
+        "hexCode": "#4C2882",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    },
+    {
+        "name": "Warm Grey",
+        "brand": "Reaper",
+        "hexCode": "#808A87",
+        "type": "Master",
+        "discontinued": false,
+        "finish": "Matte"
+    }
+]
