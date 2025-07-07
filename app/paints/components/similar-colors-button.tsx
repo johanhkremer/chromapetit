@@ -42,10 +42,10 @@ export const SimilarColorsButton: React.FC<SimilarColorsButtonProps> = ({ paint,
         // 5. Limit to 6 colors
         const filteredColors = allPaints
             .filter(p => p.id !== paint.id)
-            .filter(otherPaint =>
-                // Ensure finish matches exactly
-                otherPaint.finish === paint.finish
-            )
+            // .filter(otherPaint =>
+            //     // Ensure finish matches exactly, so a metallic paint only matches other metallic paints
+            //     otherPaint.finish === paint.finish
+            // )
             .filter((otherPaint) => {
                 const distance = calculateRgbDistance(otherPaint, {
                     red: paint.red,
@@ -110,8 +110,8 @@ export const SimilarColorsButton: React.FC<SimilarColorsButtonProps> = ({ paint,
                                 <ColorCircle
                                     hexCode={similarPaint.hexCode}
                                     size="sm"
-                                    finish={similarPaint.finish}
-                                    type={similarPaint.type}
+                                    category={similarPaint.category}
+                                    tags={similarPaint.tags}
                                 />
                             </div>
                             <div className='flex-1 text-center'>

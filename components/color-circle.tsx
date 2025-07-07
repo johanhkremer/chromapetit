@@ -3,15 +3,15 @@ import React from 'react';
 interface ColorCircleProps {
     hexCode: string;
     size?: 'sm' | 'md' | 'lg' | 'xl';
-    finish?: string;
-    type?: string;
+    category?: string;
+    tags?: string[];
 }
 
 const ColorCircle: React.FC<ColorCircleProps> = ({
     hexCode,
     size = 'md',
-    finish,
-    type
+    category,
+    tags
 }) => {
     const sizeClasses = {
         sm: 'w-8 h-8',
@@ -20,8 +20,8 @@ const ColorCircle: React.FC<ColorCircleProps> = ({
         xl: 'w-24 h-24'
     };
 
-    const isMetallic = finish === 'Metallic';
-    const isShade = type === 'Shade';
+    const isMetallic = tags?.includes('Metallic');
+    const isShade = category === 'Shade' || category === 'Contrast';
 
     const isValidHex = /^#[0-9A-F]{6}$/i.test(hexCode);
 
@@ -33,7 +33,7 @@ const ColorCircle: React.FC<ColorCircleProps> = ({
     return (
         <div
             role="img"
-            aria-label={`Color swatch with ${finish || 'default'} finish and type ${type || 'default'}`}
+            aria-label={`Color swatch with ${category || 'default'} finish and type ${tags || 'default'}`}
             className={`
                 ${sizeClasses[size]} 
                 rounded-full

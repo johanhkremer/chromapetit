@@ -6,15 +6,16 @@ export const PaintSchema = z.object({
     name: z.string(),
     brand: z.string(),
     hexCode: z.string(),
-    red: z.number(),
-    green: z.number(),
-    blue: z.number(),
-    type: z.string(),
+    opacity: z.number().min(0).max(1).nullable(),
+    category: z.string(),
+    tags: z.array(z.string()),
     discontinued: z.boolean().default(false),
-    finish: z.string(),
     description: z.string().nullable(),
     createdAt: z.union([z.string(), z.date()]),
     updatedAt: z.union([z.string(), z.date()]).nullable(),
+    red: z.number(),
+    green: z.number(),
+    blue: z.number(),
 });
 
 // Infer TypeScript-typen från Zod-schema

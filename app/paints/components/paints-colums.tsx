@@ -27,8 +27,8 @@ export const paintColumns: ColumnDef<Paint>[] = [
                 <ColorCircle
                     hexCode={row.original.hexCode}
                     size="sm"
-                    finish={row.original.finish}
-                    type={row.original.type}
+                    category={row.original.category}
+                    tags={row.original.tags}
                 />
             </div>
         ),
@@ -95,7 +95,7 @@ export const paintColumns: ColumnDef<Paint>[] = [
             )
         },
         cell: ({ row }) => (
-            <div className="text-center w-20 truncate">{row.original.type}</div>
+            <div className="text-center w-20 truncate">{row.original.category}</div>
         ),
     },
     {
@@ -112,7 +112,7 @@ export const paintColumns: ColumnDef<Paint>[] = [
             )
         },
         cell: ({ row }) => (
-            <div className="text-center">{row.original.finish}</div>
+            <div className="text-center">{row.original.tags}</div>
         ),
     },
     {
