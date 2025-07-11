@@ -7,59 +7,8 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id             String          @id @default(cuid())
-  name           String?
-  username       String?         @unique
-  email          String?         @unique
-  image          String?
-  createdAt      DateTime        @default(now())
-  updatedAt      DateTime        @updatedAt
-  accounts       Account?
-  Authenticator  Authenticator[]
-  projects       Project[]
-  ownedPaints    UserPaint[]
-  wishlistPaints WishlistPaint[]
-}
-
-model Account {
-  id                       String    @id @default(cuid())
-  userId                   String    @unique
-  type                     String
-  provider                 String
-  providerAccountId        String
-  refresh_token            String?
-  access_token             String?
-  expires_at               Int?
-  token_type               String?
-  scope                    String?
-  id_token                 String?
-  session_state            String?
-  refresh_token_expires_in Int?
-  createdAt                DateTime  @default(now())
-  updatedAt                DateTime? @updatedAt
-  user                     User      @relation(fields: [userId], references: [id])
-
-  @@unique([provider, providerAccountId])
-  @@index([userId])
-}
-
-model Authenticator {
-  credentialID         String  @unique
-  userId               String
-  providerAccountId    String
-  credentialPublicKey  String
-  counter              Int
-  credentialDeviceType String
-  credentialBackedUp   Boolean
-  transports           String?
-  user                 User    @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  @@id([userId, credentialID])
-}
-
 model Paint {
-  id           String           @id @default(cuid())
+  id           String   @id @default(cuid())
   name         String
   brand        String
   hexCode      String
@@ -68,79 +17,15 @@ model Paint {
   category     String
   // Example: "Matte", "Glossy", "Satin", "Metallic", "Fluorescent", "Pearlescent"
   tags         String[]
-  discontinued Boolean          @default(false)
+  discontinued Boolean  @default(false)
   description  String?
-  createdAt    DateTime         @default(now())
-  updatedAt    DateTime         @updatedAt
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
   blue         Int
   green        Int
   red          Int
-  projects     PaintOnProject[]
-  ownedBy      UserPaint[]
-  wishedBy     WishlistPaint[]
 
   @@unique([name, brand])
   @@index([name])
   @@index([brand])
-}
-
-/// Model to represent the colors owned by the user
-model UserPaint {
-  id       String @id @default(cuid())
-  userId   String
-  paintId  String
-  quantity Int    @default(1)
-  paint    Paint  @relation(fields: [paintId], references: [id])
-  user     User   @relation(fields: [userId], references: [id])
-
-  @@index([paintId])
-  @@index([userId])
-}
-
-model Project {
-  id          String           @id @default(cuid())
-  name        String
-  description String?
-  userId      String
-  createdAt   DateTime         @default(now())
-  updatedAt   DateTime         @updatedAt
-  paints      PaintOnProject[]
-  user        User             @relation(fields: [userId], references: [id])
-  images      ProjectImage[]
-
-  @@index([userId])
-}
-
-/// Intermediate model for colors in projects
-model PaintOnProject {
-  id        String  @id @default(cuid())
-  projectId String
-  paintId   String
-  paint     Paint   @relation(fields: [paintId], references: [id])
-  project   Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
-
-  @@index([paintId])
-  @@index([projectId])
-}
-
-/// Model for the user's wishlist
-model WishlistPaint {
-  id      String @id @default(cuid())
-  userId  String
-  paintId String
-  paint   Paint  @relation(fields: [paintId], references: [id])
-  user    User   @relation(fields: [userId], references: [id])
-
-  @@index([paintId])
-  @@index([userId])
-}
-
-model ProjectImage {
-  id         String   @id @default(cuid())
-  projectId  String
-  imageUrl   String
-  uploadedAt DateTime @default(now())
-  project    Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
-
-  @@index([projectId])
 }

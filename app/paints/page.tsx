@@ -9,7 +9,7 @@ const AllPaintsPage = async () => {
         console.log("All Paints:", allPaints);
 
         return (
-            <section className="container light lg:pr-7">
+            <section className="container light pt-5 lg:pr-7">
                 <h1>Paints</h1>
                 <p className="text-sm text-muted-foreground">
                     Here you can compare paints from different manufacturers. Click on the color to see similar colors.
