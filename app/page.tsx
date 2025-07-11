@@ -1,14 +1,24 @@
+import Image from "next/image";
+
 export default async function Home() {
-
-  console.log('DATABASE_URL:', process.env.DATABASE_URL)
-  console.log('AUTH_GOOLE_ID:', process.env.AUTH_GOOGLE_ID)
-  console.log('AUTH_GOOGLE_SECRET:', process.env.AUTH_GOOGLE_SECRET)
-
   return (
     <>
-      <div className="flex flex-col items-center mt-20 min-h-screen py-2">
+      <div className="relative w-full h-[400px]">
+        <Image
+          src="/hero.png"
+          alt="ChromaPetit Hero"
+          fill
+          style={{ objectFit: "cover", objectPosition: "center" }}
+          priority
+        />
+      </div>
+      <div className="flex flex-col items-center py-4">
         <h1>Welcome to ChromaPetit</h1>
-        <span className="max-w-96"><p>Your ultimate tool for miniature painting enthusiasts! Whether you&apos;re a beginner or an experienced artist, ChromaPetit helps you explore and compare paints from various manufacturers, manage your color projects, and find the perfect match for your creations. Designed for ease of use, with a sleek dark theme and intuitive tools, ChromaPetit is here to make your miniature painting journey more vibrant and inspiring. Let your creativity shine!</p>
+        <span className="text-lg text-gray-600 mt-4">
+          A web application for comparing paint colors.
+        </span>
+        <span className="text-sm text-gray-500 mt-2">
+          Click on the navigation links to get started.
         </span>
       </div>
     </>

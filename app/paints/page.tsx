@@ -10,7 +10,10 @@ const AllPaintsPage = async () => {
 
         return (
             <section className="container light lg:pr-7">
-                <h1>All Paints</h1>
+                <h1>Paints</h1>
+                <p className="text-sm text-muted-foreground">
+                    Here you can compare paints from different manufacturers. Click on the color to see similar colors.
+                </p>
                 <DataTable columns={paintColumns} data={allPaints} />
             </section>
         );
@@ -18,7 +21,7 @@ const AllPaintsPage = async () => {
 
         return (
             <section className="light">
-                <h1>All Paints Page</h1>
+                <h1>Paints</h1>
                 <p>{error instanceof Error ? error.message : "An unknown error occurred"}</p>
             </section>
         );
